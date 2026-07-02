@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORCA Scam Shield - Unified Threat & Risk Assessment System</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styling stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="brand-text">
+                    <h2>ORCA</h2>
+                    <span>SCAM SHIELD</span>
+                </div>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <a href="#" class="menu-item active" data-view="dashboard">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="menu-item" data-view="scanner">
+                    <i class="fa-solid fa-expand"></i>
+                    <span>Scam Scanner</span>
+                </a>
+                <a href="#" class="menu-item" data-view="threat-intel">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Threat Intelligence</span>
+                </a>
+                <a href="#" class="menu-item" data-view="settings">
+                    <i class="fa-solid fa-sliders"></i>
+                    <span>Config & Settings</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="avatar"><i class="fa-solid fa-user-shield"></i></div>
+                    <div class="user-info">
+                        <h4>Indian Citizen</h4>
+                        <span>Secured Area</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header bar -->
+            <header class="content-header">
+                <div class="header-title">
+                    <h1 id="view-title">Dashboard Overview</h1>
+                    <p id="view-subtitle">Real-time national threat landscape & unified scan telemetry</p>
+                </div>
+                <div class="header-actions">
+                    <div class="system-status badge safe">
+                        <span class="status-dot animate-pulse"></span>
+                        <i class="fa-solid fa-circle-check"></i> System Secure
+                    </div>
+                    <button class="btn btn-primary" onclick="navigateToScanner()">
+                        <i class="fa-solid fa-plus"></i> New Scan
+                    </button>
+                </div>
+            </header>
+
+            <!-- VIEW 1: DASHBOARD OVERVIEW -->
+            <section id="view-dashboard" class="content-section active">
+                <!-- Telemetry Metrics Cards -->
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon blue">
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
+                        </div>
+                        <div class="metric-details">
+                            <h3>Total Analyzed</h3>
+                            <span class="metric-value" id="stat-total">1,248</span>
+                            <span class="metric-trend positive"><i class="fa-solid fa-arrow-trend-up"></i> +12% this week</span>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon red">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                        </div>
+                        <div class="metric-details">
+                            <h3>Scams Intercepted</h3>
+                            <span class="metric-value" id="stat-intercepted">412</span>
+                            <span class="metric-trend negative"><i class="fa-solid fa-shield-heart"></i> 99.4% saved</span>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon orange">
+                            <i class="fa-solid fa-cubes"></i>
+                        </div>
+                        <div class="metric-details">
+                            <h3>APKs Sandbox-Tested</h3>
+                            <span class="metric-value" id="stat-apks">86</span>
+                            <span class="metric-trend positive"><i class="fa-solid fa-circle-nodes"></i> 14 malware flagged</span>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon green">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <div class="metric-details">
+                            <h3>National Risk Index</h3>
+                            <span class="metric-value" id="stat-risk">Moderate</span>
+                            <span class="metric-trend positive"><i class="fa-solid fa-arrow-down"></i> Decreased by 4.2%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-grid">
+                    <!-- Column 1: Live Threat Feed & Alerts -->
+                    <div class="grid-card col-large">
+                        <div class="card-header">
+                            <h2>Live Scam Telemetry Feed</h2>
+                            <span class="live-indicator"><span class="pulse"></span> LIVE</span>
+                        </div>
+                        <div class="threat-ticker" id="threat-ticker">
+                            <!-- Populated dynamically via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Threat Distribution Chart Mock / Quick Links -->
+                    <div class="grid-card col-small">
+                        <div class="card-header">
+                            <h2>Threat Distribution</h2>
+                        </div>
+                        <div class="chart-container">
+                            <div class="radial-chart-mock">
+                                <svg viewBox="0 0 36 36" class="circular-chart">
+                                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <!-- Digital Arrest 45% (red) -->
+                                    <path class="circle circle-da" stroke-dasharray="45, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <!-- Fake HR 35% (orange) -->
+                                    <path class="circle circle-hr" stroke-dasharray="35, 100" stroke-dashoffset="-45" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <!-- APK Malware 20% (purple) -->
+                                    <path class="circle circle-apk" stroke-dasharray="20, 100" stroke-dashoffset="-80" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                </svg>
+                                <div class="chart-label">
+                                    <span class="percentage">100%</span>
+                                    <span>Coverage</span>
+                                </div>
+                            </div>
+                            <div class="chart-legend">
+                                <div class="legend-item"><span class="dot red"></span> Digital Arrest (45%)</div>
+                                <div class="legend-item"><span class="dot orange"></span> Fake Recruitment (35%)</div>
+                                <div class="legend-item"><span class="dot purple"></span> APK Malware (20%)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 2: UNIFIED SCAM SCANNER -->
+            <section id="view-scanner" class="content-section">
+                <!-- Tab Headers -->
+                <div class="tab-headers">
+                    <button class="tab-btn active" onclick="switchScannerTab('digital-arrest')">
+                        <i class="fa-solid fa-handcuffs"></i> Digital Arrest
+                    </button>
+                    <button class="tab-btn" onclick="switchScannerTab('fake-hr')">
+                        <i class="fa-solid fa-briefcase"></i> Fake HR
+                    </button>
+                    <button class="tab-btn" onclick="switchScannerTab('apk')">
+                        <i class="fa-solid fa-android"></i> APK Malware Sandbox
+                    </button>
+                    <button class="tab-btn" onclick="switchScannerTab('deepfake')">
+                        <i class="fa-solid fa-masks-theater"></i> Deepfake Detection
+                    </button>
+                </div>
+
+                <!-- Tab 1: Digital Arrest Scanner -->
+                <div id="tab-digital-arrest" class="tab-content active">
+                    <div class="scanner-layout">
+                        <!-- Left Panel: Upload Input -->
+                        <div class="scanner-inputs">
+                            <div class="input-card">
+                                <h3>Analyze Digital Arrest Screenshot / Document</h3>
+                                <div class="drop-zone" id="media-dropzone-da">
+                                    <i class="fa-solid fa-cloud-arrow-up drop-icon"></i>
+                                    <p>Drag and drop screenshot, document, or fake warrant copy here</p>
+                                    <span>Supports PNG, JPG, JPEG, PDF up to 10MB</span>
+                                    <input type="file" id="media-file-input-da" accept="image/*,application/pdf" hidden>
+                                    <button class="btn btn-secondary btn-sm" onclick="triggerFileInput('media-file-input-da')">Select File</button>
+                                </div>
+                                <div id="file-preview-container-da" class="file-preview-card hidden">
+                                    <div class="file-preview-info">
+                                        <i class="fa-solid fa-file-image file-icon"></i>
+                                        <div>
+                                            <h4 id="preview-filename-da">screenshot.png</h4>
+                                            <span id="preview-filesize-da">1.4 MB</span>
+                                        </div>
+                                    </div>
+                                    <button class="btn-clear" onclick="clearFileSelection('da')"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="input-card">
+                                <div class="input-header-row">
+                                    <h3>Paste Threat Message / Threatening Transcript</h3>
+                                    <div class="quick-samples">
+                                        <span class="sample-badge" onclick="loadSampleText('digital_arrest_1', 'da')">Load Digital Arrest Sample</span>
+                                    </div>
+                                </div>
+                                <textarea id="text-input-da" placeholder="Paste the threat message, SMS, WhatsApp chat transcript, or email body accusing you of crimes..."></textarea>
+                            </div>
+
+                            <div class="action-bar">
+                                <button class="btn btn-primary btn-large btn-full" onclick="startTextMediaScan('da')">
+                                    <i class="fa-solid fa-robot"></i> Run Digital Arrest Scan
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Right Panel: Scanner Output & Terminal Log -->
+                        <div class="scanner-output">
+                            <!-- Scanning state console log -->
+                            <div class="console-box" id="scan-console-da">
+                                <div class="console-header">
+                                    <span class="console-dot red"></span>
+                                    <span class="console-dot yellow"></span>
+                                    <span class="console-dot green"></span>
+                                    <span class="console-title">ORCA Threat Assessment Engine (Digital Arrest)</span>
+                                </div>
+                                <div class="console-body" id="console-log-da">
+                                    <p class="console-placeholder">Waiting for analysis trigger. Input text or upload files above to run scanning sequence.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Analysis Report (Hidden initially) -->
+                            <div class="report-card hidden" id="scan-report-da">
+                                <div class="report-header" id="report-header-bg-da">
+                                    <div class="report-status">
+                                        <span class="report-badge" id="report-badge-status-da">MALICIOUS</span>
+                                        <h2 id="report-title-scam-da">Digital Arrest Scam</h2>
+                                    </div>
+                                    <div class="report-score-box">
+                                        <span class="score-num" id="report-score-da">94%</span>
+                                        <span>Threat Score</span>
+                                    </div>
+                                </div>
+
+                                <div class="report-body">
+                                    <div class="report-section">
+                                        <h4>Detected Scam Details</h4>
+                                        <div class="report-details-grid">
+                                            <div class="report-detail">
+                                                <span class="label">Category:</span>
+                                                <strong id="report-category-da">Digital Arrest</strong>
+                                            </div>
+                                            <div class="report-detail">
+                                                <span class="label">Risk Level:</span>
+                                                <strong id="report-risk-da" class="risk-red">Critical Risk</strong>
+                                            </div>
+                                            <div class="report-detail">
+                                                <span class="label">Authority Impersonated:</span>
+                                                <strong id="report-authority-da">CBI / Police</strong>
+                                            </div>
+                                            <div class="report-detail">
+                                                <span class="label">Primary Trigger:</span>
+                                                <strong id="report-trigger-da">Narcotics Seizure</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="report-section">
+                                        <h4>Malicious Keywords & Indicators Found</h4>
+                                        <div class="indicators-list" id="report-indicators-da">
+                                            <!-- Dynamically injected -->
+                                        </div>
+                                    </div>
+
+                                    <div class="report-section">
+                                        <h4>AI Context Summary</h4>
+                                        <p id="report-summary-da" class="context-summary-text"></p>
+                                    </div>
+
+                                    <div class="report-section security-recommends">
+                                        <h4><i class="fa-solid fa-shield-halved"></i> Recommended Safety Action</h4>
+                                        <ul id="report-recommendations-da">
+                                            <!-- Dynamically injected -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Fake HR Scanner -->
+                <div id="tab-fake-hr" class="tab-content">
+                    <div class="scanner-layout">
+                        <!-- Left Panel: Upload Input -->
+                        <div class="scanner-inputs">
+                            <div class="input-card">
+                                <h3>Analyze Recruitment Brochure / Offer Screenshot</h3>
+                                <div class="drop-zone" id="media-dropzone-hr">
+                                    <i class="fa-solid fa-cloud-arrow-up drop-icon"></i>
+                                    <p>Drag and drop job brochure, payment screenshot, or hiring email here</p>
+                                    <span>Supports PNG, JPG, JPEG, PDF up to 10MB</span>
+                                    <input type="file" id="media-file-input-hr" accept="image/*,application/pdf" hidden>
+                                    <button class="btn btn-secondary btn-sm" onclick="triggerFileInput('media-file-input-hr')">Select File</button>
+                                </div>
+                                <div id="file-preview-container-hr" class="file-preview-card hidden">
+                                    <div class="file-preview-info">
+                                        <i class="fa-solid fa-file-image file-icon"></i>
+                                        <div>
+                                            <h4 id="preview-filename-hr">screenshot.png</h4>
+                                            <span id="preview-filesize-hr">1.4 MB</span>
+                                        </div>
+                                    </div>
+                                    <button class="btn-clear" onclick="clearFileSelection('hr')"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="input-card">
+                                <div class="input-header-row">
+                                    <h3>Paste Job Description / Message Body</h3>
+                                    <div class="quick-samples">
+                                        <span class="sample-badge" onclick="loadSampleText('fake_hr_1', 'hr')">Load Fake HR Sample</span>
+                                    </div>
+                                </div>
+                                <textarea id="text-input-hr" placeholder="Paste the job offer SMS, WhatsApp recruiter text, Telegram task instructions, or email body here..."></textarea>
+                            </div>
+
+                            <div class="action-bar">
+                                <button class="btn btn-primary btn-large btn-full" onclick="startTextMediaScan('hr')">
+                                    <i class="fa-solid fa-robot"></i> Run Fake HR Scan
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Right Panel: Scanner Output & Terminal Log -->
+                        <div class="scanner-output">
+                            <!-- Scanning state console log -->
+                            <div class="console-box" id="scan-console-hr">
+                                <div class="console-header">
+                                    <span class="console-dot red"></span>
+                                    <span class="console-dot yellow"></span>
+                                    <span class="console-dot green"></span>
+                                    <span class="console-title">ORCA Threat Assessment Engine (Fake HR)</span>
+                                </div>
+                                <div class="console-body" id="console-log-hr">
+                                    <p class="console-placeholder">Waiting for analysis trigger. Input text or upload files above to run scanning sequence.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Analysis Report (Hidden initially) -->
+                            <div class="report-card hidden" id="scan-report-hr">
+                                <div class="report-header" id="report-header-bg-hr">
+                                    <div class="report-status">
+                                        <span class="report-badge" id="report-badge-status-hr">SUSPICIOUS</span>
+                                        <h2 id="report-title-scam-hr">Fake Recruitment Scam</h2>
+                                    </div>
+                                    <div class="report-score-box">
+                                        <span class="score-num" id="report-score-hr">78%</span>
+                                        <span>Threat Score</span>
+                                    </div>
+                                </div>
+
+                                <div class="report-body">
+                                    <div class="report-section">
+                                        <h4>Detected Scam Details</h4>
+                                        <div class="report-details-grid">
+                                            <div class="report-detail">
+                                                <span class="label">Category:</span>
+                                                <strong id="report-category-hr">Fake Recruitment</strong>
+                                            </div>
+                                            <div class="report-detail">
+                                                <span class="label">Risk Level:</span>
+                                                <strong id="report-risk-hr" class="risk-orange">High Risk</strong>
+                                            </div>
+                                            <div class="report-detail">
+                                                <span class="label">Organization Impersonated:</span>
+                                                <strong id="report-authority-hr">Recruitment Agency</strong>
+                                            </div>
+                                            <div class="report-detail">
+                                                <span class="label">Primary Trigger:</span>
+                                                <strong id="report-trigger-hr">Part-Time Task Offer</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="report-section">
+                                        <h4>Malicious Keywords & Indicators Found</h4>
+                                        <div class="indicators-list" id="report-indicators-hr">
+                                            <!-- Dynamically injected -->
+                                        </div>
+                                    </div>
+
+                                    <div class="report-section">
+                                        <h4>AI Context Summary</h4>
+                                        <p id="report-summary-hr" class="context-summary-text"></p>
+                                    </div>
+
+                                    <div class="report-section security-recommends">
+                                        <h4><i class="fa-solid fa-shield-halved"></i> Recommended Safety Action</h4>
+                                        <ul id="report-recommendations-hr">
+                                            <!-- Dynamically injected -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 2: APK Sandbox Scanner -->
+                <div id="tab-apk" class="tab-content">
+                    <div class="scanner-layout">
+                        <!-- Left Panel: APK Dropzone -->
+                        <div class="scanner-inputs">
+                            <div class="input-card">
+                                <h3>Upload Android Application (APK)</h3>
+                                <div class="drop-zone" id="apk-dropzone">
+                                    <i class="fa-solid fa-android drop-icon text-green"></i>
+                                    <p>Drag and drop any Android <code>.apk</code> installer here</p>
+                                    <span>Scans package structure, permissions, and background services</span>
+                                    <input type="file" id="apk-file-input" accept=".apk" hidden>
+                                    <button class="btn btn-secondary btn-sm" onclick="triggerFileInput('apk-file-input')">Select APK File</button>
+                                </div>
+                                <div id="apk-preview-container" class="file-preview-card hidden">
+                                    <div class="file-preview-info">
+                                        <i class="fa-solid fa-box-archive file-icon apk-file-icon"></i>
+                                        <div>
+                                            <h4 id="apk-filename">update_whatsapp_support.apk</h4>
+                                            <span id="apk-filesize">8.4 MB</span>
+                                        </div>
+                                    </div>
+                                    <button class="btn-clear" onclick="clearApkSelection()"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="quick-samples-card">
+                                <h3>Test Simulation APK Packages</h3>
+                                <p class="help-text">Simulate APK scans using templates of notorious Android scam packages:</p>
+                                <div class="apk-samples-grid">
+                                    <div class="apk-sample-item" onclick="loadApkSample('apk_malware_1')">
+                                        <div class="apk-sample-icon"><i class="fa-brands fa-whatsapp text-green"></i></div>
+                                        <div class="apk-sample-desc">
+                                            <strong>WhatsApp Update Helper</strong>
+                                            <span>Simulates Remote Access / SMS Stealer Trojan</span>
+                                        </div>
+                                    </div>
+                                    <div class="apk-sample-item" onclick="loadApkSample('apk_malware_2')">
+                                        <div class="apk-sample-icon"><i class="fa-solid fa-building-columns text-yellow"></i></div>
+                                        <div class="apk-sample-desc">
+                                            <strong>SBI Security Support</strong>
+                                            <span>Simulates Overlay Phishing App targeting banking</span>
+                                        </div>
+                                    </div>
+                                    <div class="apk-sample-item" onclick="loadApkSample('apk_clean_1')">
+                                        <div class="apk-sample-icon"><i class="fa-solid fa-calculator text-blue"></i></div>
+                                        <div class="apk-sample-desc">
+                                            <strong>Simple Scientific Calculator</strong>
+                                            <span>Simulates standard benign utility APK (Safe)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="action-bar">
+                                <button class="btn btn-primary btn-large btn-full" id="btn-run-apk" onclick="startApkScan()">
+                                    <i class="fa-solid fa-flask"></i> Launch Sandbox Analysis
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Right Panel: APK Sandbox Output -->
+                        <div class="scanner-output">
+                            <!-- Scanning state console log -->
+                            <div class="console-box" id="apk-console">
+                                <div class="console-header">
+                                    <span class="console-dot red"></span>
+                                    <span class="console-dot yellow"></span>
+                                    <span class="console-dot green"></span>
+                                    <span class="console-title">ORCA Sandbox Environment</span>
+                                </div>
+                                <div class="console-body" id="apk-console-log">
+                                    <p class="console-placeholder">Waiting for APK file. Drop an APK or click a simulation template to run static security checks.</p>
+                                </div>
+                            </div>
+
+                            <!-- APK Analysis Report (Hidden initially) -->
+                            <div class="report-card hidden" id="apk-report">
+                                <div class="report-header" id="apk-header-bg">
+                                    <div class="report-status">
+                                        <span class="report-badge" id="apk-badge-status">MALICIOUS</span>
+                                        <h2 id="apk-app-name">WhatsApp Update Helper</h2>
+                                    </div>
+                                    <div class="report-score-box">
+                                        <span class="score-num" id="apk-score">96%</span>
+                                        <span>Threat Index</span>
+                                    </div>
+                                </div>
+
+                                <div class="report-body">
+                                    <div class="report-section">
+                                        <h4>Package Information</h4>
+                                        <div class="report-details-grid">
+                                            <div class="report-detail">
+                                                <span class="label">Package Name:</span>
+                                                <strong id="apk-package-name">com.whatsapp.update.helper</strong>
+                                            </div>
+                                            <div class="report-detail">
+                                                <span class="label">Developer Signer:</span>
+                                                <strong id="apk-signer" class="risk-red">Untrusted/Self-Signed Certificate (Debug)</strong>
+                                            </div>
+                                            <div class="report-detail">
+                                                <span class="label">Target SDK:</span>
+                                                <strong id="apk-target-sdk">Android 13 (API Level 33)</strong>
+                                            </div>
+                                            <div class="report-detail">
+                                                <span class="label">Sandbox Threat:</span>
+                                                <strong id="apk-threat-classification" class="risk-red">RAT / SMS Stealer Trojan</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Dangerous Components Section -->
+                                    <div class="report-section">
+                                        <h4>Detected Malicious Components</h4>
+                                        <ul class="danger-components-list" id="apk-components-list">
+                                            <!-- Dynamically injected -->
+                                        </ul>
+                                    </div>
+
+                                    <!-- Permissions Section -->
+                                    <div class="report-section">
+                                        <h4>APK Request Permissions Analysis</h4>
+                                        <div class="permissions-table-container">
+                                            <table class="permissions-table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Permission Name</th>
+                                                        <th>Classification</th>
+                                                        <th>Associated Abuse Behavior</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="apk-permissions-tbody">
+                                                    <!-- Dynamically injected -->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <div class="report-section security-recommends">
+                                        <h4><i class="fa-solid fa-triangle-exclamation"></i> Threat Quarantine Instructions</h4>
+                                        <ul id="apk-recommendations">
+                                            <!-- Dynamically injected -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 4: Deepfake Detection (UI Only) -->
+                <div id="tab-deepfake" class="tab-content">
+                    <div class="scanner-layout">
+                        <!-- Left Panel: Upload & Capture -->
+                        <div class="scanner-inputs">
+                            <div class="input-card">
+                                <h3>Upload Video / Image for Deepfake Analysis</h3>
+                                <div class="drop-zone deepfake-dropzone" id="deepfake-dropzone">
+                                    <i class="fa-solid fa-photo-film drop-icon text-purple"></i>
+                                    <p>Drag and drop a video clip, image, or screenshot for AI deepfake detection</p>
+                                    <span>Supports MP4, MOV, AVI, PNG, JPG up to 50MB</span>
+                                    <input type="file" id="deepfake-file-input" accept="video/*,image/*" hidden>
+                                    <button class="btn btn-secondary btn-sm" onclick="triggerFileInput('deepfake-file-input')">Select File</button>
+                                </div>
+                            </div>
+
+                            <div class="input-card deepfake-webcam-card">
+                                <h3><i class="fa-solid fa-camera"></i> Or Capture via Webcam</h3>
+                                <p class="help-text">Use your device camera to capture a live screenshot or short video clip of a suspicious video call for real-time analysis.</p>
+                                <div class="webcam-preview-box">
+                                    <div class="webcam-placeholder">
+                                        <i class="fa-solid fa-video-slash"></i>
+                                        <span>Webcam Not Active</span>
+                                        <p>Click below to start capture session</p>
+                                    </div>
+                                </div>
+                                <div class="webcam-controls">
+                                    <button class="btn btn-secondary" disabled>
+                                        <i class="fa-solid fa-circle-dot"></i> Start Webcam Capture
+                                    </button>
+                                    <button class="btn btn-secondary" disabled>
+                                        <i class="fa-solid fa-camera"></i> Capture Frame
+                                    </button>
+                                </div>
+                                <span class="coming-soon-tag"><i class="fa-solid fa-clock"></i> Live capture coming soon</span>
+                            </div>
+
+                            <div class="quick-samples-card">
+                                <h3>What Deepfake Detection Analyzes</h3>
+                                <p class="help-text">ORCA's deepfake engine examines the following biometric and signal integrity cues:</p>
+                                <div class="deepfake-features-grid">
+                                    <div class="deepfake-feature-item">
+                                        <div class="deepfake-feature-icon blue"><i class="fa-solid fa-eye"></i></div>
+                                        <div>
+                                            <strong>Facial Inconsistencies</strong>
+                                            <span>Unnatural blinking, eye movement, lip sync errors</span>
+                                        </div>
+                                    </div>
+                                    <div class="deepfake-feature-item">
+                                        <div class="deepfake-feature-icon orange"><i class="fa-solid fa-wave-square"></i></div>
+                                        <div>
+                                            <strong>Compression Artifacts</strong>
+                                            <span>Pixel-level noise, boundary blurring around head</span>
+                                        </div>
+                                    </div>
+                                    <div class="deepfake-feature-item">
+                                        <div class="deepfake-feature-icon purple"><i class="fa-solid fa-microphone-lines"></i></div>
+                                        <div>
+                                            <strong>Voice-Face Synchronization</strong>
+                                            <span>Audio-visual misalignment and spectral irregularities</span>
+                                        </div>
+                                    </div>
+                                    <div class="deepfake-feature-item">
+                                        <div class="deepfake-feature-icon red"><i class="fa-solid fa-id-card"></i></div>
+                                        <div>
+                                            <strong>Identity Verification</strong>
+                                            <span>Checks if impersonated official identity matches media</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="action-bar">
+                                <button class="btn btn-deepfake btn-large btn-full" disabled>
+                                    <i class="fa-solid fa-brain"></i> Run Deepfake Analysis
+                                    <span class="coming-soon-inline">Coming Soon</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Right Panel: Placeholder Output -->
+                        <div class="scanner-output">
+                            <div class="console-box deepfake-console-idle">
+                                <div class="console-header">
+                                    <span class="console-dot red"></span>
+                                    <span class="console-dot yellow"></span>
+                                    <span class="console-dot green"></span>
+                                    <span class="console-title">ORCA Deepfake Neural Engine</span>
+                                </div>
+                                <div class="console-body deepfake-idle-body">
+                                    <div class="deepfake-idle-state">
+                                        <div class="deepfake-idle-icon">
+                                            <i class="fa-solid fa-masks-theater"></i>
+                                        </div>
+                                        <h3>Deepfake Analysis Engine</h3>
+                                        <p>This module will leverage Gemini's multimodal vision capabilities to detect AI-generated or manipulated faces in videos and images. Upload a suspicious video call screenshot or clip to analyze it.</p>
+                                        <div class="deepfake-capability-badges">
+                                            <span class="capability-badge"><i class="fa-solid fa-check"></i> Frame-by-frame analysis</span>
+                                            <span class="capability-badge"><i class="fa-solid fa-check"></i> GAN artifact detection</span>
+                                            <span class="capability-badge"><i class="fa-solid fa-check"></i> Face swap identification</span>
+                                            <span class="capability-badge"><i class="fa-solid fa-check"></i> Confidence scoring</span>
+                                        </div>
+                                        <div class="deepfake-coming-soon-banner">
+                                            <i class="fa-solid fa-flask"></i>
+                                            <div>
+                                                <strong>Implementation Pending</strong>
+                                                <span>Backend Gemini Vision integration is planned for Phase 2. The UI structure is ready.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 3: THREAT INTELLIGENCE -->
+            <section id="view-threat-intel" class="content-section">
+                <div class="grid-card">
+                    <div class="card-header">
+                        <h2>Threat Intelligence Database</h2>
+                        <span class="badge blue">CBI & Cybercrime Alerts Linked</span>
+                    </div>
+                    <div class="threat-intel-search">
+                        <input type="text" placeholder="Search scam databases (e.g. 'CBI', 'FedEx parcel', 'Part-time jobs', 'RAT permissions')..." class="form-control input-search">
+                        <button class="btn btn-secondary"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+                    </div>
+
+                    <div class="threat-intel-grid">
+                        <div class="intel-card">
+                            <div class="intel-badge critical">DIGITAL ARREST</div>
+                            <h3>Mumbai Police/CBI Video Detention</h3>
+                            <p>Scammers contact citizens claiming their Aadhaar card is linked to money laundering or drug parcels. They demand they stay on a video call (Skype/WhatsApp) indefinitely to execute a "digital arrest."</p>
+                            <span class="intel-indicators"><strong>Indicators:</strong> "Digital arrest", Skype verification, "don't contact family", parcel seizure.</span>
+                        </div>
+                        <div class="intel-card">
+                            <div class="intel-badge high">FAKE HR</div>
+                            <h3>Telegram Task / YouTube Likes Scam</h3>
+                            <p>HR agents offer work-from-home tasks, such as liking YouTube videos or review rating. After giving a small commission (Rs 150-500), they coerce the victim to join VIP groups and invest money in fake crypto websites.</p>
+                            <span class="intel-indicators"><strong>Indicators:</strong> "WhatsApp task agent", Google Maps rating, payment screenshots, VIP channel.</span>
+                        </div>
+                        <div class="intel-card">
+                            <div class="intel-badge critical">APK MALWARE</div>
+                            <h3>Fake Utility App (SMS Forwarder)</h3>
+                            <p>Scammers send APK packages claiming to be updates for banking, electricity bills, or support. Once installed, it requests SMS permissions to silently read bank OTPs and forward them to the attacker's server.</p>
+                            <span class="intel-indicators"><strong>Permissions:</strong> <code>RECEIVE_SMS</code>, <code>SEND_SMS</code>, <code>RECEIVE_BOOT_COMPLETED</code>.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 4: CONFIG & SETTINGS -->
+            <section id="view-settings" class="content-section">
+                <div class="settings-grid">
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <h2>System Configurations</h2>
+                        </div>
+                        <div class="settings-form">
+                            <div class="form-group">
+                                <label for="gemini-key">Gemini API Key</label>
+                                <input type="password" id="gemini-key" class="form-control" placeholder="Enter Gemini Pro API Key (Required for live OCR/Text classification)" value="••••••••••••••••••••••••••••••••">
+                                <span class="help-text">Required for analyzing screenshots, document texts, and classifying threat context.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="sandbox-mode">APK Static Analysis Engine</label>
+                                <select id="sandbox-mode" class="form-control">
+                                    <option value="androguard">Androguard (Python Static XML Extractor)</option>
+                                    <option value="mock" selected>Mock Web-Simulator (For demonstration)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="alert-numbers">Emergency Cyber Police Reporting Helpline</label>
+                                <input type="text" id="alert-numbers" class="form-control" value="1930">
+                                <span class="help-text">SMS or speed dial number triggered inside recommendations for financial scam reports.</span>
+                            </div>
+                            <button class="btn btn-primary" onclick="alert('Configurations Saved Successfully')">Save Settings</button>
+                        </div>
+                    </div>
+
+                    <div class="grid-card">
+                        <div class="card-header">
+                            <h2>Project CSV Datasets Status</h2>
+                        </div>
+                        <div class="dataset-status-list">
+                            <div class="dataset-status-item">
+                                <div>
+                                    <strong>digital_arrest.csv</strong>
+                                    <span>25 labelled case records</span>
+                                </div>
+                                <span class="badge safe">Ready</span>
+                            </div>
+                            <div class="dataset-status-item">
+                                <div>
+                                    <strong>fake_job_postings.csv</strong>
+                                    <span>17,882 records (50 MB)</span>
+                                </div>
+                                <span class="badge safe">Ready</span>
+                            </div>
+                            <div class="dataset-status-item">
+                                <div>
+                                    <strong>apk_scam</strong>
+                                    <span>Empty directory</span>
+                                </div>
+                                <span class="badge orange">Awaiting Uploads</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>

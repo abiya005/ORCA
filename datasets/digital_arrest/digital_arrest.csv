@@ -1,0 +1,26 @@
+id,text,label,scam_type,scenario,source,language,risk_level,authority_impersonated
+DA001,"Your bank accounts are linked to a money laundering case. You are under investigation. Do not tell anyone. Transfer funds for verification and clearance.",scam,digital_arrest,money_laundering_case,Karnataka_Cyber_Command_Case,english,critical,CBI
+DA002,"Your bank accounts are linked to criminal activity. Cooperate with our investigation and transfer money to avoid legal action.",scam,digital_arrest,money_laundering_case,Karnataka_Cyber_Command_Case,english,critical,CBI
+DA003,"A criminal case has been registered against you. Participate in this video investigation immediately or face arrest.",scam,digital_arrest,digital_detention,Maharashtra_Cyber_Case,english,critical,Police
+DA004,"You are being digitally arrested. Remain on video call until the investigation is completed.",scam,digital_arrest,digital_detention,Maharashtra_Cyber_Case,english,critical,Police
+DA005,"A parcel registered in your name contains illegal substances. Cooperate with police officers immediately.",scam,digital_arrest,parcel_scam,TOI_Case_Ahmedabad,english,high,Police
+DA006,"You are accused of involvement in criminal activity. Pay immediately to avoid arrest and prosecution.",scam,digital_arrest,criminal_impersonation,Operation_Chakra_VI,english,critical,Police
+DA007,"A warrant has been issued against you. Download and review the attached court order.",scam,digital_arrest,fake_court_notice,Operation_Chakra_VI,english,critical,Judicial_Officer
+DA008,"Your case is listed before the Supreme Court. Failure to comply will result in immediate legal action.",scam,digital_arrest,fake_court_notice,Operation_Chakra_VI,english,critical,Supreme_Court
+DA009,"Your Aadhaar number has been used in illegal financial transactions in Mumbai and is under investigation.",scam,digital_arrest,aadhaar_misuse,Kerala_CBI_Impersonation_Case,english,critical,CBI
+DA010,"You are suspected in a money laundering investigation. Submit banking information immediately.",scam,digital_arrest,money_laundering_case,Kerala_CBI_Impersonation_Case,english,critical,CBI
+DA011,"Provide your bank account details for official verification to avoid legal consequences.",scam,digital_arrest,financial_verification_fraud,Kerala_CBI_Impersonation_Case,english,high,CBI
+DA012,"You are involved in an illegal money laundering operation. Remain available for continuous monitoring.",scam,digital_arrest,money_laundering_case,Bengaluru_Teacher_Case,english,critical,ED_CBI
+DA013,"Transfer your assets to government-supervised accounts for verification.",scam,digital_arrest,fund_verification_fraud,Bengaluru_Teacher_Case,english,critical,ED_CBI
+DA014,"Your SIM card has been used in fraudulent activities. An FIR has been registered against you.",scam,digital_arrest,sim_card_fraud,Hyderabad_Postmaster_Case,english,critical,Ministry_of_Communications
+DA015,"This matter involves national security. You may be arrested if you fail to cooperate.",scam,digital_arrest,national_security_threat,Hyderabad_Postmaster_Case,english,critical,Delhi_Police
+DA016,"Your phone number is linked to a human trafficking case. Immediate verification is required.",scam,digital_arrest,human_trafficking_allegation,Hyderabad_Postmaster_Case,english,critical,CBI
+DA017,"Install a new communication application and remain isolated until the inquiry is completed.",scam,digital_arrest,forced_isolation,Hyderabad_Postmaster_Case,english,high,Police
+DA018,"A SIM card issued in your name was used in a terrorist attack. You must cooperate immediately.",scam,digital_arrest,terrorism_allegation,Palakkad_MLA_Case,english,critical,Police
+DA019,"A bank account opened in your name was used to finance terrorism activities.",scam,digital_arrest,terror_funding_allegation,Palakkad_MLA_Case,english,critical,Investigation_Agency
+DA020,"Suspicious bank transactions linked to your account have been detected. Transfer funds for verification.",scam,digital_arrest,bank_transaction_fraud,Thane_Senior_Citizen_Case,english,high,Police
+DA021,"You are under digital arrest and must remain on video call while the investigation is conducted.",scam,digital_arrest,digital_detention,Thane_Senior_Citizen_Case,english,critical,Police
+DA022,"Your Aadhaar identity has been linked to financial crimes and requires urgent verification.",scam,digital_arrest,aadhaar_misuse,Aadhaar_Fraud_Cases,english,high,Government_Agency
+DA023,"Court authorities have issued a legal notice against you. Review the attached document immediately.",scam,digital_arrest,fake_legal_notice,Supreme_Court_Clone_Website_Case,english,critical,Court
+DA024,"Failure to comply with this legal order may result in immediate arrest and prosecution.",scam,digital_arrest,fake_legal_notice,Supreme_Court_Clone_Website_Case,english,critical,Court
+DA025,"A digital investigation has identified your involvement in cybercrime activities.",scam,digital_arrest,cybercrime_allegation,Multiple_Reported_Cases,english,high,Cyber_Crime_Department
