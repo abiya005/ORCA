@@ -1,10 +1,23 @@
 import os
+import sys
 import tempfile
 import pickle
 import json
+import logging
 import subprocess
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+
+# Configure logging to file so it works in detached/headless mode
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.FileHandler(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'server.log')),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+log = logging.getLogger(__name__)
 
 # Import androguard components safely
 try:
@@ -12,7 +25,7 @@ try:
     from androguard.misc import AnalyzeAPK
     ANDROGUARD_AVAILABLE = True
 except Exception as e:
-    print(f"Error loading Androguard: {e}")
+    log.warning(f"Androguard not available: {e}")
     ANDROGUARD_AVAILABLE = False
 
 app = Flask(__name__)
@@ -27,7 +40,7 @@ def load_model():
     backend_dir = os.path.dirname(os.path.abspath(__file__))
     model_path = os.path.join(backend_dir, "apk_scam_model.pkl")
     features_path = os.path.join(backend_dir, "feature_columns.json")
-    
+
     if os.path.exists(model_path) and os.path.exists(features_path):
         try:
             with open(model_path, "rb") as f:
@@ -35,10 +48,10 @@ def load_model():
             with open(features_path, "r") as f:
                 FEATURE_COLUMNS = json.load(f)
             MODEL_TRAINED = True
-            print("ML Model loaded successfully!")
+            log.info("ML Model loaded successfully! Features: %d", len(FEATURE_COLUMNS))
             return True
         except Exception as e:
-            print(f"Error loading model: {e}")
+            log.error("Error loading model: %s", e)
     MODEL_TRAINED = False
     return False
 
@@ -122,29 +135,41 @@ def map_permissions_to_features(perms_list, methods_list, has_anti_debug=False):
     if any('internet' in p or 'network' in p or 'wifi' in p for p in perms):
         feature_dict['NETWORK_ACCESS____'] = 1
         
-    # 5. DEVICE_ACCESS_____
-    device_keywords = ['camera', 'record_audio', 'location', 'gps', 'bluetooth', 'nfc', 'vibrate']
+    # 5. DEVICE_ACCESS_____  (exclude harmless VIBRATE - it's not a real device access risk)
+    device_keywords = ['camera', 'record_audio', 'access_fine_location', 'access_coarse_location', 'bluetooth', 'nfc']
     if any(any(k in p for k in device_keywords) for p in perms):
         feature_dict['DEVICE_ACCESS_____'] = 1
         
     # 6. ANTI_DEBUG_____
     if has_anti_debug:
         feature_dict['ANTI_DEBUG_____'] = 1
-        
-    # Match specific column names for permissions
+
+    # Match specific column names for permissions (strict last-segment equality only)
     for col in FEATURE_COLUMNS:
-        col_clean = col.lower().replace('_', '')
+        col_clean = col.lower().rstrip('_').rstrip('(').replace('_', '').replace('`', '')
         # Check if column matches standard permission strings
         for p in perms:
             p_clean = p.split('.')[-1].lower().replace('_', '')
-            if col_clean == p_clean or p_clean in col_clean:
+            # Only match on exact last-segment equality (not broad substring) to avoid false positives
+            if col_clean == p_clean:
                 feature_dict[col] = 1
-        # Check if column matches any called methods
+        # Check if column matches called methods (exact match)
         for m in methods:
-            m_clean = m.replace('_', '').replace('()', '')
-            if col_clean == m_clean or m_clean in col_clean:
+            m_clean = m.lower().replace('_', '').replace('()', '').strip()
+            if col_clean == m_clean:
                 feature_dict[col] = 1
-                
+
+    # Benign override: if only harmless permissions present, reset threat features
+    dangerous_perms = [p for p in perms_list if any(k in p.lower() for k in
+        ['sms', 'mms', 'alert_window', 'accessibility', 'device_admin',
+         'phone_state', 'contacts', 'call_log', 'location', 'camera',
+         'record_audio', 'read_external', 'write_external', 'install_package'])]
+    if not dangerous_perms and not has_anti_debug:
+        for threat_col in ['ACCESS_PERSONAL_INFO___', 'ALTER_PHONE_STATE___',
+                           'DEVICE_ACCESS_____', 'SMS_SEND____', 'ANTI_DEBUG_____']:
+            if threat_col in feature_dict:
+                feature_dict[threat_col] = 0
+
     return feature_dict
 
 @app.route('/api/status', methods=['GET'])
@@ -285,20 +310,37 @@ def analyze_apk():
     score = "0%"
     badge = "SAFE"
     badge_class = "safe"
-    
-    if MODEL_TRAINED:
-        # Construct feature vector
+
+    # Pre-ML heuristic gate: apps with zero dangerous permissions AND no anti-debug
+    # are definitively safe -- skip ML to avoid all-zero vector false positives
+    DANGEROUS_PERM_KEYWORDS = [
+        'receive_sms', 'send_sms', 'read_sms', 'system_alert_window',
+        'bind_accessibility_service', 'bind_device_admin', 'read_phone_state',
+        'read_contacts', 'write_external_storage', 'receive_boot_completed',
+        'install_packages', 'process_outgoing_calls', 'read_call_log',
+        'write_call_log', 'get_accounts', 'use_credentials',
+    ]
+    has_dangerous_perms = any(
+        any(k in p.lower() for k in DANGEROUS_PERM_KEYWORDS)
+        for p in permissions
+    )
+
+    if not has_dangerous_perms and not has_anti_debug:
+        # Definitively safe - no suspicious permissions or evasion techniques
+        threat_class = "Safe Utility App"
+        badge = "SAFE"
+        badge_class = "safe"
+        score = "0%"
+    elif MODEL_TRAINED:
+        # Construct feature vector and run ML classification
         feat_dict = map_permissions_to_features(permissions, methods_called, has_anti_debug)
-        # Vectorize matching feature_columns
         feat_vec = [feat_dict.get(col, 0) for col in FEATURE_COLUMNS]
-        
-        # Predict
+
         pred_class = MODEL.predict([feat_vec])[0]
         probs = MODEL.predict_proba([feat_vec])[0]
         class_indices = list(MODEL.classes_)
-        
-        # Mapping class IDs (1=Adware, 2=Banking, 3=SMS, 5=Benign)
-        # Calculate threat score
+
+        # Calculate threat score (1 - benign probability)
         benign_idx = class_indices.index(5) if 5 in class_indices else -1
         if benign_idx != -1:
             benign_prob = probs[benign_idx]
@@ -306,7 +348,7 @@ def analyze_apk():
             score = f"{int(threat_prob * 100)}%"
         else:
             score = "99%"
-            
+
         if pred_class == 1:
             threat_class = "Adware / Spyware Trojan"
             badge = "MALICIOUS"
@@ -424,4 +466,5 @@ def analyze_apk():
     })
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    log.info("Starting ORCA APK Scam Detection Backend on port 5000")
+    app.run(port=5000, debug=False, use_reloader=False)

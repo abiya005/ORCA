@@ -1,0 +1,17 @@
+2026-08-13 14:46:39,952 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.types
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-13 14:46:40,197 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.types
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-13 14:46:41,831 [INFO] ML Model loaded successfully! Features: 470
+2026-08-13 14:46:41,832 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-13 14:46:41,832 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
