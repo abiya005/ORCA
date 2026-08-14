@@ -772,9 +772,24 @@
                             <div class="dataset-status-item">
                                 <div>
                                     <strong>apk_scam</strong>
-                                    <span>Empty directory</span>
+                                    <span>4 CSV Files (60,000 samples)</span>
                                 </div>
-                                <span class="badge orange">Awaiting Uploads</span>
+                                <span class="badge safe">Ready</span>
+                            </div>
+                            <div class="dataset-status-item">
+                                <div>
+                                    <strong>APK Sandbox Backend</strong>
+                                    <span id="backend-conn-text">Checking backend service...</span>
+                                </div>
+                                <span class="badge warning" id="backend-conn-badge">Connecting</span>
+                            </div>
+                            <div class="dataset-status-item" id="backend-model-row" style="display: none;">
+                                <div>
+                                    <strong>APK Scam ML Model</strong>
+                                    <span id="backend-model-text">Random Forest Classifier (99.6% Accuracy)</span>
+                                </div>
+                                <span class="badge safe" id="backend-model-badge">Active</span>
+                                <button class="btn btn-secondary btn-sm" id="btn-retrain" onclick="retrainModel()" style="margin-left: 10px;"><i class="fa-solid fa-sync"></i> Re-Train</button>
                             </div>
                         </div>
                     </div>
