@@ -1,0 +1,9 @@
+requests
+feedparser
+beautifulsoup4
+python-dotenv
+pandas
+python-dateutil
+tldextract
+langdetect
+pytest
