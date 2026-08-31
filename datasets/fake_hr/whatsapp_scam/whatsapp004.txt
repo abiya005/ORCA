@@ -1,0 +1,160 @@
+TITLE:
+Four days to make victims fall in love: How global scammers use US tech to fleece people
+
+SOURCE:
+CNA
+
+DATE:
+2026-07-01T05:08:42Z
+
+URL:
+https://www.channelnewsasia.com/asia/global-scammers-united-states-tech-southeast-asia-myanmar-starlink-chatgpt-6220656
+
+ARTICLE:
+
+Four days to make victims fall in love: How global scammers use US tech to fleece people
+Technology from American companies is being used to power a revolution in the scam industry, including in Southeast Asia, an investigation has found.
+The instructions were clear: He had four days to make each victim fall in love.
+And there were a lot of victims.
+Online, Safeer Mohammed Koorimannil, who was trafficked to a scam center in Myanmar, impersonated a 28-year-old Singaporean woman named Ella. On a typical shift, he said, he chatted with more than 100 people across dozens of profiles at the same time, as supervisors prowled among the desks with electric batons.
+In just a month, Koorimannil targeted some 50,000 victims from at least 17 countries, according to records he smuggled out to The Associated Press. His “clients” included a widowed tailor in Kurdistan, a pastry chef in Turkey, a sheep farmer in Kyrgyzstan, soldiers in Iraq, an engineer in Russia, a building painter in Germany, a port officer in Argentina, a student in Indonesia, a security guard in Poland and a dairy farmer in the Republic of Georgia.
+And he did it using software built with artificial intelligence models from American tech companies that scammers are abusing to target victims at unprecedented speed and scale. “Everyone is a robot there,” he told AP from his home in southern India in his native Malayalam language.
+Technology from American companies is being used to power a revolution in the scam industry, playing a key role in the industrialisation and globalisation of fraud in ways that have not been clear until now, an AP/"FRONTLINE" investigation has found.
+Watchdogs say these companies have the technical capacity to do more to protect against abuse but lack the legal, regulatory and business incentives to crack down on a crime the Federal Trade Commission estimates cost Americans nearly US$200 billion in losses in 2024.
+While most public scrutiny of the technology that fuels scams has focused on the social media platforms victims see, the infrastructure exploited to commit fraud begins much farther upstream, the investigation showed.
+American technology is present all along the digital supply chains that connect scammers with the scammed, from AI models baked into powerful new tools to optimise workflow and create more perfect fakes, to satellite dishes that enable scammers to evade internet crackdowns, to internet service providers that carry traffic from the lawless borderlands of Myanmar to the phones and computers of millions of victims.
+The AP found no evidence to suggest these companies were doing anything illegal themselves. However, the abuse of their tools and tech infrastructure at scam compounds in Myanmar, as documented by the AP and “FRONTLINE,” raises questions about how vigorously they are enforcing their own terms of service, which prohibit illegal activity and, in many cases, explicitly ban fraud.
+Among the AP’s findings:
+- American-made AI models — chiefly ChatGPT and Gemini — have been used to build specialised software that allows scammers to seamlessly work across dozens of languages, surveil workers and target victims around the world, the investigation found with the help of C4ADS, a Washington-based nonprofit focused on global security. Scammers who purchased these tools took in tens of millions of dollars, according to blockchain analysis by TRM Labs at the request of AP/"FRONTLINE."
+- A sophisticated, global internet infrastructure supports Myanmar’s scam compound economy, which relies on services from Cogent Communications, AT&T, DigitalOcean and Oracle, among others. One in five signals from devices at four scam compounds linked to sanctioned entities in Myanmar was carried by a US-registered company, according to an AP analysis of more than 200,000 device connections provided by International Justice Mission, an anti-trafficking nonprofit.
+- Elon Musk’s satellite internet company, Starlink, is the number one internet service provider in Myanmar, including to scam centers, according to device data, public records and interviews — despite public pressure from Congress and a widely publicised crackdown last fall.
+- At least 25 new scam compounds have been built deep inside Myanmar since a high-profile crackdown along the Thai border last fall, new satellite imagery shows. Scammers from at least 13 of these outposts used Starlink IP addresses to get online between early March and the end of May, an AP analysis of device and satellite data from International Justice Mission shows.
+The AP/"FRONTLINE" investigation was based on tens of thousands of leaked scam centre files, videos and photos; an analysis with C4ADS of misuse of AI at scam centres; an examination of more than 200,000 connections made by devices over a year at four scam compounds in Myanmar linked to entities sanctioned by the US government; and interviews with 58 scam victims and three dozen current and former scammers from 19 countries.
+Cybersecurity experts say internet service providers, AI companies and Starlink could do more to prevent the abuse by scammers — but lack the legal, regulatory and business incentives.
+“If there’s no disincentive to continuing this, if there’s no cost to actually facilitating scamming, then why would I spend a dollar to prevent scamming?” said Sascha Meinrath, the Palmer chair in telecommunications at Penn State University. “This is the problem. It’s identifiable, it’s addressable — at least somewhat — but it costs something. And right now the cost of facilitating scamming is zero.”
+Outside the United States, that cost is starting to rise. The United Kingdom, the European Union, Australia and Singapore have introduced new regulations that require companies to do more to prevent scams — or face financial penalties.
+Meanwhile, in Washington, lawmakers and government officials have been asking American tech companies to cooperate to cut scammers off from US infrastructure, but on a voluntary basis.
+In November, District of Columbia US Attorney Jeanine Pirro created the Scam Center Strike Force to target scam compounds. In a four-day exercise in May, the Strike Force worked with Meta, SpaceX, Google and others to disrupt more than 1.4 million social media and email accounts, interrupt malicious IP address traffic, seize satellite internet terminals and decommission servers and hosting infrastructure linked to Southeast Asian scam networks.
+“We will not allow criminal organisations to weaponise our own infrastructure against us or devastate the life savings of hardworking families,” Pirro said in an email to AP. “Our message is clear: we will find you, we will stop you, and we will protect the American people.”
+OpenAI and Google both said they have robust programmes in place to proactively disrupt scammers from abusing their tools. Starlink did not respond to detailed requests for comment.
+Internet service providers emphasised that they can’t see the content their networks carry or what end users are doing online — privacy by design that constrains their ability to monitor for abuse.
+All said they respond to valid abuse reports and cooperate with law enforcement. None would disclose specific customer information, citing privacy rules, but several said they had taken concrete action in response to AP’s reporting.
+OpenAI said that based on the information AP shared, it identified and banned three accounts that had been using its models to support online scams. Oracle said it was “diligently working with law enforcement” on the material shared by AP. UpCloud, a Finnish cloud services provider with servers in the US, said AP’s query had prompted an internal review and refinement of its risk assessment processes.
+OpenAI CEO Sam Altman has likened artificial intelligence to a utility, akin to electricity or water. But unlike water utilities, tech and telecom companies in the United States are generally not responsible for proactively ensuring the safety of the content they carry.
+Some people believe that should change.
+“This has to be like clean water,” said Matthew Moynahan, the CEO of GetReal Security, a cybersecurity firm. “Anything coming out of the tap for an end user, whether that tap is a PC, a browser somewhere, or your mobile phone, dirty water shouldn’t get to you. This is what this is.”
+AMERICAN AI ABUSED FOR INDUSTRIAL-SCALE SCAMMING IN SEA
+The use of AI in scams is exploding so fast that many in the cybersecurity community fear fully-automated scams run by AI agents will soon become commonplace.
+“We’re moving towards a world where maybe you don’t need human scammers anymore,” said Ari Redbord, global head of policy at TRM Labs, a crypto analytics firm. “All you need is hundreds, thousands, millions of agentic agents who don’t need to sleep, don’t need to eat, who are 24/7 doing this.”
+Already, the basic AI-powered tools Koorimannil used required scant human intervention. His job was to cut and paste responses from scripts his scam bosses generated.
+Koorimannil and his best friend had answered an ad online for jobs encouraging tourism to Thailand. From the airport in Bangkok, however, a waiting black car sped them to the border with Myanmar, he said, and the next morning armed men escorted them across the Moei River to Tai Chang, a scam compound the US government sanctioned last year.
+Koorimannil managed to sneak out a screenshot from his computer that AP and security nonprofit C4ADS used to identify the key to his productivity — a software platform called Kongtian Intelligent Customer Acquisition, or KT for short.
+AP also identified a similar suite of software, called Global Social Traffic Navigation, or 007TG, described by a former scammer as a “one-stop shop” for running scams at industrial scale.
+KT and 007TG are part of a thriving grey market for tech that has both legitimate and illegitimate uses and is widely exploited by scammers, according to blockchain analysis, a review of Telegram channels frequented by scammers, and interviews with scammers from three countries.
+KT and 007TG were created by for-profit businesses using AI models from leading global companies and sold to scammers — who in turn generated tens of millions of dollars in illicit profits.
+OpenAI’s ChatGPT played the most prominent role, along with Google’s Gemini, though the software incorporated other AI models as well, including from Europe and China.
+Both KT and 007TG used ChatGPT and Gemini to generate automated replies, power a role-play chatbot, which scammers could use to develop convincing characters, and embed real-time translation in over 100 languages, C4ADS found. KT and 007TG software also tracked the performance of workers — to devastating effect, in Koorimannil’s case.
+He was beaten for being bad at scamming people, leaving his body red and swollen with lashes, photographs show.
+“When they came near my computer, my hands would shake and sweat,” Koorimannil told AP.
+At night, he said, he and his best friend curled in the same narrow bunk, too frightened to sleep alone.
+Blockchain analysis, done for AP/"FRONTLINE" by TRM Labs, shows how powerful these tools can be. Cryptocurrency transactions are recorded on an indelible public ledger, or blockchain, which can be analysed to show the pattern and volume of cryptocurrency transactions.
+TRM Labs found that a single crypto wallet used by 007TG received US$860,000 in payments between April 2024 and December 2025 — including transfers from at least four cryptocurrency wallets associated with known scam networks. Those scammers, in turn, raked in at least US$75 million.
+Stopping AI abuses at scale is challenging because scammers often use ChatGPT the same way hundreds of millions of other people do — to translate, help write messages, create content and do basic research, according to OpenAI.
+The intimacy, financial pressure and manipulative language in romance scams, for example, may be hard to distinguish from genuine users seeking help with a divorce. And tools like KT and 007TG can have legitimate uses, especially for Chinese businesses seeking to expand overseas.
+But by tracking user behaviour over time to surface patterns of deception and manipulation, OpenAI said it detects scams with 95 per centa ccuracy and takes down 100,000 scam accounts each month. The company said it has also independently disrupted service to scam networks operating from Cambodia, Myanmar and Nigeria.
+Even as fraud networks exploit their technology, a growing number of people are using the same tools to fight back.
+OpenAI said people use ChatGPT millions of times a month to identify and avoid scams — up to three times more often, the company estimates, than the model is abused by scammers. OpenAI also recently collaborated with the Global Anti-Scam Alliance to launch scam.org, which helps users assess the risk they are being targeted by scammers.
+Google did not respond to specific questions about AP's findings, but said the company is “committed to developing AI responsibly” and engineers its models with safety guardrails to filter out content that promotes scams. 007TG went dark in December but has since claimed to be back up and running. Neither it nor KT responded to requests for comment.
+In the end, through a connection in Bahrain, Koorimannil and his friend found a broker who oversaw ransom payments for 21 Indians from their compound, he said.
+They each had to pay 500,000 Indian rupees (US$5,300) for their freedom.
+US ISPS PLAY OUTSIZED ROLE IN CARRYING SCAM CENTRE TRAFFIC
+It took a long time for Chris Colocousis to understand the extent to which scammers around the world use American technology to prey on people like him.
+At first, all he saw was that the woman who reached out to him on Facebook had a New York phone number — not too far away from his home in Massachusetts — and said she worked at a well-known financial firm in Atlanta.
+“Eliza” suggested a video call. And there she was — the same blond beauty as in her Facebook photos. She even had little bags under her eyes. She was too real not to be real.
+Now Colocousis, a divorced man in his 60s, has no idea where “Eliza” really is, whether he was talking with her or with ChatGPT — and even if she’s a she. He does know that the US$400,000 he says he “invested” under Eliza’s guidance is now gone, robbing him of the secure retirement he’d spent years working for.
+“You just feel like your whole world fell apart,” he said. “I’m thinking about all this time that I invested into reaching a point where I could retire at a certain age — and it’s just gone.”
+Each step of a fraud is a digital signal, said John Breyault, vice-president of public policy, telecommunications and fraud at the nonprofit National Consumers League. And internet service providers are the network on which many of these services ride.
+“The ISPs are in a particularly critical place in this chain,” he said.
+New data shows that US internet service providers play an outsized role in scams run out of Myanmar. The AP analysed a sample of 202,013 connections made by devices at four scam compounds in Myanmar — KK Park, Tai Chang, Deko Park and a newer site near Hpakalu. One in five was routed through US internet service providers. No other non-regional country came close.
+Among them were Cogent Communications, Oracle, AT&T and DigitalOcean. Companies outside the United States — including UpCloud, the Finnish cloud provider, and GlobalTeleHost, a Canadian hosting and internet infrastructure company — also used servers in the US to host high-risk traffic from scam centres, the data shows.
+“They are getting paid a lot of money to route these IP addresses,” said Riley Kilmer, co-founder of Spur Intelligence Corporation, a cybersecurity company. “Right now the revenue outweighs the risk. And if you could shift that balance, the ISPs would have to act.”
+Internet service providers have access to a trove of data that could be used to minimise illicit activity, but doing so requires significant investment, cybersecurity analysts say.
+“The policy in much of the hosting world tends to be, we will take action after the fact,” said Dan Winchester, co-founder of Scamalytics, a fraud prevention company. “That’s not really very effective. What you need to be doing is proactively stopping fraud on your servers.”
+The ad tech data was compiled by International Justice Mission between February 2025 and January 2026. This data captures a slice of activity from apps that share information with data brokers, which can reveal the location and IP address a given device is using when it goes online.
+AP then identified the companies those IP addresses had been allocated to using a database maintained by Scamalytics, which also rates IP addresses for potential fraud risk.
+SOME COMPANIES IDENTIFIED
+These companies were among the most significant players in the dataset:
+ORACLE
+More than 100 US-geolocated IP addresses allocated to Oracle were used at the KK Park scam compound between February and April 2025. AP shared the detailed connection data with Oracle. “We are diligently working with law enforcement on this matter,” an Oracle spokesperson told AP.
+COGENT COMMUNICATIONS
+Cogent Communications was among the biggest players, with connections from KK Park and Tai Chang scam compounds. Nearly 40 per cent of the IP addresses allocated to Cogent appeared on publicly available blacklists of potential abuse, according to Scamalytics data. Scamalytics rated 99.6 per cent of them as potentially risky.
+Cogent says it relies on third parties to report fraud and investigates every verified complaint, but like other ISPs, it can’t see user traffic directly.
+AT&T
+IP addresses allocated to AT&T were used at three compounds between February 2025 and January 2026.
+AT&T says it’s cracking down on fraud by making traffic on its network more transparent. In September it began enforcing new rules that require business customers to route traffic under their own network identity, not AT&T’s, to make it harder to disguise questionable activity.
+DIGITALOCEAN
+Devices from KK Park and Hpakalu used at least 41 IP addresses allocated to DigitalOcean, a cloud infrastructure provider based in Colorado. Scamalytics rated nearly all as potentially risky.
+DigitalOcean said it reviewed the data shared by AP but declined to disclose the outcome. The company said it does not control how customer applications are used and works closely with them to fight abuse.
+UPCLOUD
+UpCloud had a single IP address — linked to a server in New York City and rated very high risk by Scamalytics — which connected at least 382 times between February and April 2025 with devices inside KK Park.
+UpCloud said the data AP shared “triggered a thorough internal review on our side to ensure that the risk of similar situations is further reduced going forward”.
+The company said it may have involved a VPN hosted on its platform, but noted that it cannot access customer systems, which are private. They declined to provide further details, citing European data protection laws. The firm said it monitors for illegal activity as mandated by EU law but does not rely on Scamalytics because their risk assessments are not detailed enough.
+GLOBALTELEHOST
+GlobalTeleHost, a Canadian company that provides data centre equipment and network connectivity for business customers, was allocated IP addresses used at KK Park and Tai Chang.
+Two-thirds appeared on public blacklists as potentially abusive, according to Scamalytics, which rated 99.9 per cent as potentially risky.
+GlobalTeleHost said it does not serve end users directly and does not control its customers’ applications, traffic or internal review processes.
+The company said the IPs shared by AP were assigned to commercial VPN providers. The company said it passed AP’s technical findings to those customers and asked them to investigate, but some responded that their records were not detailed enough to identify specific users.
+GlobalTeleHost said it does not rely on Scamalytics risk ratings but acts on “verified abuse complaints and lawful requests from authorities.”
+In many cases, scammers in Myanmar routed their internet connections through US-based cloud services to hide where they were really located before connecting to major platforms — chiefly Meta, which owns Facebook, Instagram and WhatsApp, according to Kentik, a network monitoring firm in San Francisco that mapped internet traffic from a sample of data shared by AP. That makes it easier for scammers to appear to be somewhere else and slip past platform safety checks.
+Meta said that kind of deliberate evasion is why collaboration — with law enforcement and across industry, including connectivity and technology companies — is key to disrupting bad actors at scale.
+“Scammers are determined criminals who use increasingly sophisticated tactics to defraud people and evade detection on our platforms and across the internet,” a spokesperson said in a statement.
+By analysing behavioral patterns of users, Meta said it has been able to disrupt millions of accounts tied to scam centres across Southeast Asia and the United Arab Emirates.
+“This stuff is so pervasive,” said Doug Madory, director of internet analysis at Kentik. “You can successfully launder connections to your heart’s content.”
+One way to do that is by leasing IP addresses which can be more valuable when traffic appears to originate from a well-known provider. This profitable loophole can be exploited to evade security controls. AT&T began enforcing a change in September that tightened this loophole by requiring business customers to announce their own network identity.
+“It would be great if everybody did what AT&T did,” Madory said. “They probably lost some customers out of that policy, but those were pretty bad customers.”
+Colocousis said people who think scam victims like him are gullible idiots don’t understand the sophistication of criminal organisations behind online fraud.
+On Jan 25, 2025, Colocousis laid out US$80,000 cash in neat rows on his table, just as the customer service representative at his crypto trading app had instructed. Eliza had told him if he just paid this last bit, he could unlock his funds and withdraw all his money.
+“I will tell you that I feel a little uneasy but I know you keep telling me it’s ok,” he messaged her. She responded instantly with a string of kiss emojis.
+The next morning a young man, who Colocousis said showed up in a Jeep with New York plates, trudged across a thin layer of snow to his doorstep.
+Once inside, the man — who said his name was Vincent — told Colocousis to put the stacks of US$50 and US$100 bills in a plastic shopping bag. Vincent sent a message and the money instantly appeared in the fraudulent crypto trading account Eliza had helped Colocousis open, he said.
+Vincent left with a big smile and a quick, amiable wave. “See you next time,” he said. “Maybe. Okay. Bye bye.”
+Colocousis believes American tech companies should do more to protect people like him. He is still so shaken that he says he sometimes has trouble leaving his house.
+“The greed is -,” Colocousis searched for words. “I’m all for capitalism, but when it’s totally ruining people’s lives, people that have worked their whole life towards a goal so that they don’t have to work anymore, only to have it just ripped out of their chest — you know, something’s wrong.”
+STARLINK IS TOP ISP IN MYANMAR, DATA SHOWS
+Today, Musk’s Starlink satellite service is the most widely used internet provider in Myanmar, including at known scam compounds, AP found — despite an ongoing congressional investigation, a November order from a US court to seize Starlink accounts from specific Myanmar scam compounds and announcements, in October and June, that Starlink had cut service to thousands of units around scam centres.
+Senator Maggie Hassan, a New Hampshire Democrat who is leading a bipartisan congressional investigation into the role Starlink and other companies play in the surging losses of scam victims in America, has pressed SpaceX for details on Starlink’s role in transnational fraud and urged the company to do more to prevent the criminal misuse of its devices.
+“We need to do more at every level to combat the scams that are plaguing Americans across the country,” she said in an email to the AP. “Given that SpaceX’s Starlink is the first choice of satellite internet technology for many scammers, cutting off scammers’ access to Starlink is a key way to prevent scams at the source.”
+To be sure, Starlink has been a lifeline for schools, humanitarian groups, hospitals, media and more in Myanmar, according to Amnesty International and others. But data from the Asia Pacific Network Information Center (APNIC), the regional internet registry, indicates that scammers represent a disproportionate share of its user base.
+Myanmar has become a haven for industrial-scale scam compounds, which have drafted some 300,000 people from dozens of countries, often against their will, according to the United Nations. One of those compounds is Deko Park, a conglomeration of big, blue-roofed buildings dotted with white satellite dishes near the Thai border.
+Data from a sample of devices at Deko Park, provided by International Justice Mission, shows Starlink among the top internet service providers in use from Dec 10, 2025, to Jan 6, 2026, just after two regional telecom companies.
+An Ethiopian engineer named Ebisa told AP he used Starlink at Deko Park from December 2024 through December 2025, when he managed to escape. He asked AP to only publish his first name because he wants to protect his privacy.
+Ebisa’s job was to collect the WhatsApp numbers of rich, vulnerable men. He said he was constantly punished — beaten, shocked, detained and forced to exercise for hours at a time — for failing to meet impossible performance goals.
+One day, he said, he got fed up and tried to evade a beating. He didn’t get very far. He said the security guards at Deko Park beat him so badly he was blinded in one eye. Photographs show his eye injuries and AP spoke with an NGO who helped him seek medical care in Thailand.
+“It was hard to survive,” he told AP. “Finally, God helped us out from that hell.”
+Speaking from a shelter for human trafficking victims in Thailand in December, he said he wanted to get his eye fixed before going home because his mother’s health is fragile and he worried the sight of his injury might kill her.
+“It’s very shameful,” he said. “If God helps me, if I get medication, maybe I can get back my eye.”
+He told AP on Monday from his home in Ethiopia that doctors had informed him they could not save his eye. “It's been a tough reality to face,” he said. “They told me that it's too late to bring back my sight.”
+A Nigerian who was also tricked into working at Deko Park, Obinna Okeadu, never made it back home, according to three co-workers, a human rights activist and reports from his family back in Nigeria.
+On the afternoon of Oct 28, 2025, Okeadu and his roommate, Ogbonnaya Tochukwu Agwu — known as Valentine — came off an unsuccessful overnight shift and were called out for punishment.
+Back in their dorm room after the beating, Valentine watched as Okeadu began to tremble uncontrollably. Okeadu slid to the ground with a thud, his head lolling strangely, with sharp, anguished sounds rising from his body.
+“It’s okay,” a friend told him softly. “We’re here.”
+But Okeadu was not okay.
+“I’m going to die like this,” Okeadu called out, according to Valentine.
+Valentine said Okeadu was taken away — presumably to a hospital. He prayed for his friend. But the next day, Okeadu’s computer disappeared and his name was deleted from work chats.
+Valentine never saw him again.
+This kind of abuse — and the swelling cost of cyberscams to victims around the world — has led to periodic crackdowns. In early 2025, Thailand temporarily cut off internet connectivity, electricity and gas supplies to scam compounds just over its border with Myanmar.
+Starlink was a way around the blockade at the time. Satellite dishes proliferated on the rooftops of scam centers in Myanmar, satellite imagery showed, and Starlink usage in Myanmar surged, according to APNIC data.
+In April 2025, as the United States prepared sanctions against foreign scam networks in Southeast Asia, SpaceX reassigned IP addresses from Tanzania to create a dedicated block for Myanmar. It’s not clear why, but experts say that step is usually taken to serve growing demand or prepare for entry into a new market.
+By June 2025, Starlink was the number one internet service provider in the impoverished, war-torn country, with a 14 per cent share of the market — despite its relatively high cost, according to APNIC data.
+In October, amid another sweeping crackdown, Starlink said it cut services to more than 2,500 units near scam compounds in Myanmar. It lost nearly half of its users in the country and its market share plunged from 15 per cent to 6.5 per cent, according to APNIC data.
+But in December, Starlink use surged back, and by February, the company was again number one in Myanmar. Today it has a nearly 20 per cent share of the market, APNIC data show.
+SpaceX’s October service cuts demonstrated that the company can sever scam centers from its satellites when it wants to — and shows just how important the criminal networks that pay for scam center infrastructure have been to its user base.
+According to Starlink’s own coverage map, it does not sell services in Myanmar. AP asked Myanmar’s ruling military government whether Starlink was legally authorised to work in the country but got no response.
+Starlink also declined to respond to detailed requests for comment. But in public comments, Lauren Dreyer, vice-president of Starlink business operations at SpaceX, has said that Starlink has “zero tolerance” for abuse.
+“We proactively detect and disable terminals involved in illegal activity,” she said in a June statement about the company’s work with the Scam Center Strike Force. “Through collaboration with law enforcement and technology companies, we advance global anti-scam efforts and ensure Starlink remains a force for good.”
+Yet Starlink’s service cuts have not stopped scammers — not even from one of the most high-profile scam compounds in Asia, KK Park.
+In October, in response to growing international pressure, Myanmar’s military government began demolishing the compound and broadcast images of dozens of seized Starlink terminals. But when the scammers scattered, they brought their tech with them.
+By January, at least seven devices used at KK Park had migrated to a new compound some 30km to the northwest, near Hpakalu, according to International Justice Mission, which tracked the devices using ad tech data.
+“These new compounds are showing up in the middle of nowhere and they’re walled multi-building complexes with a bunch of these terminals on the roof,” said Eric Heintz, a global analyst at IJM. “You should be able to shut them down, and there should be a paper trail for who’s paying the subscriptions for them.”
+Heintz has identified at least 25 new sites in Myanmar that have appeared or grown significantly since the crackdown last fall. Satellite imagery, verified by AP, shows empty fields transformed into industrial-scale office parks in just a few months and new roads cut through thick trees.
+White satellite dishes dot the rooftops of some of them, and geolocated device data shows that scammers from at least 13 are logging on just as they did before: With Starlink.

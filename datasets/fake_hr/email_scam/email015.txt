@@ -1,0 +1,50 @@
+TITLE:
+Beware of “Parcel Expert” job offers: They’re parcel mule scams
+
+SOURCE:
+Malwarebytes.com
+
+DATE:
+2026-06-25T18:12:51Z
+
+URL:
+https://www.malwarebytes.com/blog/scams/2026/06/beware-of-parcel-expert-job-offers-theyre-parcel-mule-scams
+
+ARTICLE:
+
+A parcel mule scam, also called a reshipping scam, is a fake job offer designed to recruit people into handling stolen goods.
+It usually starts with a fake remote job offer that promises easy money for receiving, inspecting, repackaging, and forwarding packages from home. The “employer” may claim to be connected to familiar companies, but the real purpose is to move goods bought with stolen payment information so they are harder to trace. Victims often think they are doing routine logistics work, but they are actually helping criminals launder stolen merchandise.
+Targets get “recruited” to work from home for shipping companies or retailers. Scammers reach them by email, direct messages on social media, WhatsApp, and any other channel they can think of. One job title that appears frequently is “Parcel Expert.”
+Let’s look at an example received unsolicited on WhatsApp:
+“Hi! I hope you’re doing well.
+My name is Elena from the Logistics Department. We reviewed your profile and would like to offer you a position as a Parcel Expert. This is a remote part-time opportunity with flexible hours and a monthly income of up to $5,300.
+Your main duties will be: receiving packages at your home address, checking items against invoices, taking photos if needed, preparing documents, and forwarding the parcels to our distribution hubs. In some cases, you may be asked to send urgent orders directly to international destinations.We work with well-known retailers, including Amazon, Best Buy, Walmart, and Zappos, so the process is simple and safe. No experience is necessary, and we provide full instructions.
+Please reply ‘interested’ if you would like to proceed, and we will send you the onboarding details.”
+It follows the classic pattern closely: high pay for low-skill, home-based work, packages sent to a private address, and a requirement to forward items to hubs or international destinations. The mention of well-known retailers like Amazon, Best Buy, and Walmart is also a common trust signal scammers use to make the offer sound legitimate.
+How to recognize parcel mule scams
+All I really need to do here is quote the Malwarebytes Scam Guard analysis:
+Red flags identified
+The companies mentioned in the scams vary by location. For example, a German target was “recruited” to work for DHL, a Spanish customer got an offer for Mercado, and a US victim received one for Freight Metro. But it’s mostly the big global names like Amazon, FedEx, and retailers like Best Buy, AliExpress, and Walmart.
+- Work from home shipping packages: Legitimate companies do not ship high-value goods to the private home address of someone they just hired online, especially for work-from-home roles.
+- Payment promises seem too good to be true: $4,400 base salary plus performance bonuses for unskilled logistical work is extremely unrealistic, especially for remote roles with no experience required.
+- Handling of items from retailers: Fraud rings commonly use stolen credit card info to order goods sent to recruited “mules” (victims) who unknowingly forward them, making tracing harder for law enforcement.
+- International reshipping: Legitimate logistics companies use professional hubs—they do not ask new hires to ship internationally directly from their homes.
+- Personal risk: You may become involved in credit card fraud and have law enforcement contact you, as your home address will be connected to the receipt and shipping of stolen goods.
+- Typical language patterns: The description is nearly identical to those used by scammers globally.
+What are the risks
+The most obvious risk is wasting your time on a job you’ll never get paid for. But there are others:
+- Scammers may ask for personal documents, increasing the risk of fraud and identity theft if they collect IDs, banking details, or other sensitive data during the “onboarding” process.
+- Victims can become suspects or persons of interest if authorities trace stolen goods back to them.
+- Criminals know you are vulnerable and will try to take advantage of you again.
+How to stay safe
+Recognizing scams for what they are is the best protection, so keep reading our blog.
+- The most important rule for all types of scams is simple: Do not interact. Not even for fun or to waste the scammers’ time. It takes a lot of preparation to do that safely.
+- Verify the company independently, search for complaints or scam reports, and be skeptical of any offer that is unusually vague or highly paid.
+- Do not share identity documents, your home address, phone number, or bank details.
+- Be cautious of any role that requires upfront payments or fees to get started. While some legitimate franchise or business opportunities involve investment, they should be transparent, well-documented, and independently verifiable.
+- Be aware that receiving and forwarding stolen goods is illegal and could implicate you in a crime.
+- Report the incident to the proper authorities. In the US, report it to the FTC.
+Pro tip: Malwarebytes Scam Guard identified this scam for what it is and will advise users on how to proceed.
+Something feel off? Check it before you click.
+Malwarebytes Scam Guard helps you analyze suspicious links, texts, and screenshots instantly.
+Available with Malwarebytes Premium Security for all your devices, and in the Malwarebytes app for iOS and Android.

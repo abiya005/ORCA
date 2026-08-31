@@ -1,0 +1,43 @@
+TITLE:
+Job scams are getting more sophisticated, and they’re costing Americans millions
+
+SOURCE:
+Fortune
+
+DATE:
+2026-06-27T07:36:00Z
+
+URL:
+https://fortune.com/2026/06/27/job-scams-are-getting-better-sophisticated-and-costing-americans-millions/
+
+ARTICLE:
+
+We’ve all received them. A misspelled message from a nameless, so-called recruiter, likely from a sketchy iCloud or Outlook email address, telling you they have the perfect job opportunity for you. An obvious scam.
+But the days of weak attempts to siphon your information are over. In the AI era, scams are getting more sophisticated and persistent (and unavoidable).
+Take Mary Ann Morrison, an instructional design manager based in Fayetteville, Arkansas. After applying for a position at the University of Arkansas in Little Rock, she received an email asking to set up an interview.
+“They were asking me to meet up with them. They asked the time and everything. It sounded very professional,” Morrison told Fortune. The recruiter sent over a link for a Microsoft Teams meeting. “When I went and looked at the link, I realized this doesn’t look quite right. It doesn’t look like Teams.”
+The link told her she needed to update Teams, but she checked her own Teams App on her computer and didn’t see any notification to update.
+“I know better than to click on random links,” she said. “I looked back at the sender. The email looked great, great grammar, very professional, a little bit colder than what I would expect from a recruiter. It wasn’t as personal, it was more generic.”
+She looked up the recruiter in the University of Arkansas’s directory and couldn’t find anyone with her name. She looked up the university HR email domain and found that the emails didn’t match either. Morrison reported the scam to the university, and they told her they will warn others about potential scams.
+“It’s scary how realistic these scams are getting, because just their mannerisms is a lot less of the idea where people used to just send out a very blanket email with a lot of grammar mistakes and a very obvious email address,” she said. “Everything just sounds wonderful, and then it’s not real. It’s very frustrating. It’s very hurtful.” The experience underscored for her the need to double-check messages and be careful when clicking links from companies, even if they seem real.
+In the past few years, employment scams have exploded, said Roger Grimes, a chief information security officer advisor at KnowBe4, a security firm that works with more than 70,000 organizations to manage both human and AI risks. He has worked in cybersecurity for nearly 40 years.
+In just the past three years, nearly 50,000 people reported falling victim to employment scams to the Better Business Bureau. Last year, reports to the agency doubled compared to a year earlier, and between 2020 and 2024, losses from employment scams grew from $90 million to $501 million.
+Scammers usually want money, typically between a few hundred dollars and a few thousand, or they are trying to get to someone’s employer through them, Grimes explained. They will offer an employee or job seeker a “perfect dream job,” offering high salaries, remote work, and benefits like child and elder care. Sometimes scammers post jobs straight onto job platforms like Indeed or LinkedIn, he said.
+To get a target’s information, scammers will include links to download malware on someone’s device, or they will get you to send money, claiming the money will be used for a background check and the target will be reimbursed later, Grimes said.
+That’s how scammers try to target Vanessa Goodman, who works in technology sales and marketing near Houston. After she put the hashtag, “open to work” in a LinkedIn post, messages from people pretending to work at Microsoft and cybersecurity firm Palo Alto Networks started to reach her inbox. The fake recruiters sent requests to connect on the platform and then emailed her about open positions at the companies. After she sent her resume, they sent over an offer letter.
+“They start talking about these separate supporting documents that are needed [before an interview], and that you’ll have to have these for the resume, and there’s always a sense of urgency and a short time turnaround,” Goodman told Fortune. She realized she was getting scammed, and she decided she wanted to prove that it was fake and see how far the scammers would go.
+The companies asked her to provide specific documents that they recommended she use a third-party to prepare, which would charge her $800. The company told her they would eventually reimburse her for the documents. The person sent her a link through PayPal to pay for the documents, but the name didn’t match the person she was corresponding with. Then they told her to send it over to Remitly and Upwork, but the business’s account wasn’t working.
+“They said they had a network outage,” she said, but she suspected that they were actually getting blocked because the payment services realized they were scams. “Then the sense of urgency starts to happen. It’s like ‘you need to pay me by x time.’” She blocked the fake recruiters on the payment apps, Teams, and email, but they wouldn’t let up. The scammer called her three times late at night at the number she provided on her resume.
+“I had to uninstall the WhatsApp app on my cell phone,” she said. “I would be lying if I said that it didn’t negatively affect me for a short period of time.”
+Rethinking the hacker
+New graduates are frequent targets, especially in the challenging, competitive job market. Nearly a third of Gen Z said they have been a victim of job scams, compared to just 17% of Gen Z.
+“There’s so much fraud out there that if you’re not aware of it, if you’re not on your toes, it can really be an attractive offer. You get so caught up in the excitement of ‘Oh, this is my dream job,’” he said.
+Scammers are usually based outside of the U.S. because it’s difficult to track cyber crimes across international borders, Grimes said. Russia, Ukraine, and India rank as top cybersecurity hubs. AI is only making scams easier to pull off by taking away language barriers and getting caught in a reverse image search. More than 80% of phishing attempts use AI, Grimes said, and AI-enabled scams were 4.5 times more profitable than traditional scams, according to blockchain firm Chainalysis.
+“Our kids and grandkids, when they hear the term ‘hacker,’ may not think of somebody in a hoodie over top of a laptop trying to scam someone,” Grimes said. “They’re going to think of the hacker, as ‘oh, they launched this AI bot’, and then it went out and did all the hacking.”
+He recommends using AI tools to help detect scams and training them not to fall for scams when deploying them in your inbox.
+“You need AI to beat AI, and we know that human beings aren’t always perfect at detecting scams,” he said. “You’ve got to secure the humans, you have to secure the agents the humans are using, because if you don’t do that, you’re not securing the human,” he said.
+How to avoid scams
+Scams are thankfully avoidable if you know what to look for. Grimes recommends reaching out to companies through official emails or phone numbers listed on their website when you receive recruiting messages.
+“When in doubt, chicken out,” Grimes advised. “Try to contact that recruiter or that brand through the real website, through the real phone number.”
+He also encourages people to look into a recruiter’s profile. New accounts and few followers are red flags, as are any upfront fees or requests to download software or documents.
+“Most of the people I talked to that were scammed said that they did feel something was off,” he said. “It was just too good. Whatever they said they needed, that job was going to give them, and that you know that usually isn’t true in a brand new job.”

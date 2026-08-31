@@ -1,0 +1,28 @@
+TITLE:
+FBI And Google Crush AI Scam Ring Behind 1.59 Million Phishing URLs
+
+SOURCE:
+Hot Hardware
+
+DATE:
+2026-06-15T15:34:00Z
+
+URL:
+https://hothardware.com/news/fbi-google-crush-ai-scam-ring
+
+ARTICLE:
+
+FBI And Google Crush AI Scam Ring Behind 1.59 Million Phishing URLs
+Google and the FBI just brought a hammer down on it. In a coordinated push, the two are going after a transnational cybercrime ring nicknamed the "Outsider Enterprise," a group Google general counsel Halimah DeLaine Prado says operates out of China and runs its day-to-day logistics through encrypted Telegram channels. The headline product these crooks peddle to lower-tier scammers is the phishing kit, a turnkey package that lets affiliates spin up fake sites and SMS campaigns with almost no technical skill required.
+That ease of use is exactly the problem. Generative AI lets the gang crank out clean, grammatically tidy text messages and pixel-accurate clones of trusted brands, from Google itself to major banks and shipping companies. The old red flags, broken English, and sketchy logos no longer apply. Google's own Threat Intelligence Group flagged the shift in a May 2026 report charting how generative AI matured from experimental novelty into an industrialized component of cybercrime, and the Outsider Enterprise reads like the consumer-targeted application of that same playbook.
+Numbers Google cited paint a grim picture of how big this got before anyone slammed the brakes. The Outsider Enterprise spun up more than one million fraudulent URLs and around 9,000 spoofed websites impersonating real businesses, all built to funnel credentials and credit card data. Hundreds of thousands of victims got hit, with losses landing in the millions of dollars. During one two-week stretch this past May, Android users reported 55,000 spam texts tied to the ring, while the group itself fired off 2.5 million malicious messages aimed at Android handsets.
+In an attempt to dismantle the network, Google filed a civil lawsuit aimed at seizing the gang's domains and choking off its operational pipeline. Behind the scenes, the tech giant received crucial technical backup from Lumen Technologies and its Black Lotus Labs threat research arm, which helped map the underlying infrastructure. Meanwhile, the FBI's Cyber Division is chasing the human beings behind the keyboards under a coordinated effort dubbed Operation Ghost Hook, itself part of the broader FBI campaign known as Operation Riptide. Assistant Director Brett Leatherman said criminals are increasingly using AI to make fraud more convincing and harder to detect, and argued that joint action between industry and law enforcement is the only real counter.
+Carriers are pitching in too. Google is partnering with AT&T, T-Mobile, and Verizon on network-level filtering that flags AI-generated smishing payloads before a phone ever buzzes. On the device side, Android's built-in defenses already intercept north of 10 billion malicious messages a month worldwide, a staggering figure even by Google’s scale.
+Lawsuits and filters can only do so much, however, when underlying laws still reflect a pre-AI era. Google is publicly backing seven bipartisan federal bills designed to drag fraud enforcement into the present. Congressmen Brian Fitzpatrick and Josh Harder are pushing the Stop SCAMS Act, which aims to stitch federal, state, and industry efforts into one coordinated front.
+According to Google, the other six acts are:
+- National Strategy for Combatting Scams Act
+- Strategic Task Force on Scam Prevention Act
+- AI Plan Act
+- STOP Scams Against Seniors Act
+- Artificial Intelligence Public Awareness and Education Campaign Act
+- Stop Schemes, Cyber Fraud, Abuse, Manipulation, and Swindles (SCAMS) Act

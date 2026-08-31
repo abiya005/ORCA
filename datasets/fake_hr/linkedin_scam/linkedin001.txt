@@ -1,0 +1,33 @@
+TITLE:
+North Korea Expands the Reach of PolinRider Supply Chain Attack Campaign
+
+SOURCE:
+DevOps.com
+
+DATE:
+2026-07-08T14:18:40Z
+
+URL:
+https://devops.com/north-korea-expands-the-reach-of-polinrider-supply-chain-attack-campaign/
+
+ARTICLE:
+
+The North Korean-sponsored threat groups behind the long-running fake interview scams targeting developers are expanding the PolinRider supply chain campaign that has escalated over the past several months.
+Reports from cybersecurity vendors Socket and Rescana found that two groups linked to the Democratic People’s Republic of Korea (DPRK) have published at least 108 malicious packages and browser extensions across a range of open source ecosystems, from npm and Packagist to Go modules and Google’s Chrome Store.
+The attackers aim to compromise legitimate developer accounts and repositories by placing malware loaders into popular packages that establish command-and-control (C2) systems and then deploy payloads designed to steal credentials and exfiltrate source code, as well as move laterally throughout a developer’s environment, according to Rescana researchers.
+“The campaign is ongoing, with new malicious artifacts surfacing regularly, posing a critical risk to organizations and individuals relying on open-source software for development and production environments,” the researchers wrote.
+Famous Chollima and APT37
+The PolinRider campaign is attributed to Famous Chollima – the North Korean nation-state actor that appears to be a subset of the DPRK’s high-profile Lazarus Group and is linked to the complex Contagious Interview scam – and APT37, also known as Reaper or ScarCruft.
+In the Contagious Interview campaign – which dates back at least three years – Famous Chollima targets software developers and those working in crypto by using fake job advertisements on sites like LinkedIn and GitHub and interviews to trick victims into installing malware onto their systems and running malicious code. The malware variants used in the campaign include BeaverTail, InvisibleFerret, and OtterCookie.
+In the ongoing PolinRider campaign, the steps the groups take is consistent, according to Socket security researcher Karlo Zanki. The bad actors drop highly obfuscated JavaScript loaders into repositories and hide the code through various means, including whitespace padding – where attackers add hundreds or thousands of black spaces to push malicious payloads off-screen – or fake .woff2 font files, deceptive files that masquerade as legitimate Web Open Font Format (WOFF2) web assets that hide loaders or encrypted data.
+They use developer tools like VS Code task files to trigger the execution of the malware and Git history rewriting to make malicious changes to code seem older and, therefore, less suspicious.
+“This makes the GitHub landing page and visible commit history unreliable indicators of compromise; defenders should review repository activity logs, package release metadata, VS Code task configuration, and suspicious changes to configuration files,” Zanki wrote in a report.
+Second-Stage Payloads
+The malware loader grabs next-stage payloads from blockchain and public Remote Procedure Call (RPC) infrastructure like TRON, Aptos, and BNB Smart Chain services. The payload, such as DEV#POPPER remote access trojan (RAT) and Python-based OmniStealer, is decrypted with embedded XOR keys and executed.
+Zanki warned that because the malware is loader-based, the bad actors could use it to deliver other malicious code.
+The campaign is having far-reaching effects, according to Rescana. Malicious packages not only have been published, but some also have been integrated into legitimate projects that have led to infections downstream, a key goal of any supply chain attack. The researchers pointed to some npm packages – including tailwindcss-style-animate, tailwind-mainanimation, and tailwind-autoanimation – Go modules, and PHP packages within the sevenspan namespace on Packagist.
+Socket’s Zanki pointed to the Xpos587 GitHub account as another example. Several repositories that are maintained by the account were modified at the same time on June 23, with the researcher noting that such a “synchronized update pattern is unlikely to reflect normal maintainer activity and is consistent with account-level compromise followed by bulk repository modification.”
+Downstream Impacts
+There have been a range of victims, including developers, open source projects, and companies with automated CI/CD pipelines that use dependencies from public registries, with the damage being stolen credentials and other sensitive data and unauthorized access to source code repositories, according to Rescana.
+It’s clear that the North Korean groups are aiming for their campaigns to reach deep downstream, hoping to rack up more victims via transitive dependencies and automated builds. Rescana researchers also noted that CI/CD environments – which have become attractive targets of threat actors – are at a high risk from PolinRider because they rely so much on automated dependency resolution and given the level of lateral movement the bad actors can gain within an organization’s networks.
+New malicious packages and extensions are emerging every week, illustrating the persistent threat PolinRider represents, Rescana wrote.

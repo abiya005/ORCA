@@ -1,0 +1,78 @@
+TITLE:
+Medical identity theft follows you into the doctor's office
+
+SOURCE:
+Fox News
+
+DATE:
+2026-07-09T16:00:35Z
+
+URL:
+https://www.foxnews.com/tech/medical-identity-theft-follows-you-into-doctors-office
+
+ARTICLE:
+
+The Justice Department recently charged 455 people in its annual National Health Care Fraud Takedown. The cases involve more than $6.5 billion in alleged false claims. More state Medicaid units took part than in any prior year. Ninety of the accused are doctors or other licensed medical professionals. The DOJ says prosecutors still must prove the charges in court.
+Many schemes used other people's medical identities. Prosecutors also added aggravated identity theft charges in cases across dozens of states. In one case, the co-owner of a Virginia mental health company allegedly paid homeless people with hotel stays. Prosecutors say the company used their Medicaid numbers, then billed Medicaid for crisis services the patients never got.
+For the people whose numbers got used, the case file may eventually close. Their medical records may not be so easy to fix. Once someone else's treatment shows up under your name, it can add wrong information to your chart. It can also use up insurance benefits you may need later. That is harder to undo than canceling a credit card.
+Sign up for my FREE CyberGuy Report
+- Get my best tech tips, urgent security alerts and exclusive deals delivered straight to your inbox.
+- For simple, real-world ways to spot scams early and stay protected, visit CyberGuy.com – trusted by millions who watch CyberGuy on TV daily.
+- Plus, you'll get instant access to my Ultimate Scam Survival Guide free when you join.
+DR OZ WARNS MEDICARE SCAMMERS ARE STEALING BILLIONS — AND YOUR PERSONAL INFORMATION COULD BE NEXT
+The identity thief's treatment gets written into your file
+Medical identity theft happens when someone uses your name, Social Security number (SSN), health insurance account number, or Medicare number to see a doctor, fill a prescription, buy medical equipment, or submit a claim, according to the Federal Trade Commission (FTC).
+When care is billed under your name, the thief's health information can blend into yours. The FTC warns that mixed records can affect the care you're able to get and the benefits you are able to use. A blood type, a drug allergy, a diagnosis, or a prescription that belongs to a stranger can sit in the file a physician reads before treating you.
+Data breaches can feed the market for medical identity theft
+Hospitals and insurers hold the exact records that make the fraud work, and those records are stolen often. This does not mean every healthcare breach leads to fraud. However, it explains why your insurance number, Medicare number, SSN and medical records can become valuable long after a breach notice arrives.
+This spring, NYC Health + Hospitals reported that an intruder had copied files that may have included health insurance information, medical information, biometric data, billing data and other personal information. The breach was later reported to affect roughly 1.8 million current and former patients and employees.
+Once a name, SSN, insurance number, Medicare number or medical record reaches a criminal marketplace, it can be resold to operators who bill under someone else's identity.
+Treat your insurance card like a credit card
+Your health insurance and Medicare numbers are what these operations need, so the FTC recommends guarding them the way you would a payment card.
+- Keep enrollment forms, benefit statements, and prescription labels somewhere secure, and shred them before throwing them out.
+- When a doctor's office asks for your SSN, ask whether it can use another identifier or the last four digits instead.
+- Be wary of anyone who calls, texts, or emails offering free braces, genetic tests, or medical supplies in exchange for your Medicare number; several of the schemes in the June takedown billed Medicare for exactly those items.
+- If you are on Medicare, create or log in to your secure Medicare account and review your claims. You can also check your Medicare Summary Notice for services, supplies or equipment you do not recognize. If something looks wrong, call 1-800-MEDICARE.
+HOSPICE FRAUD USES STOLEN IDENTITIES FOR FAKE PATIENTS
+Your credit report may never flag this fraud
+Because a fraudulent medical claim runs through insurance and provider systems instead of a credit check, it skips the alerts most people rely on.
+Here's what the FTC says you should look out for:
+- A bill or an Explanation of Benefits (EOB) statement for care you never received
+- A call from a debt collector about a medical debt you do not owe
+- A medical collection you do not recognize on your credit report
+- A notice from your insurer that you have reached your benefit limit
+- A Medicare Summary Notice that lists services, supplies or equipment you never received
+What to do first if a medical claim looks wrong
+If a bill, EOB or Medicare notice shows care you never received, move quickly and keep everything in writing.
+1) Call your insurer or Medicare directly
+Call your insurer or Medicare using the number on your card, not a number from a random text, email or voicemail.
+2) Get the claim details
+Ask for the provider name, date of service, claim number and service details.
+3) Request the records in writing
+Contact the provider in writing and request the medical or billing records tied to that claim.
+4) Report the error
+Report the error to your insurer's fraud department.
+5) File an identity theft report
+File a report at IdentityTheft.gov if your medical identity was used. That gives you a recovery plan and documentation you may need if fraudulent bills or collections show up later.
+6) Save every document
+Keep copies of every bill, EOB, letter, portal message, police report and case number.
+Correcting a medical file is slower than disputing a charge
+Request your records from every provider, clinic, pharmacy, lab and insurer the thief may have used, then report each error in writing. Under HIPAA, a provider generally has 30 days to give you access to your records after a written request, with a possible 30-day extension.
+Fixing the record itself can take longer. HHS says a covered provider or health plan usually has up to 60 days to act on a request to amend a medical record, with a possible 30-day extension in certain cases. If the provider or plan created the wrong information, it must amend inaccurate or incomplete information.
+There's one catch, though: a provider may refuse to release records that now contain a stranger's information, citing that person's privacy. If that happens, ask for the provider's privacy officer or patient advocate. You can also file a complaint with the U.S. Department of Health and Human Services Office for Civil Rights if you do not get your records or an explanation within the required window.
+TEXAS DATA BREACH HITS 3M LICENSE CUSTOMERS
+A credit freeze alone won't stop a claim under your insurance
+A freeze blocks new accounts, but it does nothing about a claim filed with your insurance number. Because medical identity theft can move without touching your credit file, monitoring where your personal information appears is the earliest way to act on it.
+An identity theft protection service can monitor the dark web, data broker sites and people-search sites for exposed SSNs, driver's license numbers, medical ID numbers and email addresses. It can also track all three credit bureaus for medical collections that may follow and flag public-record changes tied to your name.
+If misuse happens, some services include fraud resolution support to help you request records, dispute fraudulent claims and work with providers, insurers and credit bureaus. Some plans also include identity theft insurance for eligible recovery costs.
+No service can prevent every misuse of your medical identity. However, ongoing monitoring may flag exposed information before another person's treatment reaches your records and your insurance.
+See my tips and best picks on Best Identity Theft Protection at CyberGuy.com.
+Kurt's key takeaways
+Medical identity theft hits in a place most of us rarely check: our health records. A stolen credit card can usually be canceled quickly. A stolen Medicare or insurance number can create fake claims, wrong diagnoses and benefit headaches that follow you long after the fraud case ends. I would not wait for a credit alert here. Check your EOBs, Medicare Summary Notices and insurer portals for visits, prescriptions or equipment you never received. Also, treat your insurance card like a payment card. Do not give the number to anyone who calls, texts or emails out of nowhere with a free offer. The most important thing is to act fast. Call your insurer or Medicare, ask for the claim details and request your medical records in writing. Then file at IdentityTheft.gov, so you have the paperwork you need if fraudulent bills or collections show up later.
+Have you ever spotted a medical bill, insurance claim or EOB for care you never received? Let us know by writing to us at CyberGuy.com.
+CLICK HERE TO DOWNLOAD THE FOX NEWS APP
+Sign up for my FREE CyberGuy Report
+- Get my best tech tips, urgent security alerts and exclusive deals delivered straight to your inbox.
+- For simple, real-world ways to spot scams early and stay protected, visit CyberGuy.com – trusted by millions who watch CyberGuy on TV daily.
+- Plus, you'll get instant access to my Ultimate Scam Survival Guide free when you join.
+Copyright 2026 CyberGuy.com. All rights reserved.
