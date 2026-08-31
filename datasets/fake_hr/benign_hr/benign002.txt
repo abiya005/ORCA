@@ -1,0 +1,32 @@
+TITLE:
+IIT Bombay Campus Recruitment Drive - Software Engineering Roles
+
+SOURCE:
+Training and Placement Cell <placement.office@iitb.ac.in>
+
+DATE:
+Wed, Sep 02, 10:00 AM
+
+ARTICLE:
+
+Dear Candidates,
+
+The Placement Office is pleased to announce the upcoming campus recruitment drive for Google India Development Center for the role of Software Development Engineer (SDE-1).
+
+Eligibility Criteria:
+- B.Tech / M.Tech / Dual Degree in Computer Science, Electrical Engineering, or related discipline.
+- Graduation Year: 2026.
+- Cumulative Performance Index (CPI): 7.0 and above.
+
+Interview Process:
+1. Online Coding Assessment (2 Problem statements on Data Structures & Algorithms).
+2. Technical Interview Round 1 (System Design & Data Structures).
+3. Technical Interview Round 2 (Algorithms & Problem Solving).
+4. HR Interaction Round.
+
+Important Note:
+All registration must be completed strictly through the official IIT Bombay Placement Cell Portal at placement.iitb.ac.in. No registration fee or payment is required at any stage of the recruitment process.
+
+Training & Placement Cell
+Indian Institute of Technology Bombay
+Powai, Mumbai - 400076

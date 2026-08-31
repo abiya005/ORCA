@@ -42,3 +42,787 @@
 2026-08-13 14:54:49,438 [INFO] 127.0.0.1 - - [13/Aug/2026 14:54:49] "GET /api/status HTTP/1.1" 200 -
 2026-08-13 14:57:58,914 [INFO] 127.0.0.1 - - [13/Aug/2026 14:57:58] "POST /api/analyze-apk HTTP/1.1" 200 -
 2026-08-13 15:01:37,150 [INFO] 127.0.0.1 - - [13/Aug/2026 15:01:37] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 10:23:10,344 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 10:23:10,345 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 10:23:10,345 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 10:23:10,345 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 10:23:10,345 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 10:23:10,345 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 10:23:10,345 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 10:23:12,479 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 10:23:12,514 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 10:23:12,515 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 10:23:12,549 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 10:23:12,549 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 10:23:26,330 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 10:23:26,336 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 10:23:26,337 [INFO] 127.0.0.1 - - [31/Aug/2026 10:23:26] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 10:23:26,477 [INFO] 127.0.0.1 - - [31/Aug/2026 10:23:26] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 10:23:26,522 [INFO] 127.0.0.1 - - [31/Aug/2026 10:23:26] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 10:23:26,524 [INFO] 127.0.0.1 - - [31/Aug/2026 10:23:26] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 10:23:26,533 [INFO] 127.0.0.1 - - [31/Aug/2026 10:23:26] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:23:26,542 [INFO] 127.0.0.1 - - [31/Aug/2026 10:23:26] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:23:26,554 [INFO] 127.0.0.1 - - [31/Aug/2026 10:23:26] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:23:26,565 [INFO] 127.0.0.1 - - [31/Aug/2026 10:23:26] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:26:21,816 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 10:26:21,842 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 10:26:21,843 [INFO] 127.0.0.1 - - [31/Aug/2026 10:26:21] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 10:28:13,880 [INFO] 127.0.0.1 - - [31/Aug/2026 10:28:13] "OPTIONS /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:28:13,900 [INFO] 127.0.0.1 - - [31/Aug/2026 10:28:13] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:30:30,870 [INFO] 127.0.0.1 - - [31/Aug/2026 10:30:30] "OPTIONS /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:30:30,954 [INFO] 127.0.0.1 - - [31/Aug/2026 10:30:30] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:32:27,069 [INFO] 127.0.0.1 - - [31/Aug/2026 10:32:27] "OPTIONS /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:32:27,101 [INFO] 127.0.0.1 - - [31/Aug/2026 10:32:27] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:33:24,486 [INFO] 127.0.0.1 - - [31/Aug/2026 10:33:24] "OPTIONS /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:33:24,527 [INFO] 127.0.0.1 - - [31/Aug/2026 10:33:24] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:36:37,904 [INFO] 127.0.0.1 - - [31/Aug/2026 10:36:37] "OPTIONS /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:36:38,163 [INFO] 127.0.0.1 - - [31/Aug/2026 10:36:38] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:59:43,646 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 10:59:43,646 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 10:59:43,647 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 10:59:43,647 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 10:59:43,647 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 10:59:43,647 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 10:59:43,647 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 10:59:44,846 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 10:59:44,947 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 10:59:44,950 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 10:59:44,953 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 10:59:44,981 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 10:59:44,981 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 10:59:59,021 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 10:59:59,032 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 10:59:59,033 [INFO] 127.0.0.1 - - [31/Aug/2026 10:59:59] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 10:59:59,106 [INFO] 127.0.0.1 - - [31/Aug/2026 10:59:59] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 10:59:59,161 [INFO] 127.0.0.1 - - [31/Aug/2026 10:59:59] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 10:59:59,164 [INFO] 127.0.0.1 - - [31/Aug/2026 10:59:59] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 10:59:59,174 [INFO] 127.0.0.1 - - [31/Aug/2026 10:59:59] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:59:59,182 [INFO] 127.0.0.1 - - [31/Aug/2026 10:59:59] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:59:59,192 [INFO] 127.0.0.1 - - [31/Aug/2026 10:59:59] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:59:59,200 [INFO] 127.0.0.1 - - [31/Aug/2026 10:59:59] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:59:59,209 [INFO] 127.0.0.1 - - [31/Aug/2026 10:59:59] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 10:59:59,214 [INFO] 127.0.0.1 - - [31/Aug/2026 10:59:59] "[33mPOST /api/analyze-digital-arrest HTTP/1.1[0m" 404 -
+2026-08-31 11:01:15,518 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:01:15,518 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:01:15,518 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:01:15,518 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:01:15,518 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:01:15,518 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:01:15,519 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:01:16,621 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:01:16,636 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:01:16,637 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:01:16,638 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:01:16,652 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:01:16,652 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:01:37,835 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:01:37,952 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:01:37,953 [INFO] 127.0.0.1 - - [31/Aug/2026 11:01:37] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:01:38,041 [INFO] 127.0.0.1 - - [31/Aug/2026 11:01:38] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:01:38,187 [INFO] 127.0.0.1 - - [31/Aug/2026 11:01:38] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:01:38,190 [INFO] 127.0.0.1 - - [31/Aug/2026 11:01:38] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:01:38,201 [INFO] 127.0.0.1 - - [31/Aug/2026 11:01:38] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:01:38,210 [INFO] 127.0.0.1 - - [31/Aug/2026 11:01:38] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:01:38,220 [INFO] 127.0.0.1 - - [31/Aug/2026 11:01:38] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:01:38,228 [INFO] 127.0.0.1 - - [31/Aug/2026 11:01:38] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:01:38,238 [INFO] 127.0.0.1 - - [31/Aug/2026 11:01:38] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:01:38,242 [INFO] 127.0.0.1 - - [31/Aug/2026 11:01:38] "[33mPOST /api/analyze-digital-arrest HTTP/1.1[0m" 404 -
+2026-08-31 11:02:03,679 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:02:03,680 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:02:03,680 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:02:03,680 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:02:03,680 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:02:03,680 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:02:03,680 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:02:05,127 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:02:05,148 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:02:05,149 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:02:05,150 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:02:05,159 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:02:05,159 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:02:19,174 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:02:19,181 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:02:19,181 [INFO] 127.0.0.1 - - [31/Aug/2026 11:02:19] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:02:19,253 [INFO] 127.0.0.1 - - [31/Aug/2026 11:02:19] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:02:19,294 [INFO] 127.0.0.1 - - [31/Aug/2026 11:02:19] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:02:19,297 [INFO] 127.0.0.1 - - [31/Aug/2026 11:02:19] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:02:19,305 [INFO] 127.0.0.1 - - [31/Aug/2026 11:02:19] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:02:19,313 [INFO] 127.0.0.1 - - [31/Aug/2026 11:02:19] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:02:19,322 [INFO] 127.0.0.1 - - [31/Aug/2026 11:02:19] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:02:19,330 [INFO] 127.0.0.1 - - [31/Aug/2026 11:02:19] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:02:19,339 [INFO] 127.0.0.1 - - [31/Aug/2026 11:02:19] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:02:19,341 [INFO] 127.0.0.1 - - [31/Aug/2026 11:02:19] "[33mPOST /api/analyze-digital-arrest HTTP/1.1[0m" 404 -
+2026-08-31 11:02:53,435 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:02:53,435 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:02:53,435 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:02:53,436 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:02:53,436 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:02:53,436 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:02:53,436 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:02:54,687 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:02:54,698 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:02:54,699 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:02:54,700 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:02:54,762 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:02:54,762 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:03:23,519 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:03:23,528 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:03:23,531 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:03:23,533 [INFO] 127.0.0.1 - - [31/Aug/2026 11:03:23] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:03:23,599 [INFO] 127.0.0.1 - - [31/Aug/2026 11:03:23] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:03:23,656 [INFO] 127.0.0.1 - - [31/Aug/2026 11:03:23] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:03:23,662 [INFO] 127.0.0.1 - - [31/Aug/2026 11:03:23] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:03:23,672 [INFO] 127.0.0.1 - - [31/Aug/2026 11:03:23] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:03:23,681 [INFO] 127.0.0.1 - - [31/Aug/2026 11:03:23] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:03:23,695 [INFO] 127.0.0.1 - - [31/Aug/2026 11:03:23] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:03:23,718 [INFO] 127.0.0.1 - - [31/Aug/2026 11:03:23] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:03:23,728 [INFO] 127.0.0.1 - - [31/Aug/2026 11:03:23] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:03:23,732 [INFO] 127.0.0.1 - - [31/Aug/2026 11:03:23] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:03:23,735 [INFO] 127.0.0.1 - - [31/Aug/2026 11:03:23] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:04:22,837 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:04:22,837 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:04:22,837 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:04:22,837 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:04:22,837 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:04:22,837 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:04:22,838 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:04:24,430 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:04:24,446 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:04:24,448 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:04:24,449 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:04:24,461 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:04:24,461 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:04:48,560 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:04:48,609 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:04:48,642 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:04:48,643 [INFO] 127.0.0.1 - - [31/Aug/2026 11:04:48] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:04:48,685 [INFO] 127.0.0.1 - - [31/Aug/2026 11:04:48] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:04:48,723 [INFO] 127.0.0.1 - - [31/Aug/2026 11:04:48] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:04:48,726 [INFO] 127.0.0.1 - - [31/Aug/2026 11:04:48] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:04:48,735 [INFO] 127.0.0.1 - - [31/Aug/2026 11:04:48] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:04:48,743 [INFO] 127.0.0.1 - - [31/Aug/2026 11:04:48] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:04:48,750 [INFO] 127.0.0.1 - - [31/Aug/2026 11:04:48] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:04:48,758 [INFO] 127.0.0.1 - - [31/Aug/2026 11:04:48] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:04:48,766 [INFO] 127.0.0.1 - - [31/Aug/2026 11:04:48] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:04:48,770 [INFO] 127.0.0.1 - - [31/Aug/2026 11:04:48] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:04:48,773 [INFO] 127.0.0.1 - - [31/Aug/2026 11:04:48] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:05:18,886 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:05:18,886 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:05:18,887 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:05:18,887 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:05:18,887 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:05:18,887 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:05:18,887 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:05:19,924 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:05:19,935 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:05:19,936 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:05:19,938 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:05:19,947 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:05:19,947 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:05:33,275 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:05:33,280 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:05:33,282 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:05:33,282 [INFO] 127.0.0.1 - - [31/Aug/2026 11:05:33] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:05:33,323 [INFO] 127.0.0.1 - - [31/Aug/2026 11:05:33] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:05:33,358 [INFO] 127.0.0.1 - - [31/Aug/2026 11:05:33] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:05:33,361 [INFO] 127.0.0.1 - - [31/Aug/2026 11:05:33] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:05:33,370 [INFO] 127.0.0.1 - - [31/Aug/2026 11:05:33] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:05:33,378 [INFO] 127.0.0.1 - - [31/Aug/2026 11:05:33] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:05:33,388 [INFO] 127.0.0.1 - - [31/Aug/2026 11:05:33] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:05:33,397 [INFO] 127.0.0.1 - - [31/Aug/2026 11:05:33] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:05:33,405 [INFO] 127.0.0.1 - - [31/Aug/2026 11:05:33] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:05:33,409 [INFO] 127.0.0.1 - - [31/Aug/2026 11:05:33] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:05:33,412 [INFO] 127.0.0.1 - - [31/Aug/2026 11:05:33] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:06:47,907 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:06:47,907 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:06:47,907 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:06:47,907 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:06:47,907 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:06:47,907 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:06:47,907 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:06:49,277 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:06:49,331 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:06:49,370 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:06:49,371 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:06:49,387 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:06:49,387 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:07:21,709 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:07:21,717 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:07:21,718 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:07:21,719 [INFO] 127.0.0.1 - - [31/Aug/2026 11:07:21] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:07:21,755 [INFO] 127.0.0.1 - - [31/Aug/2026 11:07:21] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:07:21,790 [INFO] 127.0.0.1 - - [31/Aug/2026 11:07:21] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:07:21,792 [INFO] 127.0.0.1 - - [31/Aug/2026 11:07:21] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:07:21,805 [INFO] 127.0.0.1 - - [31/Aug/2026 11:07:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:07:21,818 [INFO] 127.0.0.1 - - [31/Aug/2026 11:07:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:07:21,830 [INFO] 127.0.0.1 - - [31/Aug/2026 11:07:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:07:21,844 [INFO] 127.0.0.1 - - [31/Aug/2026 11:07:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:07:21,856 [INFO] 127.0.0.1 - - [31/Aug/2026 11:07:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:07:21,860 [INFO] 127.0.0.1 - - [31/Aug/2026 11:07:21] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:07:21,864 [INFO] 127.0.0.1 - - [31/Aug/2026 11:07:21] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:08:08,824 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:08:08,824 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:08:08,824 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:08:08,824 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:08:08,824 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:08:08,825 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:08:08,825 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:08:09,906 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:08:09,921 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:08:09,922 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:08:09,923 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:08:09,932 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:08:09,932 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:10:21,185 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:10:21,194 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:10:21,195 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:10:21,196 [INFO] 127.0.0.1 - - [31/Aug/2026 11:10:21] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:10:21,232 [INFO] 127.0.0.1 - - [31/Aug/2026 11:10:21] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:10:21,269 [INFO] 127.0.0.1 - - [31/Aug/2026 11:10:21] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:10:21,273 [INFO] 127.0.0.1 - - [31/Aug/2026 11:10:21] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:10:21,287 [INFO] 127.0.0.1 - - [31/Aug/2026 11:10:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:10:21,302 [INFO] 127.0.0.1 - - [31/Aug/2026 11:10:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:10:21,318 [INFO] 127.0.0.1 - - [31/Aug/2026 11:10:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:10:21,335 [INFO] 127.0.0.1 - - [31/Aug/2026 11:10:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:10:21,350 [INFO] 127.0.0.1 - - [31/Aug/2026 11:10:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:10:21,354 [INFO] 127.0.0.1 - - [31/Aug/2026 11:10:21] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:10:21,357 [INFO] 127.0.0.1 - - [31/Aug/2026 11:10:21] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:10:59,737 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:10:59,737 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:10:59,737 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:10:59,737 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:10:59,737 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:10:59,738 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:10:59,738 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:11:00,724 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:11:00,738 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:11:00,739 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:11:00,740 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:11:00,748 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:11:00,748 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:17:30,581 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:17:30,590 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:17:30,591 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:17:30,591 [INFO] 127.0.0.1 - - [31/Aug/2026 11:17:30] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:17:30,628 [INFO] 127.0.0.1 - - [31/Aug/2026 11:17:30] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:17:30,663 [INFO] 127.0.0.1 - - [31/Aug/2026 11:17:30] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:17:30,666 [INFO] 127.0.0.1 - - [31/Aug/2026 11:17:30] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:17:30,681 [INFO] 127.0.0.1 - - [31/Aug/2026 11:17:30] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:17:30,696 [INFO] 127.0.0.1 - - [31/Aug/2026 11:17:30] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:17:30,710 [INFO] 127.0.0.1 - - [31/Aug/2026 11:17:30] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:17:30,724 [INFO] 127.0.0.1 - - [31/Aug/2026 11:17:30] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:17:30,739 [INFO] 127.0.0.1 - - [31/Aug/2026 11:17:30] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:17:30,744 [INFO] 127.0.0.1 - - [31/Aug/2026 11:17:30] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:17:30,747 [INFO] 127.0.0.1 - - [31/Aug/2026 11:17:30] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:18:19,570 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:18:19,570 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:18:19,570 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:18:19,570 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:18:19,570 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:18:19,570 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:18:19,570 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:18:20,745 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:18:20,758 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:18:20,759 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:18:20,760 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:18:20,769 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:18:20,769 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:18:32,776 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:18:32,785 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:18:32,787 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:18:32,787 [INFO] 127.0.0.1 - - [31/Aug/2026 11:18:32] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:18:32,827 [INFO] 127.0.0.1 - - [31/Aug/2026 11:18:32] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:18:32,867 [INFO] 127.0.0.1 - - [31/Aug/2026 11:18:32] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:18:32,870 [INFO] 127.0.0.1 - - [31/Aug/2026 11:18:32] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:18:32,883 [INFO] 127.0.0.1 - - [31/Aug/2026 11:18:32] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:18:32,897 [INFO] 127.0.0.1 - - [31/Aug/2026 11:18:32] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:18:32,912 [INFO] 127.0.0.1 - - [31/Aug/2026 11:18:32] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:18:32,926 [INFO] 127.0.0.1 - - [31/Aug/2026 11:18:32] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:18:32,940 [INFO] 127.0.0.1 - - [31/Aug/2026 11:18:32] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:18:32,944 [INFO] 127.0.0.1 - - [31/Aug/2026 11:18:32] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:18:32,947 [INFO] 127.0.0.1 - - [31/Aug/2026 11:18:32] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:21:34,622 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:21:34,622 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:21:34,622 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:21:34,622 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:21:34,622 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:21:34,622 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:21:34,622 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:21:36,033 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:21:36,090 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:21:36,124 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:21:36,126 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:21:36,142 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:21:36,143 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:21:48,704 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:21:48,715 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:21:48,716 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:21:48,716 [INFO] 127.0.0.1 - - [31/Aug/2026 11:21:48] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:21:48,758 [INFO] 127.0.0.1 - - [31/Aug/2026 11:21:48] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:21:48,793 [INFO] 127.0.0.1 - - [31/Aug/2026 11:21:48] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:21:48,796 [INFO] 127.0.0.1 - - [31/Aug/2026 11:21:48] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:21:48,810 [INFO] 127.0.0.1 - - [31/Aug/2026 11:21:48] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:21:48,823 [INFO] 127.0.0.1 - - [31/Aug/2026 11:21:48] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:21:48,836 [INFO] 127.0.0.1 - - [31/Aug/2026 11:21:48] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:21:48,848 [INFO] 127.0.0.1 - - [31/Aug/2026 11:21:48] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:21:48,862 [INFO] 127.0.0.1 - - [31/Aug/2026 11:21:48] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:21:48,867 [INFO] 127.0.0.1 - - [31/Aug/2026 11:21:48] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:21:48,870 [INFO] 127.0.0.1 - - [31/Aug/2026 11:21:48] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:22:39,581 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:22:39,581 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:22:39,581 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:22:39,581 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:22:39,581 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:22:39,581 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:22:39,581 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:22:40,645 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:22:40,659 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:22:40,660 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:22:40,663 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:22:40,672 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:22:40,672 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:23:08,656 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:23:08,665 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:23:08,667 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:23:08,667 [INFO] 127.0.0.1 - - [31/Aug/2026 11:23:08] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:23:08,705 [INFO] 127.0.0.1 - - [31/Aug/2026 11:23:08] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:23:08,742 [INFO] 127.0.0.1 - - [31/Aug/2026 11:23:08] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:23:08,745 [INFO] 127.0.0.1 - - [31/Aug/2026 11:23:08] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:23:08,758 [INFO] 127.0.0.1 - - [31/Aug/2026 11:23:08] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:23:08,771 [INFO] 127.0.0.1 - - [31/Aug/2026 11:23:08] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:23:08,785 [INFO] 127.0.0.1 - - [31/Aug/2026 11:23:08] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:23:08,798 [INFO] 127.0.0.1 - - [31/Aug/2026 11:23:08] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:23:08,811 [INFO] 127.0.0.1 - - [31/Aug/2026 11:23:08] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:23:08,815 [INFO] 127.0.0.1 - - [31/Aug/2026 11:23:08] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:23:08,818 [INFO] 127.0.0.1 - - [31/Aug/2026 11:23:08] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:24:30,425 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:24:30,425 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:24:30,425 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:24:30,425 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:24:30,426 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:24:30,426 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:24:30,426 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:24:31,553 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:24:31,567 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:24:31,568 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:24:31,569 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:24:31,579 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:24:31,579 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:24:42,781 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:24:42,792 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:24:42,794 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:24:42,795 [INFO] 127.0.0.1 - - [31/Aug/2026 11:24:42] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:24:42,834 [INFO] 127.0.0.1 - - [31/Aug/2026 11:24:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:24:42,870 [INFO] 127.0.0.1 - - [31/Aug/2026 11:24:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:24:42,873 [INFO] 127.0.0.1 - - [31/Aug/2026 11:24:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:24:42,888 [INFO] 127.0.0.1 - - [31/Aug/2026 11:24:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:24:42,902 [INFO] 127.0.0.1 - - [31/Aug/2026 11:24:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:24:42,916 [INFO] 127.0.0.1 - - [31/Aug/2026 11:24:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:24:42,930 [INFO] 127.0.0.1 - - [31/Aug/2026 11:24:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:24:42,945 [INFO] 127.0.0.1 - - [31/Aug/2026 11:24:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:24:42,949 [INFO] 127.0.0.1 - - [31/Aug/2026 11:24:42] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:24:42,952 [INFO] 127.0.0.1 - - [31/Aug/2026 11:24:42] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:25:17,723 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:25:17,723 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:25:17,723 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:25:17,723 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:25:17,723 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:25:17,723 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:25:17,723 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:25:18,763 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:25:18,777 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:25:18,779 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:25:18,780 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:25:18,788 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:25:18,789 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:25:33,970 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:25:33,978 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:25:33,979 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:25:33,979 [INFO] 127.0.0.1 - - [31/Aug/2026 11:25:33] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:25:34,035 [INFO] 127.0.0.1 - - [31/Aug/2026 11:25:34] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:25:34,116 [INFO] 127.0.0.1 - - [31/Aug/2026 11:25:34] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:25:34,120 [INFO] 127.0.0.1 - - [31/Aug/2026 11:25:34] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:25:34,134 [INFO] 127.0.0.1 - - [31/Aug/2026 11:25:34] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:25:34,148 [INFO] 127.0.0.1 - - [31/Aug/2026 11:25:34] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:25:34,162 [INFO] 127.0.0.1 - - [31/Aug/2026 11:25:34] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:25:34,177 [INFO] 127.0.0.1 - - [31/Aug/2026 11:25:34] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:25:34,190 [INFO] 127.0.0.1 - - [31/Aug/2026 11:25:34] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:25:34,195 [INFO] 127.0.0.1 - - [31/Aug/2026 11:25:34] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:25:34,199 [INFO] 127.0.0.1 - - [31/Aug/2026 11:25:34] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:26:35,433 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:26:35,433 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:26:35,433 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:26:35,433 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:26:35,433 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:26:35,433 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:26:35,433 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:26:36,524 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:26:36,537 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:26:36,538 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:26:36,539 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:26:36,550 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:26:36,550 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:26:59,199 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:26:59,293 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:26:59,422 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:26:59,422 [INFO] 127.0.0.1 - - [31/Aug/2026 11:26:59] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:26:59,462 [INFO] 127.0.0.1 - - [31/Aug/2026 11:26:59] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:26:59,499 [INFO] 127.0.0.1 - - [31/Aug/2026 11:26:59] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:26:59,502 [INFO] 127.0.0.1 - - [31/Aug/2026 11:26:59] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:26:59,515 [INFO] 127.0.0.1 - - [31/Aug/2026 11:26:59] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:26:59,529 [INFO] 127.0.0.1 - - [31/Aug/2026 11:26:59] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:26:59,543 [INFO] 127.0.0.1 - - [31/Aug/2026 11:26:59] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:26:59,557 [INFO] 127.0.0.1 - - [31/Aug/2026 11:26:59] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:26:59,571 [INFO] 127.0.0.1 - - [31/Aug/2026 11:26:59] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:26:59,574 [INFO] 127.0.0.1 - - [31/Aug/2026 11:26:59] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:26:59,578 [INFO] 127.0.0.1 - - [31/Aug/2026 11:26:59] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:27:45,116 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:27:45,116 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:27:45,116 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:27:45,116 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:27:45,116 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:27:45,116 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:27:45,116 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:27:46,135 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:27:46,149 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:27:46,150 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:27:46,151 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:27:46,160 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:27:46,160 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:28:04,581 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:28:04,588 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:28:04,589 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:28:04,590 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:04] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:28:04,628 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:04] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:28:04,664 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:04] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:28:04,667 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:04] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:28:04,680 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:04] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:28:04,694 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:04] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:28:04,707 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:04] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:28:04,720 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:04] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:28:04,735 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:04] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:28:04,738 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:04] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:28:04,741 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:04] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:28:33,831 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:28:33,832 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:28:33,832 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:28:33,832 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:28:33,832 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:28:33,832 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:28:33,832 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:28:34,970 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:28:34,983 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:28:34,986 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:28:34,987 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:28:34,996 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:28:34,996 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:28:55,413 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:28:55,420 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:28:55,422 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:28:55,422 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:55] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:28:55,462 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:55] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:28:55,498 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:55] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:28:55,501 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:55] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:28:55,519 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:55] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:28:55,534 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:55] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:28:55,547 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:55] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:28:55,561 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:55] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:28:55,575 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:55] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:28:55,581 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:55] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:28:55,584 [INFO] 127.0.0.1 - - [31/Aug/2026 11:28:55] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:29:26,907 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:29:26,907 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:29:26,907 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:29:26,907 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:29:26,907 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:29:26,907 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:29:26,907 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:29:28,079 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:29:28,096 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:29:28,098 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:29:28,100 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:29:28,112 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:29:28,112 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:29:42,625 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:29:42,631 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:29:42,632 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:29:42,632 [INFO] 127.0.0.1 - - [31/Aug/2026 11:29:42] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:29:42,671 [INFO] 127.0.0.1 - - [31/Aug/2026 11:29:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:29:42,707 [INFO] 127.0.0.1 - - [31/Aug/2026 11:29:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:29:42,710 [INFO] 127.0.0.1 - - [31/Aug/2026 11:29:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:29:42,725 [INFO] 127.0.0.1 - - [31/Aug/2026 11:29:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:29:42,739 [INFO] 127.0.0.1 - - [31/Aug/2026 11:29:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:29:42,752 [INFO] 127.0.0.1 - - [31/Aug/2026 11:29:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:29:42,766 [INFO] 127.0.0.1 - - [31/Aug/2026 11:29:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:29:42,781 [INFO] 127.0.0.1 - - [31/Aug/2026 11:29:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:29:42,784 [INFO] 127.0.0.1 - - [31/Aug/2026 11:29:42] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:29:42,788 [INFO] 127.0.0.1 - - [31/Aug/2026 11:29:42] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:30:16,942 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:30:16,942 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:30:16,942 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:30:16,942 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:30:16,942 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:30:16,942 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:30:16,942 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:30:18,046 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:30:18,062 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:30:18,064 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:30:18,065 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:30:18,074 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:30:18,074 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:30:41,978 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:30:41,985 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:30:41,986 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:30:41,987 [INFO] 127.0.0.1 - - [31/Aug/2026 11:30:41] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:30:42,056 [INFO] 127.0.0.1 - - [31/Aug/2026 11:30:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:30:42,096 [INFO] 127.0.0.1 - - [31/Aug/2026 11:30:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:30:42,099 [INFO] 127.0.0.1 - - [31/Aug/2026 11:30:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:30:42,111 [INFO] 127.0.0.1 - - [31/Aug/2026 11:30:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:30:42,125 [INFO] 127.0.0.1 - - [31/Aug/2026 11:30:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:30:42,138 [INFO] 127.0.0.1 - - [31/Aug/2026 11:30:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:30:42,150 [INFO] 127.0.0.1 - - [31/Aug/2026 11:30:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:30:42,165 [INFO] 127.0.0.1 - - [31/Aug/2026 11:30:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:30:42,169 [INFO] 127.0.0.1 - - [31/Aug/2026 11:30:42] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:30:42,173 [INFO] 127.0.0.1 - - [31/Aug/2026 11:30:42] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:31:24,466 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:31:24,466 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:31:24,466 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:31:24,466 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:31:24,466 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:31:24,467 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:31:24,467 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:31:25,628 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:31:25,645 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:31:25,646 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:31:25,647 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:31:25,658 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:31:25,658 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:31:42,597 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:31:42,606 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:31:42,607 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:31:42,607 [INFO] 127.0.0.1 - - [31/Aug/2026 11:31:42] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:31:42,645 [INFO] 127.0.0.1 - - [31/Aug/2026 11:31:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:31:42,685 [INFO] 127.0.0.1 - - [31/Aug/2026 11:31:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:31:42,688 [INFO] 127.0.0.1 - - [31/Aug/2026 11:31:42] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:31:42,701 [INFO] 127.0.0.1 - - [31/Aug/2026 11:31:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:31:42,714 [INFO] 127.0.0.1 - - [31/Aug/2026 11:31:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:31:42,728 [INFO] 127.0.0.1 - - [31/Aug/2026 11:31:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:31:42,743 [INFO] 127.0.0.1 - - [31/Aug/2026 11:31:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:31:42,756 [INFO] 127.0.0.1 - - [31/Aug/2026 11:31:42] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:31:42,760 [INFO] 127.0.0.1 - - [31/Aug/2026 11:31:42] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:31:42,763 [INFO] 127.0.0.1 - - [31/Aug/2026 11:31:42] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:34:08,380 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:34:08,381 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:34:08,381 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:34:08,381 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:34:08,381 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:34:08,382 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:34:08,382 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:34:44,748 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:34:44,757 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:34:44,759 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:34:44,759 [INFO] 127.0.0.1 - - [31/Aug/2026 11:34:44] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:34:44,800 [INFO] 127.0.0.1 - - [31/Aug/2026 11:34:44] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:34:44,837 [INFO] 127.0.0.1 - - [31/Aug/2026 11:34:44] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:34:44,841 [INFO] 127.0.0.1 - - [31/Aug/2026 11:34:44] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:34:44,855 [INFO] 127.0.0.1 - - [31/Aug/2026 11:34:44] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:34:44,869 [INFO] 127.0.0.1 - - [31/Aug/2026 11:34:44] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:34:44,883 [INFO] 127.0.0.1 - - [31/Aug/2026 11:34:44] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:34:44,897 [INFO] 127.0.0.1 - - [31/Aug/2026 11:34:44] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:34:44,912 [INFO] 127.0.0.1 - - [31/Aug/2026 11:34:44] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:34:44,916 [INFO] 127.0.0.1 - - [31/Aug/2026 11:34:44] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:34:44,919 [INFO] 127.0.0.1 - - [31/Aug/2026 11:34:44] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:35:04,245 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:35:04,245 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:35:04,245 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:35:04,245 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:35:04,245 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:35:04,245 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:35:04,245 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:35:05,458 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:35:05,477 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:35:05,478 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:35:05,480 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:35:05,491 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:35:05,491 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:35:20,903 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:35:20,911 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:35:20,912 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:35:20,912 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:20] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:35:20,953 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:20] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:35:20,993 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:20] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:35:20,996 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:20] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:35:21,010 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:35:21,026 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:35:21,041 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:35:21,054 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:35:21,068 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:35:21,072 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:21] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:35:21,076 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:21] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:35:50,023 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:35:50,030 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:35:50,031 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:35:50,031 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:50] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:35:50,070 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:50] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:35:50,108 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:50] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:35:50,111 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:50] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:35:50,126 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:50] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:35:50,141 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:50] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:35:50,154 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:50] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:35:50,166 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:50] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:35:50,180 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:50] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:35:50,184 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:50] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:35:50,188 [INFO] 127.0.0.1 - - [31/Aug/2026 11:35:50] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:36:08,835 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:36:08,836 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:36:08,836 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:36:08,836 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:36:08,836 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:36:08,836 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:36:08,836 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:36:10,101 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:36:10,119 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:36:10,121 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:36:10,123 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:36:10,133 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:36:10,133 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:36:21,080 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:36:21,087 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:36:21,089 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:36:21,089 [INFO] 127.0.0.1 - - [31/Aug/2026 11:36:21] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:36:21,126 [INFO] 127.0.0.1 - - [31/Aug/2026 11:36:21] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:36:21,161 [INFO] 127.0.0.1 - - [31/Aug/2026 11:36:21] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:36:21,165 [INFO] 127.0.0.1 - - [31/Aug/2026 11:36:21] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:36:21,180 [INFO] 127.0.0.1 - - [31/Aug/2026 11:36:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:36:21,194 [INFO] 127.0.0.1 - - [31/Aug/2026 11:36:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:36:21,207 [INFO] 127.0.0.1 - - [31/Aug/2026 11:36:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:36:21,222 [INFO] 127.0.0.1 - - [31/Aug/2026 11:36:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:36:21,236 [INFO] 127.0.0.1 - - [31/Aug/2026 11:36:21] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:36:21,240 [INFO] 127.0.0.1 - - [31/Aug/2026 11:36:21] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:36:21,243 [INFO] 127.0.0.1 - - [31/Aug/2026 11:36:21] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:36:59,133 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:36:59,133 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:36:59,133 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:36:59,133 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:36:59,133 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:36:59,133 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:36:59,133 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:37:00,190 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:37:00,203 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:37:00,204 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:37:00,206 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:37:00,214 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:37:00,214 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:37:16,365 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:37:16,372 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:37:16,373 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:37:16,374 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:16] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:37:16,413 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:16] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:37:16,452 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:16] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:37:16,455 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:16] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:37:16,469 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:16] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:37:16,483 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:16] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:37:16,498 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:16] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:37:16,510 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:16] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:37:16,525 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:16] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:37:16,528 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:16] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:37:16,531 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:16] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:37:26,259 [INFO] 127.0.0.1 - - [31/Aug/2026 11:37:26] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:38:17,740 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:38:17,740 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:38:17,740 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:38:17,740 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:38:17,740 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:38:17,740 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:38:17,740 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:38:18,740 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:38:18,756 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:38:18,757 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:38:18,758 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:38:18,766 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:38:18,766 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:38:27,911 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:38:27,920 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:38:27,923 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:38:27,924 [INFO] 127.0.0.1 - - [31/Aug/2026 11:38:27] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:38:27,975 [INFO] 127.0.0.1 - - [31/Aug/2026 11:38:27] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:38:28,012 [INFO] 127.0.0.1 - - [31/Aug/2026 11:38:28] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:38:28,016 [INFO] 127.0.0.1 - - [31/Aug/2026 11:38:28] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:38:28,029 [INFO] 127.0.0.1 - - [31/Aug/2026 11:38:28] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:38:28,042 [INFO] 127.0.0.1 - - [31/Aug/2026 11:38:28] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:38:28,056 [INFO] 127.0.0.1 - - [31/Aug/2026 11:38:28] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:38:28,070 [INFO] 127.0.0.1 - - [31/Aug/2026 11:38:28] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:38:28,084 [INFO] 127.0.0.1 - - [31/Aug/2026 11:38:28] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:38:28,088 [INFO] 127.0.0.1 - - [31/Aug/2026 11:38:28] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:38:28,091 [INFO] 127.0.0.1 - - [31/Aug/2026 11:38:28] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:40:10,717 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 11:40:10,717 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 11:40:10,717 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 11:40:10,717 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 11:40:10,717 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 11:40:10,717 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 11:40:10,717 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 11:40:11,765 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:40:11,778 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:40:11,780 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:40:11,781 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 11:40:11,794 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 11:40:11,794 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 11:40:54,890 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:40:54,897 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:40:54,898 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:40:54,899 [INFO] 127.0.0.1 - - [31/Aug/2026 11:40:54] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:40:54,967 [INFO] 127.0.0.1 - - [31/Aug/2026 11:40:54] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:40:55,009 [INFO] 127.0.0.1 - - [31/Aug/2026 11:40:55] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:40:55,012 [INFO] 127.0.0.1 - - [31/Aug/2026 11:40:55] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-31 11:40:55,027 [INFO] 127.0.0.1 - - [31/Aug/2026 11:40:55] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:40:55,041 [INFO] 127.0.0.1 - - [31/Aug/2026 11:40:55] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:40:55,056 [INFO] 127.0.0.1 - - [31/Aug/2026 11:40:55] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:40:55,071 [INFO] 127.0.0.1 - - [31/Aug/2026 11:40:55] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:40:55,086 [INFO] 127.0.0.1 - - [31/Aug/2026 11:40:55] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:40:55,091 [INFO] 127.0.0.1 - - [31/Aug/2026 11:40:55] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:40:55,095 [INFO] 127.0.0.1 - - [31/Aug/2026 11:40:55] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:41:26,071 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:41:26,090 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:41:26,094 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:41:26,094 [INFO] 127.0.0.1 - - [31/Aug/2026 11:41:26] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:46:42,724 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 11:46:42,735 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 11:46:42,737 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 11:46:42,737 [INFO] 127.0.0.1 - - [31/Aug/2026 11:46:42] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 11:50:25,889 [INFO] 127.0.0.1 - - [31/Aug/2026 11:50:25] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:51:49,639 [INFO] 127.0.0.1 - - [31/Aug/2026 11:51:49] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 11:53:52,719 [WARNING] OCR failed on image file 'Screenshot 2026-08-31 103603.png': tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-08-31 11:53:52,765 [INFO] 127.0.0.1 - - [31/Aug/2026 11:53:52] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 11:54:03,839 [WARNING] OCR failed on image file 'Screenshot 2026-08-31 103603.png': tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-08-31 11:54:03,840 [INFO] 127.0.0.1 - - [31/Aug/2026 11:54:03] "[31m[1mPOST /api/analyze-fake-hr HTTP/1.1[0m" 400 -
+2026-08-31 11:54:07,891 [WARNING] OCR failed on image file 'Screenshot 2026-08-31 103603.png': tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-08-31 11:54:07,892 [INFO] 127.0.0.1 - - [31/Aug/2026 11:54:07] "[31m[1mPOST /api/analyze-fake-hr HTTP/1.1[0m" 400 -
+2026-08-31 11:54:09,448 [WARNING] OCR failed on image file 'Screenshot 2026-08-31 103603.png': tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-08-31 11:54:09,450 [INFO] 127.0.0.1 - - [31/Aug/2026 11:54:09] "[31m[1mPOST /api/analyze-fake-hr HTTP/1.1[0m" 400 -

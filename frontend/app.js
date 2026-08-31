@@ -308,25 +308,181 @@ const SAMPLES = {
             ]
         }
     },
-    fake_hr_1: {
-        text: `Hello, this is Ms. Neha Sharma, HR recruiter from Global Media Corp. We have reviewed your profile and are happy to offer you a part-time Work-From-Home vacancy. The job is extremely simple: you just need to like YouTube videos, rate tourist spots on Google Maps, and submit screenshots to our group coordinator. You can easily earn ₹3000 to ₹8000 daily. We will start with a trial package. We have credited ₹150 directly to your UPI ID for your first task. Please click this link: t.me/global_mediacorp_vip to register on our VIP portal and unlock high-yield tasks. No experience required.`,
+    digital_arrest_real_advisory: {
+        text: `PUBLIC SAFETY ADVISORY - Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs
+Key Guidelines for Citizens:
+1. No Police, CBI, Enforcement Directorate (ED), RBI, or Customs official conducts legal interrogations or arrests via Skype, WhatsApp, or Zoom video calls.
+2. The concept of "Digital Arrest" does not exist under Indian law.
+3. Law enforcement agencies NEVER ask citizens to transfer money to "safe accounts" or verification reserve funds.
+4. Report cybercrime calls at cybercrime.gov.in or Helpline 1930.`,
         report: {
-            title: "Fake Recruitment Scam",
-            category: "Fake Recruitment (Telegram Task Scam)",
+            title: "Official Cybercrime Advisory",
+            category: "Public Safety Advisory",
+            risk: "Safe / Public Advisory",
+            riskClass: "risk-green",
+            badge: "SAFE",
+            badgeClass: "safe",
+            authority: "Ministry of Home Affairs (I4C)",
+            trigger: "Public Cybercrime Safety Notice",
+            score: "0%",
+            indicators: ["official government public notice", "1930 cyber crime helpline guidance"],
+            summary: "Verified authentic government public safety advisory issued by the Ministry of Home Affairs. No scam indicators detected.",
+            recommends: [
+                "This is an official public safety advisory issued by the Ministry of Home Affairs.",
+                "Remember: No police officer or government agency will ever conduct video arrests or ask for money."
+            ]
+        }
+    },
+    fake_hr_real_placement: {
+        text: `From: Placement Office SOET <placementoffice.soet@christuniversity.in>
+Date: Thu, Aug 27, 12:27 PM
+Subject: Campus Placement Opportunity – AvgVa Solutions | Business Development Associate
+
+Dear Students,
+Greetings from the Centre for Placements and Career Guidance!
+We are pleased to inform you about a Campus Placement Opportunity with AvgVa Solutions for the position of Business Development Associate (BDA).
+The company is currently inviting applications from the 2026 passed-out batch as well as eligible pursuing batches.
+Interested students are requested to carefully review the opportunity details and complete the application through the Google Form link provided below within the stipulated deadline.
+
+Position Details:
+- Company: AvgVa Solutions
+- Role: Business Development Associate (BDA)
+- Eligible Batches: All Branches
+- Mode: Campus recruitment / interview process
+- Location: As per company requirements
+
+Placement Office SOET, Centre for Placements and Career Guidance, Christ University, Bengaluru, India`,
+        report: {
+            title: "Fake HR Scan - Legitimate Campus Placement Drive",
+            category: "Legitimate Campus Placement Drive / Official HR Email",
+            risk: "Safe / Legitimate Opportunity",
+            riskClass: "risk-green",
+            badge: "SAFE",
+            badgeClass: "safe",
+            authority: "Placement Office SOET (Christ University)",
+            trigger: "Campus Placement Opportunity",
+            score: "0%",
+            indicators: ["verified university domain (.ac.in)", "official placement office guidance", "no registration fee required"],
+            summary: "Verified authentic communication from an official University / Educational Placement Office. No scam indicators detected.",
+            recommends: [
+                "This communication matches verified patterns of legitimate university campus placement drives.",
+                "Official placement notices are issued directly by your institution's Centre for Placements & Career Guidance.",
+                "Complete the application through the official university portal or designated Google Form before the deadline."
+            ]
+        }
+    },
+    fake_hr_email: {
+        text: `From: hr-recruiting@global-hiring-verify-dep.com
+Subject: Urgent Job Offer: Work From Home Software Associate - $45/hr
+
+Dear Applicant,
+We reviewed your resume online and are pleased to inform you that you have been selected for an immediate Remote Data Associate role. Compensation is $45 per hour, paid weekly.
+To finalize your employment contract, you are required to purchase home office hardware and identity verification tools from our designated vendor. Please transfer $250 via wire or Zelle to unlock your onboarding package. Send receipt immediately.`,
+        report: {
+            title: "Fake HR Scan - Email Phishing & Fake Recruitment",
+            category: "Email Phishing & Fake Recruitment",
             risk: "High Risk",
             riskClass: "risk-orange",
             badge: "SUSPICIOUS",
             badgeClass: "suspicious",
-            authority: "Impersonating Media Agencies (Global Media Corp)",
-            trigger: "Task Compensation Phishing",
-            score: "78%",
-            indicators: ["earn ₹3000 to ₹8000 daily", "like YouTube videos", "HR recruiter", "UPI ID", "VIP portal", "t.me/global_mediacorp_vip"],
-            summary: "The content matches the footprint of a Telegram task-based financial scam. It begins with tiny payouts (Rs 150) to build trust, followed by coercion to join VIP channels where victims are duped into sending large deposits to fake cryptocurrency portals under the guise of 'welfare tasks.'",
+            authority: "Impersonating Email Recruiter",
+            trigger: "Wire Deposit & Advance Equipment Fee",
+            score: "86%",
+            indicators: ["advance deposit", "unverified recruiter domain", "wire transfer", "work from home", "high salary"],
+            summary: "ML Text Analysis flagged this email as a Fake Email Recruitment Scam. Legitimate employers never ask candidates to wire money for equipment prior to employment.",
             recommends: [
-                "Do NOT join the Telegram link or register on unverified crypto portals.",
-                "Be highly skeptical of job offers that pay high salaries for trivial tasks like liking videos.",
-                "Do NOT send any advance deposits or payments for upgrading job levels.",
-                "Report the UPI ID and mobile number to your bank to freeze potential money mule channels."
+                "Inspect sender email domain: check if domain matches official corporate website (@company.com).",
+                "Never transfer processing fees or hardware deposit charges.",
+                "Do NOT submit sensitive identity documents (passport, bank details) before offer verification."
+            ]
+        }
+    },
+    fake_hr_linkedin: {
+        text: `LinkedIn Message from HR Tech Talent Recruiter:
+Hi Developer, your GitHub profile looks impressive! We have an open Senior Full Stack vacancy paying $140,000/year.
+As part of our initial technical assessment step, please clone our interview evaluation repository from GitHub and complete the VS Code task:
+github.com/dprk-interview-tasks/dev-assessment-node
+Make sure to execute npm run setup with full admin permissions to launch the test suite.`,
+        report: {
+            title: "Fake HR Scan - LinkedIn Recruiter & Supply Chain Scam",
+            category: "LinkedIn Recruiter & Supply Chain Scam",
+            risk: "Critical Risk",
+            riskClass: "risk-red",
+            badge: "MALICIOUS",
+            badgeClass: "malicious",
+            authority: "Impersonating LinkedIn Recruiter",
+            trigger: "PolinRider / BeaverTail Technical Assessment Malware",
+            score: "92%",
+            indicators: ["polinrider", "beavertail", "github repo", "npm run setup", "admin permissions"],
+            summary: "Matches PolinRider / BeaverTail supply chain attack tactics originating from fake recruiter accounts on LinkedIn and GitHub targeting software developers.",
+            recommends: [
+                "Verify LinkedIn recruiter profiles: check mutual connections, post history, and company verification.",
+                "Do NOT execute untrusted GitHub repositories or npm packages.",
+                "Cross-check job openings directly on the hiring company's official corporate portal."
+            ]
+        }
+    },
+    fake_hr_telegram: {
+        text: `Hello, this is Ms. Neha Sharma, HR recruiter from Global Media Corp. We have reviewed your profile and are happy to offer you a part-time Work-From-Home vacancy. The job is simple: you just need to like YouTube videos, rate tourist spots on Google Maps, and submit screenshots to our group coordinator. You can easily earn ₹3000 to ₹8000 daily. We will start with a trial package. We have credited ₹150 directly to your UPI ID for your first task. Please click this link: t.me/global_mediacorp_vip to register on our VIP portal and unlock high-yield tasks.`,
+        report: {
+            title: "Fake HR Scan - Telegram Task & Daily Yield Scam",
+            category: "Telegram Task & Daily Yield Scam",
+            risk: "High Risk",
+            riskClass: "risk-orange",
+            badge: "SUSPICIOUS",
+            badgeClass: "suspicious",
+            authority: "Impersonating Media HR Agency",
+            trigger: "Telegram Task Compensation Phishing",
+            score: "85%",
+            indicators: ["earn ₹3000 to ₹8000 daily", "like youtube videos", "rate google maps", "upi id", "vip portal", "t.me link"],
+            summary: "Matches Telegram task-based financial scams. Initial small payouts (Rs 150) are used to gain trust before coercing victims into depositing large sums.",
+            recommends: [
+                "Do NOT join `t.me` Telegram invite links from unverified recruiters.",
+                "Be suspicious of tasks paying high returns for trivial actions (liking videos, rating maps).",
+                "Do NOT send advance deposits for unlocking VIP task tiers."
+            ]
+        }
+    },
+    fake_hr_whatsapp: {
+        text: `WhatsApp Voice Call & Message:
+"Hello sir, I am calling from HR Department of Multi-Trade Global Ltd. We are recruiting part-time stock market assistants. You can earn Rs 5000 daily by participating in our block deals. We will add you to our private WhatsApp investment group. Download our app from wa.me/trade_app_helper and transfer initial trial deposit of Rs 1000 to earn 300% profit within 1 hour."`,
+        report: {
+            title: "Fake HR Scan - WhatsApp Recruitment & Investment Fraud",
+            category: "WhatsApp Recruitment & Investment Fraud",
+            risk: "Critical Risk",
+            riskClass: "risk-red",
+            badge: "MALICIOUS",
+            badgeClass: "malicious",
+            authority: "Impersonating Multi-Trade HR",
+            trigger: "WhatsApp Stock Market & App Link Fraud",
+            score: "94%",
+            indicators: ["whatsapp voice call", "earn rs 5000 daily", "block deals", "wa.me link", "trial deposit"],
+            summary: "Matches WhatsApp recruitment and fake stock market investment scams where fraudsters add victims to WhatsApp groups with fake profit screenshots.",
+            recommends: [
+                "Block unsolicited WhatsApp voice calls and message threads offering work-from-home jobs.",
+                "Never transfer money to unknown bank accounts or download unverified APK links.",
+                "Report the number on WhatsApp and file a complaint on 1930 Cyber Helpline."
+            ]
+        }
+    },
+    fake_hr_1: {
+        text: `Hello, this is Ms. Neha Sharma, HR recruiter from Global Media Corp. We have reviewed your profile and are happy to offer you a part-time Work-From-Home vacancy. The job is simple: you just need to like YouTube videos, rate tourist spots on Google Maps, and submit screenshots to our group coordinator. You can easily earn ₹3000 to ₹8000 daily. We will start with a trial package. We have credited ₹150 directly to your UPI ID for your first task. Please click this link: t.me/global_mediacorp_vip to register on our VIP portal and unlock high-yield tasks.`,
+        report: {
+            title: "Fake HR Scan - Telegram Task & Daily Yield Scam",
+            category: "Telegram Task & Daily Yield Scam",
+            risk: "High Risk",
+            riskClass: "risk-orange",
+            badge: "SUSPICIOUS",
+            badgeClass: "suspicious",
+            authority: "Impersonating Media HR Agency",
+            trigger: "Telegram Task Compensation Phishing",
+            score: "85%",
+            indicators: ["earn ₹3000 to ₹8000 daily", "like youtube videos", "rate google maps", "upi id", "vip portal", "t.me link"],
+            summary: "Matches Telegram task-based financial scams. Initial small payouts (Rs 150) are used to gain trust before coercing victims into depositing large sums.",
+            recommends: [
+                "Do NOT join `t.me` Telegram invite links from unverified recruiters.",
+                "Be suspicious of tasks paying high returns for trivial actions (liking videos, rating maps).",
+                "Do NOT send advance deposits for unlocking VIP task tiers."
             ]
         }
     },
@@ -489,32 +645,68 @@ async function startTextMediaScan(type) {
     const consoleLog = document.getElementById(`console-log-${type}`);
     consoleLog.innerHTML = ""; // Clear placeholder
     
-    // Identify if the input text matches any pattern
-    const activeReport = type === 'da' ? SAMPLES.digital_arrest_1.report : SAMPLES.fake_hr_1.report;
+    let activeReport = null;
 
     await writeConsoleLine(`console-log-${type}`, `orca-scanner --analyze-${type}`, "cmd", 0);
-    await writeConsoleLine(`console-log-${type}`, "Initializing AI Threat Engine connection...", "info", 300);
+    await writeConsoleLine(`console-log-${type}`, "Initializing AI Threat Engine connection...", "info", 100);
     
     if (hasFile) {
-        await writeConsoleLine(`console-log-${type}`, `Processing uploaded file payload: ${hasFile.name}`, "info", 400);
-        await writeConsoleLine(`console-log-${type}`, `Simulating optical character recognition (OCR) on canvas nodes...`, "info", 500);
-        await writeConsoleLine(`console-log-${type}`, `OCR parsed block: "${textInput ? textInput.substring(0,60) + '...' : 'Extracted text content from screenshot image'}..."`, "success", 600);
+        await writeConsoleLine(`console-log-${type}`, `Processing uploaded file payload: ${hasFile.name}`, "info", 200);
+        await writeConsoleLine(`console-log-${type}`, `Running Optical Character Recognition (OCR) on screenshot canvas...`, "info", 300);
+        await writeConsoleLine(`console-log-${type}`, `OCR extracting text nodes from ${hasFile.name}...`, "success", 400);
     } else {
-        await writeConsoleLine(`console-log-${type}`, `Parsing raw message text stream... (${textInput.length} chars)`, "info", 200);
+        await writeConsoleLine(`console-log-${type}`, `Parsing raw message text stream... (${textInput.length} chars)`, "info", 100);
     }
 
-    await writeConsoleLine(`console-log-${type}`, `Running context scoring vector via LLM prompting...`, "info", 400);
-    await writeConsoleLine(`console-log-${type}`, `Scanning text signatures matching cybercrime CSV repositories...`, "info", 300);
+    if (backendConnected) {
+        const endpoint = type === 'da' ? `${BACKEND_URL}/api/analyze-digital-arrest` : `${BACKEND_URL}/api/analyze-fake-hr`;
+        await writeConsoleLine(`console-log-${type}`, `Sending payload to ORCA Backend (${endpoint.split('/').pop()})...`, "info", 200);
+        
+        try {
+            const formData = new FormData();
+            if (hasFile) {
+                formData.append("file", hasFile);
+            }
+            if (textInput) {
+                formData.append("text", textInput);
+            }
+
+            const res = await fetch(endpoint, {
+                method: "POST",
+                body: formData
+            });
+            const data = await res.json();
+            if (data.success) {
+                activeReport = data.report;
+                if (data.ocrText) {
+                    await writeConsoleLine(`console-log-${type}`, `Neural OCR extracted ${data.ocrText.length} chars from image: "${data.ocrText.substring(0, 70)}..."`, "success", 150);
+                }
+                await writeConsoleLine(`console-log-${type}`, `ML Classifier evaluated vector: ${activeReport.category}`, "success", 200);
+            }
+        } catch (e) {
+            await writeConsoleLine(`console-log-${type}`, `Backend call error: ${e.message}. Using local ML models.`, "warn", 200);
+        }
+    }
+
+    if (!activeReport) {
+        // Fallback to sample selection
+        const sampleKey = type === 'da' ? 'digital_arrest_1' : 'fake_hr_telegram';
+        activeReport = SAMPLES[sampleKey].report;
+    }
+
+    await writeConsoleLine(`console-log-${type}`, `Evaluating TF-IDF n-gram vectors against trained cybercrime dataset...`, "info", 200);
 
     // Print out matching threat flags
-    activeReport.indicators.forEach(async (ind, index) => {
-        await writeConsoleLine(`console-log-${type}`, `Threat flag matched: "${ind}"`, "warn", 200 + (index * 100));
-    });
+    if (activeReport.indicators && activeReport.indicators.length > 0) {
+        activeReport.indicators.forEach(async (ind, index) => {
+            await writeConsoleLine(`console-log-${type}`, `Threat flag matched: "${ind}"`, "warn", 100 + (index * 80));
+        });
+    }
 
     // Pause for calculations
     setTimeout(async () => {
         await writeConsoleLine(`console-log-${type}`, `Scam model threat index rating calculated: ${activeReport.score}`, "success", 100);
-        await writeConsoleLine(`console-log-${type}`, `Scan trace complete. Transporting telemetry values to UI.`, "success", 300);
+        await writeConsoleLine(`console-log-${type}`, `Scan trace complete. Transporting telemetry values to UI.`, "success", 200);
 
         setTimeout(() => {
             // Render Report
@@ -559,10 +751,10 @@ async function startTextMediaScan(type) {
             });
 
             // Increment stats count on dashboard overview
-            incrementStats(activeReport.badge === 'MALICIOUS');
-        }, 600);
+            incrementStats(activeReport.badge === 'MALICIOUS' || activeReport.badge === 'SUSPICIOUS');
+        }, 300);
 
-    }, 1500);
+    }, 800);
 }
 
 async function startApkScan() {

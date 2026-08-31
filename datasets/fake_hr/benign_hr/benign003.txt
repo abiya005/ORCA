@@ -1,0 +1,32 @@
+TITLE:
+Interview Schedule: Software Engineer Role at Microsoft India
+
+SOURCE:
+Microsoft University Recruiting <careers@microsoft.com>
+
+DATE:
+Mon, Aug 24, 04:15 PM
+
+ARTICLE:
+
+Hi Candidate,
+
+Thank you for your interest in software engineering careers at Microsoft. We have reviewed your application submitted via the Microsoft Careers Portal (careers.microsoft.com).
+
+We would like to invite you for a 45-minute technical interview via Microsoft Teams with one of our principal software engineers from the Azure Cloud Infrastructure team.
+
+Meeting Details:
+- Date: Thursday, September 10, 2026
+- Time: 3:00 PM IST
+- Platform: Microsoft Teams Video Meeting (Link attached in calendar invite)
+
+Agenda:
+- Data Structures & Algorithmic Problem Solving
+- Software Architecture Discussion
+- Questions about your past projects & internship experience
+
+Please confirm your availability by replying to this email or updating your candidate dashboard on careers.microsoft.com.
+
+Best regards,
+Microsoft Global Talent Acquisition Team
+Microsoft Corporation
