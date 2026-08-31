@@ -1,0 +1,50 @@
+TITLE:
+FIFA World Cup fever fuels cyber scams
+
+SOURCE:
+The Times of India
+
+DATE:
+2026-06-16T00:30:00Z
+
+URL:
+https://economictimes.indiatimes.com/tech/technology/fifa-world-cup-fever-fuels-cyber-scams/articleshow/131754145.cms
+
+ARTICLE:
+
+The FIFA World Cup has become a hunting ground for cybercriminals with tens of fake ticket portals, merchandise stores, streaming sites and betting apps surfacing to scam football fans worldwide.
+Cybersecurity firm Fortinet said it identified more than 13,000 FIFA-related web domains created since January, of which 8.8%, or about 1,150, were malicious. It also found more than 1,700 new impersonation accounts on social media, 90% on Facebook and Instagram.
+Fraud exposure during the tournament lifecycle can easily reach millions of dollars, said Yogesh Jaygadkar, senior manager, threat research, at FortiGuard Labs, Fortinet’s threat intelligence and research arm. “Events like FIFA create the perfect fraud environment: massive global attention, emotional urgency, high ticket demand, travel pressure, merchandise buying, streaming demand, betting activity, and job-seeking around the event,” he said.
+ 
+Bengaluru-based CloudSEK has identified a highly sophisticated Chinese threat operation targeting fans by intercepting payment details and SMS-based authentication targeted at more than 13 geographies. Researchers found that the fake platform could track a victim’s live checkout journey, capture payment card details including PAN, expiry and CVV, and potentially relay OTPs in real time.
+FortiGuard Labs cited ticket resale scams, crypto airdrops and recruitment phishing targeting football fans across the world.
+More than 260 FIFA employee credentials and over 270,000 credentials of users visiting FIFA-related websites are available on the dark web, it noted.
+Similar scams had surfaced during the recent Indian Premier League season as well.
+Upgraded phishing
+At the time, fraudsters impersonated ticketing platforms such as BookMyShow and District.
+Social media and messaging channels like WhatsApp, Telegram, or Discord are among the primary malware delivery channels, according to cybersecurity firm Arctic Wolf. Fraudsters drop a fake streaming link on these channels five minutes before the match and many excited fans do not check whether it is malicious, it said.
+Philadelphia, the city hosting the highest number of world cup matches, was targeted by a malicious “employee handbook PDF” for stealing staff credentials.
+“What we’re seeing now is more sophisticated than traditional phishing,” said Ismael Valenzuela, vice president, threat research and intelligence, at Arctic Wolf. “In some cases, fake ticketing sites have been used to deploy Android malware capable of crypto mining directly on a victim’s device.”
+He said threats are now expanding from consumer fraud to enterprise risk.
+Artificial intelligence is lowering the barrier to entry for fraudsters by reducing the time, cost, and skill required to launch convincing campaigns.
+Arctic Wolf Labs identified more than 22,000 unique files tied to AI-themed detection rules across malware repositories in just 12 months. “That level of activity highlights how quickly attackers are incorporating AI into their tooling and workflows,” Valenzuela said.
+Researchers at cyber-intelligence firm Acronis also noticed QR code phishing, or “quishing” attacks, where users are directed to fraudulent ticketing pages, fake giveaways or malicious websites designed to collect sensitive information.
+Fortinet’s Jaygadkar noted that for FIFA-style scams, generative AI can be used to improve personalisation. ‘Last-minute ticket confirmation’, ‘seat upgrade’, ‘visa/travel support’, ‘sponsor recruitment’ or ‘streaming access’ messages can be tailored by country, language, team, or fan behaviour, he noted.
+“It can also help attackers clone brand tone, create realistic website copy, generate fake invoices, and automate scam responses,” Jaygadkar explained. “Deepfake audio/video may also be used for fake celebrity promotions, fake team announcements, or fake customer-support verification.”
+ Cybersecurity firm Fortinet said it identified more than 13,000 FIFA-related web domains created since January, of which 8.8%, or about 1,150, were malicious. It also found more than 1,700 new impersonation accounts on social media, 90% on Facebook and Instagram.
+Fraud exposure during the tournament lifecycle can easily reach millions of dollars, said Yogesh Jaygadkar, senior manager, threat research, at FortiGuard Labs, Fortinet’s threat intelligence and research arm. “Events like FIFA create the perfect fraud environment: massive global attention, emotional urgency, high ticket demand, travel pressure, merchandise buying, streaming demand, betting activity, and job-seeking around the event,” he said.
+Bengaluru-based CloudSEK has identified a highly sophisticated Chinese threat operation targeting fans by intercepting payment details and SMS-based authentication targeted at more than 13 geographies. Researchers found that the fake platform could track a victim’s live checkout journey, capture payment card details including PAN, expiry and CVV, and potentially relay OTPs in real time.
+FortiGuard Labs cited ticket resale scams, crypto airdrops and recruitment phishing targeting football fans across the world.
+More than 260 FIFA employee credentials and over 270,000 credentials of users visiting FIFA-related websites are available on the dark web, it noted.
+Similar scams had surfaced during the recent Indian Premier League season as well.
+Upgraded phishing
+At the time, fraudsters impersonated ticketing platforms such as BookMyShow and District.
+Social media and messaging channels like WhatsApp, Telegram, or Discord are among the primary malware delivery channels, according to cybersecurity firm Arctic Wolf. Fraudsters drop a fake streaming link on these channels five minutes before the match and many excited fans do not check whether it is malicious, it said.
+Philadelphia, the city hosting the highest number of world cup matches, was targeted by a malicious “employee handbook PDF” for stealing staff credentials.
+“What we’re seeing now is more sophisticated than traditional phishing,” said Ismael Valenzuela, vice president, threat research and intelligence, at Arctic Wolf. “In some cases, fake ticketing sites have been used to deploy Android malware capable of crypto mining directly on a victim’s device.”
+He said threats are now expanding from consumer fraud to enterprise risk.
+Artificial intelligence is lowering the barrier to entry for fraudsters by reducing the time, cost, and skill required to launch convincing campaigns.
+Arctic Wolf Labs identified more than 22,000 unique files tied to AI-themed detection rules across malware repositories in just 12 months. “That level of activity highlights how quickly attackers are incorporating AI into their tooling and workflows,” Valenzuela said.
+Researchers at cyber-intelligence firm Acronis also noticed QR code phishing, or “quishing” attacks, where users are directed to fraudulent ticketing pages, fake giveaways or malicious websites designed to collect sensitive information.
+Fortinet’s Jaygadkar noted that for FIFA-style scams, generative AI can be used to improve personalisation. ‘Last-minute ticket confirmation’, ‘seat upgrade’, ‘visa/travel support’, ‘sponsor recruitment’ or ‘streaming access’ messages can be tailored by country, language, team, or fan behaviour, he noted.
+“It can also help attackers clone brand tone, create realistic website copy, generate fake invoices, and automate scam responses,” Jaygadkar explained. “Deepfake audio/video may also be used for fake celebrity promotions, fake team announcements, or fake customer-support verification.”

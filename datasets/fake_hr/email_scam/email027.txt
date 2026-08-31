@@ -1,0 +1,147 @@
+TITLE:
+World Cup ticket scams target desperate fans
+
+SOURCE:
+Fox News
+
+DATE:
+2026-06-26T13:00:38Z
+
+URL:
+https://www.foxnews.com/tech/world-cup-ticket-scams-target-desperate-fans
+
+ARTICLE:
+
+You finally find World Cup seats that fit your budget. The site looks polished. The ticket has a QR code. The seller says someone else wants them, so you need to move fast. That is exactly the moment scammers are counting on.
+The 2026 FIFA World Cup runs through July 19, 2026, across the United States, Canada and Mexico. With the tournament underway, fans are still hunting for last-minute seats. Meanwhile, fraudsters are using fake ticket listings, spoofed FIFA websites, social media posts and artificial intelligence-made scams to steal money and personal information.
+This scam hits differently because the purchase feels emotional. Maybe you are planning a once-in-a-lifetime trip. Perhaps the tickets are a surprise for your child or grandchild. Or maybe you are trying to turn a match into a memory your family talks about for years. That is why knowing where these scams show up, and how they pressure fans, can save you from a painful and expensive mistake.
+HOW 1 MAN GOT SCAMMED IN SECONDS USING GOOGLE
+Sign up for my FREE CyberGuy Report
+- Get my best tech tips, urgent security alerts and exclusive deals delivered straight to your inbox.
+- For simple, real-world ways to spot scams early and stay protected, visit CyberGuy.com – trusted by millions who watch CyberGuy on TV daily.
+- Plus, you'll get instant access to my Ultimate Scam Survival Guide free when you join.
+World Cup ticket scams are surging during the tournament
+The tournament's timing, ticket demand and last-minute pressure are giving scammers exactly what they need. World Cup tickets are expensive. Demand is intense. Many fans waited until the tournament started to look for seats. That creates the perfect opening for criminals.
+Scammers love urgency. A sold-out match makes people panic. A lower price can feel like luck. A countdown timer can make you ignore the little things that feel off.
+MICROSOFT TYPOSQUATTING SCAM SWAPS LETTERS TO STEAL LOGINS
+The FBI has already warned that cybercriminals are creating fake FIFA websites. These sites copy FIFA branding, official-looking pages and ticket language. Some fake domains look close enough to fool a fan checking from a phone.
+The FBI also said scammers may use these fake sites to collect names, home addresses, phone numbers, email addresses and banking information. That is important because this scam can go beyond one bad ticket purchase. Once criminals have that personal information, they can try to open accounts in your name. They can also target you with more believable scams later.
+Fake FIFA websites can steal more than ticket money
+A fake ticket site can look official while quietly collecting your payment details and personal information. The safest move is also the easiest one to overlook. Type FIFA.com directly into your browser. Then go to the official ticketing page from there.
+SPOT FAKE ONLINE STORES, AVOID FACEBOOK SUBSCRIPTION SCAMS
+Do not rely on a search ad. Do not trust a link in a text. Be careful with links in Facebook groups, WhatsApp chats or emails that claim to offer verified seats. Scammers can buy ads. They can clone logos. They can copy the feel of an official checkout page. A fake page may even have clean writing and a professional design.
+That means the old scam clues may not show up. You may not see misspelled words or strange graphics. The fake page may look good enough to pass a quick glance. Before you enter payment details, slow down and look at the address bar. The official FIFA site should use FIFA.com. If the domain includes extra words, odd spellings or a different ending, back out.
+FBI lists fake FIFA domains to watch for
+The FBI named examples of spoofed FIFA domains so fans can see how small changes can make a fake page look official.
+GOOGLE SEARCH LED TO A COSTLY SCAM CALL
+The FBI says more fake websites may appear leading up to and throughout the 2026 World Cup. These examples have already been identified:
+- www.fifa[.]cab
+- www.fifa[.]pink
+- www.fifa[.]blue
+- www.fifa[.]pub
+- FIFA[.]city
+- Fifa[.]bio
+- fifa[.]beer
+- fifa[.]click
+- fifa[.]cam
+- fifa[.]ceo
+- fifa[.]help
+- filfa[.]org
+- fifa-online[.]com
+- https://fifa-2026[.]xyz
+- jobs-fifa[.]com
+- fifa-hr[.]com
+- fifa-careerhub[.]com
+- fifaworldcup-careers[.]com
+- fifa-hiring[.]com
+- fifahiring[.]com
+- fifa-ticket[.]live
+- fifastore.us[.]com
+- fifaworldcup26[.]sale
+- fifaworldcup26.xcover-staging[.]com
+- worldcup2026-tickets.com[.]mx
+- worldcup26ticket[.]com
+- 2026fifaworldcuptickets[.]online
+- fwc2026[.]net
+- fwc2026.web[.]app
+- www.fifa2026p[.]com
+- fifa2026fworldcup[.]com
+- wvvw-fifa[.]com
+- ww-fifa[.]com
+- fifa-com[.]com
+- www.fifa-com[.]services
+- quiniela-fifa-2026.pages[.]dev
+Notice the patterns. Some domains use strange endings. Others add words like "ticket," "career," "hiring" or "World Cup." A few rely on tiny spelling tricks, such as changing "www" to "wvvw." The FBI calls this typo squatting. That means scammers count on people making small typing mistakes or clicking links too quickly.
+AI ticket scams make fake listings look legitimate
+Artificial intelligence is helping scammers make fake ticket pages, emails and seller messages feel more believable. Fake pages can now have polished copy, realistic customer service language and smooth checkout prompts.
+Scammers can also create fake confirmation emails that look like they came from a real ticketing company. They can generate ticket screenshots, QR codes and fake order pages in minutes. That means a nice-looking QR code proves very little. So does a screenshot of a ticket.
+A scammer can copy a real-looking image, edit it and send it to several buyers. By the time fans find out, the seller may be gone. The real test is whether the ticket transfers through the official channel. For World Cup tickets, that means using FIFA's official ticketing system or official resale marketplace.
+QR CODE EMAIL SCAM TARGETS EMPLOYEE REVIEWS
+If a seller refuses to transfer the ticket through the proper platform, walk away. A screenshot should make you more suspicious, not more comfortable.
+World Cup resale problems are already hitting fans
+Even fans who use known resale platforms can end up with refunds instead of seats. Bina Ramroop reportedly bought World Cup tickets through StubHub for her grandson's 13th birthday. She paid $485 per ticket for Spain versus Cape Verde in Atlanta. When she arrived, the tickets would not transfer into the FIFA ticketing app. StubHub offered a refund. However, she wanted the experience, not the money back.
+Another fan, Pape Ndaw, reportedly bought tickets in December for about $550 each. Two days before a June 14 match near Dallas, he received a message saying the seller could not deliver. He later found last-minute seats going for more than $1,500 each.
+BOOKING.COM DATA BREACH EXPOSES TRAVELER DATA TO SCAMS
+Then there was Patrick O'Neil's family. They traveled to Atlanta after buying five tickets through StubHub. Two tickets transferred. Three never arrived. Some family members went in, while the others watched nearby.
+These examples show the ugly part of the resale market. Even a known platform may leave you with a refund instead of a seat. That may not help after you have paid for flights, hotels and time off.
+Social media World Cup ticket deals carry big risks
+Ticket offers on Facebook Marketplace, X, Reddit, Telegram and WhatsApp can look more trustworthy than they really are. A scammer may use a real-looking profile photo, a friendly message and a believable excuse.
+They might say a family member got sick. They could claim their group has extra seats. Or they may tell you they "just want a real fan to go." That story could be true. However, it could also be bait.
+The biggest warning sign is when the seller pushes you away from a protected checkout system. If they ask for Zelle, Venmo, Cash App, wire transfer, gift cards or crypto, your risk jumps fast. Those payments can be hard to reverse. In some cases, you may have no easy way to get your money back.
+Also, watch for pressure. A legitimate seller may want to move quickly, but a scammer wants you to stop thinking, so you send money before checking the ticket, the transfer method or the website.
+IDENTITY THEFT RARELY ANNOUNCES ITSELF: 6 SIGNS YOU MISSED
+How to spot a World Cup ticket scam
+These warning signs can help you pause before a fake seller turns your excitement into a costly mistake.
+1) Check the website address before you click
+Look closely at the domain. The FBI says scammers use typo squatting, which means they rely on small spelling changes or fake web endings to trick people. For example, a fake site may use an extra letter, a strange ending or words like "ticket," "career," or "World Cup" to look official. The real FIFA website should be entered directly as www.fifa.com. If the link looks different, back out before entering your name, payment details or login information.
+2) Watch the ticket transfer method
+A real ticket should transfer through the official ticketing system. A screenshot, PDF or QR code image should not be enough. If the seller refuses to use the official transfer process, end the conversation.
+HOW CYBERSCAMS ARE DRAINING AMERICANS WALLETS BY THE BILLIONS
+3) Avoid risky payment requests
+Be careful if a seller asks for peer-to-peer payment apps, crypto, gift cards or a wire transfer. A credit card often gives you stronger fraud protections. Also, keep the transaction inside a trusted platform whenever possible.
+4) Question the bargain price
+A seat far below the going rate may be bait. Scammers know fans are searching for one lucky break. Compare the price with official listings and trusted resale options. If the gap feels huge, treat it as a warning sign.
+5) Slow down when the seller adds pressure
+Scammers love phrases like "last chance," "someone else wants them" or "pay now." Take a breath before you pay. A few extra minutes can save your money, your trip and your personal information.
+What to do before buying World Cup tickets
+A few checks before checkout can help you avoid fake tickets, bad transfers and stolen account details.
+1) Start with FIFA's official ticketing page
+Go directly to FIFA's official site and navigate from there. Avoid sponsored search results for tickets. The FBI has warned that paid imitators can try to pull fans away from the legitimate site.
+2) Bookmark the real FIFA site
+After you reach the real FIFA website, save it as a bookmark or favorite. That gives you a safer way back later. Also, be careful with FIFA subdomains. The FBI says fans should navigate to subdomains, such as plus.fifa.com, directly from the official FIFA homepage instead of typing them from memory.
+3) Be careful with ads
+Exercise caution when clicking ads for tickets, hospitality, merchandise or jobs. Before you click an ad, check the URL. Some malicious ads may display one website but send you somewhere else.
+4) Use safer payment options
+Use a credit card when possible. It may give you more options if something goes wrong. Do not send money to a stranger through Zelle, Venmo, Cash App, wire transfer, gift cards or crypto.
+5) Protect your accounts before checkout
+Use a password manager so fake sites do not trick you into reusing passwords. Turn on two-factor authentication (2FA) for your email, FIFA account and payment accounts. That adds another layer if scammers get your password.
+6) Keep proof before you travel
+Save emails, receipts, transfer confirmations and seller messages. Before you leave for the stadium, confirm that the ticket appears in the official ticketing app or platform. Do not wait until you are standing at the gate.
+What to do if a World Cup ticket scam hits you
+Fast action can limit the financial damage and reduce the risk of identity theft.
+1) Contact your bank or credit card company
+Explain what happened and ask what options you have to dispute the charge or block further payments.
+5 MYTHS ABOUT IDENTITY THEFT THAT PUT YOUR DATA AT RISK
+2) Change your passwords
+Change the password for any account tied to the transaction. Start with your email because scammers often use it to reset other logins. Use a password manager to create strong, unique passwords for your FIFA account, email, banking apps and any account where you reused the same password.
+3) Turn on two-factor authentication
+Turn on two-factor authentication (2FA) if you have not already. Start with your email, banking apps and any account tied to the fake ticket purchase.
+4) Save the evidence
+Keep screenshots, emails, seller profiles, payment receipts and website addresses.
+5) Check your device
+Run strong antivirus software if you clicked a suspicious link or downloaded anything from a fake ticket site. A scam page may try to steal more than payment details. Get my picks for the best 2026 antivirus protection winners for your Windows, Mac, Android and iOS devices at CyberGuy.com.
+6) Reduce your personal information online
+A data removal service can help reduce how much personal information scammers can find about you online. That can make future impersonation attempts harder. Check out my top picks for data removal services and get a free scan to find out if your personal information is already out on the web by visiting CyberGuy.com.
+7) Report the scam to the FBI
+Report the fake site or seller to the FBI's Internet Crime Complaint Center at IC3.gov. Include the fake domain, a description of what happened, what information you entered and any payment details. If money changed hands, include the payment date, amount, payment type, account numbers involved and any receiving bank or crypto wallet details you have.
+8) Freeze your credit if sensitive information was exposed
+If you entered sensitive personal details, freeze your credit. Then watch for new accounts or hard inquiries you do not recognize.
+Kurt's key takeaways
+World Cup ticket scams are getting harder to spot because fake sites now look clean, polished and believable. AI makes that problem worse. The safest route is still FIFA's official ticketing system. If you buy anywhere else, understand the risk before you pay. A screenshot or QR code does not prove that a ticket will get you into the stadium. The transfer needs to happen through the official platform. Do not let urgency make the decision for you. Scammers want you to be rushed and emotional. If a deal feels too easy, take a breath and check the source. The few minutes you spend verifying the ticket could save your money, your trip and your personal information.
+Would you risk buying a last-minute World Cup ticket from a stranger online if the deal looked almost too good to pass up? Let us know by writing to us at CyberGuy.com.
+Sign up for my FREE CyberGuy Report
+CLICK HERE TO DOWNLOAD THE FOX NEWS APP
+- Get my best tech tips, urgent security alerts and exclusive deals delivered straight to your inbox.
+- For simple, real-world ways to spot scams early and stay protected, visit CyberGuy.com – trusted by millions who watch CyberGuy on TV daily.
+- Plus, you'll get instant access to my Ultimate Scam Survival Guide free when you join.
+Copyright 2026 CyberGuy.com. All rights reserved.

@@ -1,0 +1,53 @@
+TITLE:
+Watch out for “high paying, low effort” Amazon job texts
+
+SOURCE:
+Malwarebytes.com
+
+DATE:
+2026-06-30T20:46:28Z
+
+URL:
+https://www.malwarebytes.com/blog/scams/2026/06/watch-out-for-high-paying-low-effort-amazon-job-texts
+
+ARTICLE:
+
+Remote, flexible, high‑paying work is a tempting prospect, and the holy grail for many people looking for a new role. But it’s not just recruiters who are aware of this, job scammers do too and are happy to use it as an easy lure.
+That lure tends to be even more tempting when they claim to be recruiting for a household name like Amazon. The fraudsters use SMS, WhatsApp, Telegram, and email-to-text gateways to blast out offers that look personalized but are actually mass‑produced scripts tweaked with different names, job titles, and reference numbers.
+In recent months, one script has shown up again and again: A supposed recruiter called Sophia from Amazon’s recruiting department, promising $250–$500 a day for just 60–90 minutes of simple work. It’s a textbook example of a “task scam” or “gamified job scam,” where victims are slowly pushed toward paying “deposits” or handing over sensitive personal data.
+Here is the exact wording of one such message, sent from a Hotmail address and asking the victim to text a US number for more information:
+“Hello, this is Sophia from Amazon’s Recruiting Department. Staff ID: AMZ-7677
+We’ve reviewed your background and believe you’re perfect for our high-paying, low-effort remote opening. This role is incredibly straightforward, focusing on helping sellers optimize product listings to enhance their online presence.
+- Ultra-flexible schedule: Only 60–90 minutes a day, 4 days per week
+- Compensation: $250–$500 per day (Base pay of $1000 for every 4 days worked)
+- Extra Perks: Comprehensive guidance provided + 15–20 days of paid annual leave
+We are filling 20 spots immediately. If you are at least 25 years old and want to earn extra income easily, please text 16172930958 for further details.
+Ref-46499”
+Variations of this “Sophia from Amazon” script have been reported to the Better Business Bureau, posted on social media as scam warnings, and shared in discussion threads after users realized the Amazon job offer was fake. The details change slightly sometimes: We’ve seen “Grace from Amazon” and other minor changes, but the structure and unrealistic promises remain the same.
+Red flags
+With the help of Malwarebytes Scam Guard we noticed these red flags:
+- Non‑Amazon contact details. The message comes from a Hotmail address and directs you to text a standalone number, not to apply via the official Amazon Jobs site. Amazon’s own fraud alert says it does not recruit via generic webmail accounts and does not send official hiring communications from non‑Amazon domains.
+- Unsolicited job offer out of the blue. The FTC specifically warns that random texts offering you a job at a well‑known company, even if they claim to have reviewed your background, are classic job scams designed to steal money or identity, not real recruitment.
+- Too much money for too little work. Promising $250–$500 per day for 60–90 minutes of “low‑effort” remote work is exactly the sort of disproportionate pay that indicates something might be a job scam. In many “task scams,” criminals advertise simple actions like liking videos, optimizing apps, or boosting product listings for outsized rewards. The too good to be true principle applies here.
+- A vague, feel‑good job description. “Helping sellers optimize product listings to enhance their online presence” sounds plausible but tells you nothing about tools, targets, metrics, or reporting lines, which are all thing you’d expect in a legitimate Amazon job posting. Task scam scripts often rely on generic buzzwords like “optimization,” “promotion,” or “boosting” to sound professional without committing to anything real.
+- Urgency and scarcity pressure. The claim that Amazon is “filling 20 spots immediately” is there to stop you from thinking too long about it, a very popular tactic among all scammers. Legitimate Amazon recruitment may set application windows, but it does not pressure strangers via text to grab a limited number of mystery roles.
+- Off‑channel communication and likely pivot to WhatsApp/Telegram.
+ Reports of similar Amazon‑themed job scams show that after the first reply, scammers usually move the victim to WhatsApp, Telegram, or a browser‑based “work portal” controlled by the criminals. Once there, “Sophia from Amazon” (or whatever name is used) can build rapport and walk victims through increasingly risky steps.
+The risks are real though
+Even if you spot some of the issues, it’s tempting to think you can “just see what they say.” With scams like these, there are several ways engagement can escalate badly.
+- Upfront payments and task‑platform losses. In many task scams, victims are told to complete small tasks and they’ll see small profits in an online wallet. But soon they’re asked to deposit their own money to unlock higher‑paying levels. The platform, which may claim to be connected to Amazon’s seller tools, then blocks withdrawals or vanishes once enough victims have deposited funds.
+- Identity theft and account takeover. The fake recruiter may ask for sensitive personal details for onboarding purposes: full name, address, date of birth, ID scans, bank details, or even selfies with an ID card. This data can be abused directly or resold, allowing criminals to open accounts, apply for loans, or bypass identity checks elsewhere.
+- Money mule or parcel mule involvement. Some fake jobs tied to brands like Amazon turn out to be reshipping or parcel mule scams, which are roles that involve receiving packages and forwarding them, often purchased with stolen cards. Others are payment mule schemes where the “employee” receives funds into their own bank account or crypto wallet and then forwards the money on. In both cases, you can end up laundering stolen goods or funds, with potential legal consequences.
+- Malware or phishing links masquerading as Amazon tools. A scammer impersonating Amazon recruiters might send links to fake login pages, supposed “Amazon optimization dashboards,” or APK files claiming to be Amazon tools. These can steal your Amazon credentials or install malware, putting not only your Amazon account at risk but also other accounts that reuse the same password.
+- Psychological pressure and sunk‑cost manipulation. Once you’ve invested time, shared some data, or sent a small payment, scammers exploit the feeling of not wanting to cut your losses and pressure you to send “just one more” deposit to release your wages or avoid losing your progress. Victims in task scam cases have reported losing thousands of dollars as they kept trying to finish one last task set to unlock everything they were owed.
+How to stay safe
+If someone who says they’re from Amazon—or another company—suddenly offers you a remarkably easy job via text, treat it as a warning sign, not an opportunity. Always verify directly with the company itself, rely on trusted job platforms, and resist the urge to just see what happens when a stranger promises big money for almost no work.
+Once you know the red flags, it is easier to stay safe from task scams.
+- Do not respond to unsolicited job offers via text messages or messaging apps
+- Never pay to get paid
+- Verify the legitimacy of the employer through official channels
+- Don’t trust anyone who offers to pay you for something illegal such as rating or liking things online
+It’s also important to keep in mind that legitimate employers do not ask employees to pay for the opportunity to work. And as with most scams, if it sound to good to be true, it probably is. If you run into a task scam, please report it to the FTC at ReportFraud.ftc.gov.
+Something feel off? Check it before you click.
+Malwarebytes Scam Guard helps you analyze suspicious links, texts, and screenshots instantly.
+Available with Malwarebytes Premium Security for all your devices, and in the Malwarebytes app for iOS and Android.

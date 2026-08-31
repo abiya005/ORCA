@@ -1,0 +1,67 @@
+TITLE:
+6 in 10 identity crimes now begin with a new account
+
+SOURCE:
+Fox News
+
+DATE:
+2026-06-18T16:52:26Z
+
+URL:
+https://www.foxnews.com/tech/6-10-identity-crimes-begin-new-account
+
+ARTICLE:
+
+For years, two women in Bremerton, Washington, opened credit cards and lines of credit in other people's names, working from documents they pulled out of stolen mail. Emily Vranic and Heather Marquis redirected the new accounts' statements to an address they controlled, so no bill ever reached the victims. They pleaded guilty in federal court this month to bank fraud and aggravated identity theft in a scheme prosecutors say stole nearly $229,000 from banks and bank customers.
+If you have ever worried about a credit card opened in your name, this case shows how quickly stolen mail can turn into a much bigger identity theft problem. Opening a new account is the leading form of identity misuse reported to the Identity Theft Resource Center. In its latest data, 62.1% of attempted misuse cases began with a new account application rather than the takeover of an account the victim already held.
+Sign up for my FREE CyberGuy Report
+- Get my best tech tips, urgent security alerts and exclusive deals delivered straight to your inbox.
+- For simple, real-world ways to spot scams early and stay protected, visit CyberGuy.com - trusted by millions who watch CyberGuy on TV daily.
+Plus, you'll get instant access to my Ultimate Scam Survival Guide free when you join.
+WARNING SIGNS YOUR MAIL HAS BEEN FRAUDULENTLY REDIRECTED
+How stolen mail helped thieves open credit cards
+When people picture an account opened in their name, they may imagine a checking account at a bank they have never set foot in. The more likely target is a credit card. Credit cards made up 41% of attempted account misuse reported to the ITRC last year. Checking accounts came to 17.7% and personal loans to 8.5%.
+A credit card is one of the easier accounts to open in someone else's name, and the reason is in how the application is cleared. A lender matches the submitted name, date of birth, address and Social Security number (SSN) against the bureau file. When those details fit a record that already exists, an automated system can approve the application with no one confirming that the applicant is the person being described. Assemble enough of someone's information from breaches and stolen mail, and the check clears.
+Why identity thieves rarely stop at one account
+Vranic and Marquis did not stop at one account per victim. Once they controlled someone's identity, they activated existing cards, opened new credit lines and moved money out of bank accounts tied to the same name.
+This is common. The ITRC found that 25.6% of victims are now handling two or more identity incidents at once, up from 23.5% the year before. The same stolen details, including name, date of birth, address and SSN, can open the next account as easily as the first.
+DON’T LET THIS CREDIT CARD FRAUD NIGHTMARE HAPPEN TO YOU
+Why weeks can pass before you learn about the account
+A new account does not announce itself. It reaches your credit report only after the first statement closes, which puts the first record 30 to 60 days behind the opening. Banks report to the bureaus monthly, and the bureaus need up to two weeks more to post the change.
+The first paper notice goes wherever the application is listed. Vranic and Marquis had the statements mailed to their own address, not the victims'. When the mail reaches the right house, it may read like a routine offer or a card no one ordered, which makes it easy to set aside.
+By the time a denied loan or a collections call makes the account impossible to ignore, it has been open and drawing money for weeks.
+WHY THAT $4 CHARGE ON YOUR STATEMENT COULD BE FRAUD
+What to do if a credit card appears in your name
+Move quickly, because every day an account stays open gives a thief more time to spend money, damage your credit or try the same information somewhere else.
+1) Contact the card issuer immediately
+Call the credit card company or lender that opened the account and tell them the account is fraudulent. Ask them to close or freeze the account, stop any pending charges and send written confirmation that you are not responsible for the debt.
+2) Start at IdentityTheft.gov
+Go to IdentityTheft.gov. The Federal Trade Commission's site generates an Identity Theft Report and recovery plan to help you report identity theft, limit the damage and fix your credit.
+3) File a police report if a creditor asks for one
+Your FTC Identity Theft Report is usually the key document for disputing fraudulent accounts. Some lenders, banks or debt collectors may also ask for a police report. If that happens, file one with your local police department and keep a copy for your records.
+4) Save every document and confirmation number
+Keep copies of account statements, collection letters, emails, dispute letters, FTC reports, police reports and confirmation numbers. A clear paper trail can make it easier to prove the account was fraudulent if a creditor, credit bureau or debt collector questions your claim.
+5) Dispute the account in writing
+Dispute the fraudulent account directly with the lender that opened it, in writing. Also dispute it with Equifax, Experian and TransUnion if it appears on your credit reports. Under the Fair Credit Reporting Act, companies that furnish information to credit bureaus have a duty to investigate disputed information.
+6) Freeze your credit at all three bureaus
+Place a freeze at Equifax, Experian and TransUnion to help block the next application. Freezes have been free since 2018 and can be lifted online when you need to apply for credit.
+7) Add a fraud alert
+A credit freeze blocks access to your credit file. A fraud alert tells lenders to take extra steps to verify your identity before opening new credit in your name. You only need to contact one of the three major credit bureaus to place a fraud alert, and that bureau must notify the other two.
+8) Report suspected mail theft
+If you believe stolen mail helped someone open the account, report it to the U.S. Postal Inspection Service, the law enforcement arm of the Postal Service. You can report mail theft, identity theft, fraudulent change-of-address requests, fraudulent mail holds and fake Informed Delivery accounts at mailtheft.uspis.gov.
+9) Request an IRS Identity Protection PIN
+If your Social Security number was used, request an IRS Identity Protection PIN at irs.gov/ippin. This helps keep a thief from filing a tax return in your name.
+10) Change passwords and lock down your accounts
+Change the passwords on your bank, credit card and email accounts, especially if your email address was part of the fraud. Use a password manager to create and store strong, unique passwords for each account, so one exposed password cannot unlock the rest of your financial life. Turn on two-factor authentication (2FA) where available. Then review recent transactions, saved payment methods and automatic payments for anything you do not recognize.
+11) Get help cleaning up the damage
+Cleaning up identity theft can mean dealing with creditors, credit bureaus, debt collectors and repeat follow-ups. Keep copies of every report, dispute letter, confirmation number and account closure notice so you have a clear paper trail if the fraud resurfaces.
+No service can prevent every account opened in your name. Continuous three-bureau credit monitoring may alert you to new accounts as they are reported, rather than weeks later when a lender turns you down or a collections notice arrives. See my tips and best picks on Best Identity Theft Protection at Cyberguy.com
+Kurt's key takeaways
+A stolen credit card account can quietly grow into a much bigger identity theft mess before you ever see a bill. That is what makes this Washington case so alarming. The victims were not ignoring warning signs. The statements were being sent somewhere else. The best move is to make it harder for thieves to open the next account. Freeze your credit at Equifax, Experian and TransUnion, watch for hard inquiries and check your credit reports for accounts you do not recognize. If something appears, go straight to IdentityTheft.gov, file a report and dispute the account in writing with the lender. Credit monitoring can also give you a faster heads-up when a new account or inquiry hits your file. It will not stop every scam, but it can shorten the time between the fraud starting and you finding out.
+Have you ever found a credit card, loan or account on your credit report that you did not open? Let us know how you discovered it and what it took to fix it by writing to us at Cyberguy.com
+CLICK HERE TO DOWNLOAD THE FOX NEWS APP
+Sign up for my FREE CyberGuy Report
+- Get my best tech tips, urgent security alerts and exclusive deals delivered straight to your inbox.
+- For simple, real-world ways to spot scams early and stay protected, visit CyberGuy.com - trusted by millions who watch CyberGuy on TV daily.
+- Plus, you'll get instant access to my Ultimate Scam Survival Guide free when you join.
+Copyright 2026 CyberGuy.com. All rights reserved.

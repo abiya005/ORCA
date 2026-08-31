@@ -1,0 +1,30 @@
+TITLE:
+FBI warns of fake FIFA websites stealing personal information during World Cup
+
+SOURCE:
+Crypto Briefing
+
+DATE:
+2026-06-20T13:32:50Z
+
+URL:
+https://cryptobriefing.com/fbi-warns-fake-fifa-websites-world-cup/
+
+ARTICLE:
+
+FBI warns of fake FIFA websites stealing personal information during World Cup
+Thousands of fraudulent domains are impersonating FIFA as scammers blend classic phishing tactics with crypto schemes ahead of the 2026 tournament
+The FBI’s Internet Crime Complaint Center issued a public service announcement on May 27 warning that cyber threat actors are actively spoofing FIFA’s official website as the 2026 World Cup approaches. The tournament, hosted across the United States, Canada, and Mexico, has become a magnet for scammers deploying lookalike domains designed to steal identities and hawk counterfeit tickets.
+Cybersecurity firm Group-IB has identified over 4,300 fraudulent domains impersonating FIFA since August 2025.
+How the scams work
+Scammers register domains that look almost identical to fifa.com, banking on the fact that most people won’t notice a missing letter or an unusual domain extension.
+Among the fraudulent domains the FBI specifically flagged: fiffa.com, fifa-com.com, jobs-fifa.com, fifa-hiring.com, and fifa-online.com. Some exploit typosquatting, where a single character swap catches users who mistype the URL. Others use alternative top-level domains like .org or .xyz to create sites that pass a casual glance test.
+The fake sites don’t just sell nonexistent tickets. Some pose as FIFA job portals, targeting people looking for tournament-related employment. Others mimic official merchandise stores. The common thread is that they all harvest personal information, which can then be used for identity theft, financial fraud, or sold in bulk on dark web marketplaces.
+The FBI’s recommended defense: type “fifa.com” directly into your browser’s address bar. Don’t click links from search engine results. Don’t follow URLs sent via email or social media.
+The crypto angle
+Blockchain intelligence firm TRM Labs reported in June 2026 that a surge of scams tied to digital assets has emerged around the World Cup, primarily involving fake ticket sales and rigged betting schemes.
+On-chain flows to identified scam addresses remained low at the time of TRM Labs’ report, with totals under $1,700.
+Crypto transactions are harder to reverse than credit card chargebacks, which makes them an attractive payment rail for anyone selling something that doesn’t exist. Fake betting platforms add another layer, promising guaranteed returns on match outcomes before disappearing with deposited funds.
+What this means for crypto users and investors
+Anyone interacting with World Cup-related promotions involving digital assets should treat every unsolicited offer as a scam until proven otherwise. That includes token launches, NFT drops, betting platforms, and ticket resale sites that accept crypto payments.
+Verify any crypto project claiming World Cup ties through official FIFA channels. Don’t connect wallets to unfamiliar sites.

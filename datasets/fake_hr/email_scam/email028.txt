@@ -1,0 +1,57 @@
+TITLE:
+Explained | What is the 'Boss Scam' and how hackers are using CEOs' WhatsApp accounts to steal money
+
+SOURCE:
+The Times of India
+
+DATE:
+2026-06-23T06:14:51Z
+
+URL:
+https://economictimes.indiatimes.com/news/india/explained-what-is-the-boss-scam-and-how-hackers-are-using-ceos-whatsapp-accounts-to-steal-money/articleshow/131926816.cms
+
+ARTICLE:
+
+Listen to this article in summarized format
+Except it isn't.
+For years, employees were taught to look for suspicious email addresses, spelling mistakes and fake domains.
+The latest version of CEO fraud bypasses all those red flags. The message comes from your boss's actual WhatsApp account.
+India's cybercrime watchdog, the Indian Cyber Crime Coordination Centre (I4C), has warned companies about an emerging fraud campaign known as the "Boss Scam" or CEO impersonation fraud, a cyberattack that combines malware, social engineering and executive impersonation to trick employees into transferring money to accounts controlled by criminals.
+Also Read: The 'Boss Scam': I4C warns of cyber fraud targeting CEOs, firms
+What is the Boss Scam?
+The scam belongs to a broader category of cybercrime known as business email compromise (BEC) or CEO fraud.
+Traditionally, these scams involved criminals impersonating senior executives through fake emails and messages to pressure employees into sending money or sharing sensitive information.
+According to cybersecurity company McAfee, such attacks exploit the trust and authority associated with corporate leadership, making them one of the most effective forms of spear-phishing used by cybercriminals.
+The latest version identified by I4C takes the fraud a step further. Instead of merely pretending to be the CEO, attackers attempt to gain control of the executive's actual WhatsApp account.
+How does the fraud work?
+According to I4C, cybercriminals first contact CEOs or other senior executives through email or WhatsApp while impersonating regulators such as the RBI.
+The message typically claims there is an urgent regulatory issue requiring immediate action.
+Attached to the message is a compressed ZIP file containing an executable (. exe) file and a Dynamic Link Library (. dll) file.
+Once the executive downloads and runs the file on a Windows computer, malware is installed on the device.
+I4C said the malware acts as a Trojan dropper that establishes a persistent foothold on the system and hijacks active Web WhatsApp session tokens.
+In practical terms, this gives attackers access to the executive's WhatsApp account without needing physical access to their phone.
+Armed with that access, fraudsters begin messaging finance and accounts personnel directly from the executive's genuine account, instructing them to make urgent transfers to designated bank accounts.
+Because the request appears to come from a trusted senior leader, employees are often less likely to question it.
+Why are these scams so effective?
+The success of CEO fraud has less to do with technology and more to do with psychology. Cybercriminals deliberately create urgency, authority and secrecy around their requests.
+McAfee notes that attackers often pressure victims with phrases such as "I need this done immediately", "handle this discreetly" or "I'm unavailable to talk right now" to prevent employees from verifying the request.
+In the Boss Scam, fraudsters exploit another powerful trigger: fear of regulatory action.
+By impersonating institutions such as the RBI, attackers attempt to convince executives that a compliance failure could have serious consequences if not addressed immediately.
+I4C has clarified that regulators do not distribute mandatory software updates, compliance tools or security patches through WhatsApp attachments.
+Any such request should be treated as suspicious.
+Who is most at risk?
+While senior executives are the initial targets, the ultimate victims are often employees responsible for handling money.
+According to McAfee, finance teams, accounts departments, HR professionals and executive assistants are among the most frequently targeted groups because they have access to funds, sensitive information or the authority to execute transactions.
+Newer employees can also be vulnerable because they may be unfamiliar with company processes and more likely to comply with requests from senior management.
+How can companies protect themselves?
+The most important defence is verification.
+I4C has advised organisations not to approve urgent financial transfers or account changes solely on the basis of WhatsApp messages or emails.
+Instead, employees should confirm requests through a direct phone call, video call or face-to-face conversation.
+Also Read: Tata Electronics faces cybersecurity breach; says no impact on business
+Companies should also ensure that employees do not install executable files received from unknown or unverified sources and that IT teams implement software restriction policies that prevent unauthorised programs from running on corporate devices.
+Experts also recommend dual approval mechanisms for large financial transactions and regular phishing awareness training for employees.
+The next threat: AI-powered CEO scams
+The rise of artificial intelligence is making executive impersonation scams even harder to detect.
+According to McAfee, cybercriminals are increasingly experimenting with AI-generated voice cloning and deepfake technology to mimic senior executives. In one widely reported case earlier this year, a finance employee at a multinational company was allegedly tricked into transferring $25 million after participating in a video conference featuring deepfake versions of senior executives.
+The incident highlighted how rapidly CEO fraud is evolving beyond emails and text messages.
+As messaging platforms become central to workplace communication, cybersecurity experts say one rule is becoming more important than ever: no matter how urgent a request appears, always verify before moving money.

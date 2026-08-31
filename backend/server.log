@@ -1,0 +1,44 @@
+2026-08-13 14:46:39,952 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.types
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-13 14:46:39,953 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-13 14:46:40,197 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.types
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-13 14:46:40,198 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-13 14:46:41,831 [INFO] ML Model loaded successfully! Features: 470
+2026-08-13 14:46:41,832 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-13 14:46:41,832 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-13 14:48:42,859 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-13 14:48:42,860 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-13 14:48:42,860 [INFO] setup plugin alembic.autogenerate.types
+2026-08-13 14:48:42,860 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-13 14:48:42,860 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-13 14:48:42,860 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-13 14:48:42,860 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-13 14:48:44,549 [INFO] ML Model loaded successfully! Features: 470
+2026-08-13 14:48:44,551 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-13 14:48:44,574 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-13 14:48:44,575 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-13 14:48:52,032 [INFO] ML Model loaded successfully! Features: 470
+2026-08-13 14:48:52,033 [INFO] 127.0.0.1 - - [13/Aug/2026 14:48:52] "GET /api/status HTTP/1.1" 200 -
+2026-08-13 14:50:18,888 [INFO] ML Model loaded successfully! Features: 470
+2026-08-13 14:50:18,889 [INFO] 127.0.0.1 - - [13/Aug/2026 14:50:18] "GET /api/status HTTP/1.1" 200 -
+2026-08-13 14:50:18,969 [INFO] 127.0.0.1 - - [13/Aug/2026 14:50:18] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-13 14:50:19,033 [INFO] 127.0.0.1 - - [13/Aug/2026 14:50:19] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-13 14:50:19,039 [INFO] 127.0.0.1 - - [13/Aug/2026 14:50:19] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-13 14:52:37,434 [INFO] ML Model loaded successfully! Features: 470
+2026-08-13 14:52:37,435 [INFO] 127.0.0.1 - - [13/Aug/2026 14:52:37] "GET /api/status HTTP/1.1" 200 -
+2026-08-13 14:54:44,058 [INFO] ML Model loaded successfully! Features: 470
+2026-08-13 14:54:44,059 [INFO] 127.0.0.1 - - [13/Aug/2026 14:54:44] "GET /api/status HTTP/1.1" 200 -
+2026-08-13 14:54:49,437 [INFO] ML Model loaded successfully! Features: 470
+2026-08-13 14:54:49,438 [INFO] 127.0.0.1 - - [13/Aug/2026 14:54:49] "GET /api/status HTTP/1.1" 200 -
+2026-08-13 14:57:58,914 [INFO] 127.0.0.1 - - [13/Aug/2026 14:57:58] "POST /api/analyze-apk HTTP/1.1" 200 -
+2026-08-13 15:01:37,150 [INFO] 127.0.0.1 - - [13/Aug/2026 15:01:37] "POST /api/analyze-apk HTTP/1.1" 200 -

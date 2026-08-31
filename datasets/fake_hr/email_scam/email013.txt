@@ -1,0 +1,660 @@
+TITLE:
+Scriptnotes, Episode 740: On Competence, Transcript
+
+SOURCE:
+Johnaugust.com
+
+DATE:
+2026-06-26T19:32:39Z
+
+URL:
+https://johnaugust.com/2026/scriptnotes-episode-740-on-competence-transcript
+
+ARTICLE:
+
+The original post for this episode can be found here.
+John August: Hello, and welcome. My name is John August.
+Craig Mazin: My name is Craig Mazin.
+John: This is episode 740 of Scriptnotes. It’s a podcast about screenwriting and things that are interesting to screenwriters. Today on the show, what is competence and why do we love to see competent or incompetent characters on screen?
+Craig: What number of podcast is this?
+John: 740.
+Craig: Horrible time to start asking that question. What’s good? Should we be good?
+John: You can try to be good.
+Craig: I don’t know.
+John: We weren’t good when we started.
+Craig: No. We may not be good now.
+John: We’ve gotten better, though. We’ll talk about that.
+Craig: Better is important.
+John: I want to ask, what does it mean to be competent in the real world, and how does AI challenge our perceptions of competence? Because a lot of things can seem competent when they’re not competent because a person just typed it into a box.
+Craig: Look, I drew something with 10 fingers only. How competent.
+John: We will also answer listener questions about being ghosted by an agent, and in our bonus segment for premium members, we’ll answer a random advice question from a listener whose workplace has been upended by corrupt goons.
+Craig: Oh.
+John: Should they stay or should they go, and if they go, should they exit loudly?
+Craig: Is this Scott Pelley writing in?
+John: It could be Lesley Stahl.
+Craig: Got it.
+John: You’ll have to wait till the bonus segment to figure out who it is.
+Craig: It could be the great Lesley Stahl. It is not Lesley Stahl.
+John: It’s not Leslie Stahl.
+Craig: She chose to stay.
+John: She chose to stay, but we’ll see.
+Craig: It’s a situation over there.
+John: It’s a situation over there, for sure. We have big news right here on this very podcast.
+Craig: Oh, here we go. Hold on, folks.
+John: This will be the final episode produced by our beloved producer, Drew Marquardt.
+Craig: Oh, we fired him.
+Drew Marquardt: Me and my family have decided that it’s good that I take time to work on my own things.
+Craig: Transition to…
+Drew: This is best for everyone and thank you.
+Craig: Respect our privacy at this time.
+John: Absolutely. We will respect Drew’s privacy to a certain degree.
+Craig: We did not fire Drew.
+John: No. We’ve had a lot of fantastic producers over the years. Generally, when we lose a producer, Craig, it’s because he gets staffed on a show and suddenly we’re scrambling to replace them.
+Craig: By “we,” we mean you.
+John: Me. In this case, I have a project that’s going to require a lot more of my time, and I selfishly wanted Drew to come over to this project with me, which meant we actually had some time to think about the best ways to–
+Craig: Succession.
+John: Succession. We thought about succession. We didn’t get four seasons out of it. We got a couple of months.
+Craig: This particular show right here.
+Drew: Justice drama-fueled.
+John: We found someone who’s going to be fantastic. Her name is Meredith Stedman. Meredith, some folks might already know who you are. Can you give us a sense of your background and why they might know your voice?
+Meredith Stedman: Sure. If you’re a podcast listener, particularly in true crime or horror, you might have heard me before. I worked on Radio Rental for a long time, and Rattled & Shook, and Up and Vanished. Just some titles like that.
+John: Fantastic.
+Meredith: You might have heard me.
+Craig: I’m already very soothed, by the way.
+Meredith: Oh, thank you.
+Craig: Very soothing.
+Drew: I used to listen to her podcast to go to sleep, which is crazy because it’s a scary story.
+Craig: That’s not a great compliment. That said, Melissa uses our podcast to go to sleep. We are her sleeping podcast. I walked into the room, this is my wife, seeing her lying there, a little bit of drool coming out of the mouth, soft snore, you and I talking about copyright.
+John: Understandable. Meredith, we’re so excited to have you on board, and you actually know how to produce podcasts, which is so great because–
+Craig: Wait, so does he.
+Drew: Oh, no. I was winging it for a very long time.
+Craig: What?
+Meredith: Thank you.
+Craig: No one told me.
+John: No one who’s come on to produce the podcast has actually produced a podcast before they sat down in the chair-
+Craig: This was the podcast. This was it.
+John: This was how it started.
+Craig: You bring some outside knowledge.
+Meredith: I think I somehow am the first generation of someone who’s had this job this long. I don’t think it was a possibility before.
+Craig: It was an emerging industry.
+Meredith: Yes, an emerging industry.
+Craig: Understood.
+John: To fill out more of your curriculum vitae, you actually did go through the Peter Stark program. You actually have a film producing degree.
+Meredith: Yes.
+John: Part of the reason I think you wanted to move over here is because it’s a little closer to what you actually learned how to do.
+Meredith: Yes.
+Craig: This whole place is just a Starkie-
+Meredith: You’re surrounded.
+Craig: -supply tube. I am personally surrounded. It’s pretty good. I got to say, I don’t want to like it, but my whole thing is that these places basically cheat by picking people who are going to be successful and then making them spend money to confirm it. We can talk about that incompetence point. What a great scam. Here, take this test to see if you’ll succeed. You will? Give me money. Nonetheless, their selection process is on point. That much is clear.
+Drew: That’s absolutely true. When I got this job, I had the thought of, “Thank God they didn’t meet Meredith Stedman because that’s the person who should have this. I’m very excited that you’re–
+Meredith: Oh, Drew.
+Craig: You could have just said it.
+Meredith: Oh, please.
+Drew: No, I wanted the job. Me first, and then other people.
+Craig: I have to be honest.
+John: We should talk about how you came into our orbit because you were our intern. The Peter Stark program, which is a two-year motion picture producing program at USC, that I went through, that Stuart Friedel went through, that Megan McDonald went through.
+Craig: Did Megana go through?
+John: No, Megana went to Harvard.
+Craig: She went to Harvard.
+John: She went to Harvard.
+Craig: She went to Harvard. She was like, “I think we have enough here.”
+John: Just the same way that I was an intern at Universal Pictures, Drew was our intern for a summer here and was great. He was helping us out with the Scriptnotes book. Then when Meg and I got staffed on a show, he stepped up.
+Drew: Thank God, because it’s changed my life. It’s been amazing. There’s a lot of parents for the Scriptnotes book, but it’s my baby. Seeing that through has been amazing, too.
+Craig: Beautiful orange book. I guess we’re going to ask you all sorts of questions. I’m just curious because I don’t know if this would be on the list of questions. When you say it’s changed your life, Megana Rao has mentioned that she’s recognized.
+Drew: Oh.
+Craig: Do people ever recognize you?
+Drew: Very rarely.
+Craig: By your voice?
+Drew: By my voice, sometimes, but it’s context. If you’re at the New Beverly and there’s a bunch of film nerds around, I’ll get an occasional someone just sticking their head out and looking and I’m like, “Oh.”
+Craig: “He’s here. It’s him.”
+Drew: The only time I’m stopped is in Austin. It’s usually to be like, “Hey, you’re not Megana Rao.” I’m like, no, you’re right.
+Craig: How encouraging and reaffirming-
+Drew: Thank you.
+Craig: -that comment is.
+Drew: Big shoes to fill.
+John: Each week, how many emails come in that are still addressed to Megana rather than to you?
+Drew: Good question.
+John: Have you had any, Meredith?
+Meredith: Yes, I’ve already seen them. I’m like, well, you actually missed a little bit in between.
+Drew: Probably three or four every week still.
+Craig: Megana really did have an outsized–
+John: Well, she was the first of our producers who actually spoke on a camera regularly.
+Craig: That’s what it was.
+Drew: That’s what it was.
+Craig: Or on microphone, at least. You’re absolutely right.
+John: I’m saying camera because now we have cameras.
+Craig: Now we’re one of those.
+John: One of those. 588 was your first episode. That means 152 episodes produced plus the side cast episodes during the strike, so maybe 170 altogether.
+Craig: Stuart probably has the record still.
+John: It’s the third most because Stuart has 259 episodes and Megana has 199. You couldn’t–
+Drew: One shy of 200.
+Craig: That’s the way you do it. You say, I don’t want the 200. You walk off the field like a stud.
+John: Obviously, you’re incredibly central to getting this podcast out each week. Also central is Matthew Chilelli, who’s going to miss you. He put together a special presentation just for you.
+Craig: Oh, this is going to be good.
+John: You’ve not heard this yet. We’re going to play it for the first time.
+Craig: Oh, boy. Here we go. What people don’t know is that John and Drew have the exact same thing they do when they do a verbal flub. Matthew, can you do it for us? I know you know what it is.
+Matthew: Oh, right. It’s almost the sound of a tape rewinding.
+Craig: It’s like that.
+Drew: Victor writes, “Are you guising?” You point to it as a kitsch, and– She writes, “If you’ve ever–” Free delivery– I’m going to say that again. My friend Simon and I– I’ve organized a schedule that requires– Try that again. I’m going to try that one more time. As with your three– I’m going to start that again.
+Craig: Love it. That’s what lets us know it’s not AI.
+John: Thank you, Matthew, for that. Thank you for all of your questions being read.
+Drew: Oh, my God.
+Craig: I was hoping that was going to be what that was.
+John: I mess up a lot and people don’t hear that. I think one of the challenges for you is that you won’t be talking for a very long time and suddenly you have to read a question, so you have no warmup into it.
+Drew: There’s that. I had to get used to the cadence because I would hit it really fast sometimes and my brain would get ahead of the words coming out of my mouth, and that would be a huge problem. It took a while. It’s going cold into it. Also, I’m bad at talking. That’s a big part of it.
+Craig: Let me try that. It is interesting. It’s fascinating. That is something that you guys both– That is your specific thing.
+Drew: I think I took it from John because, again, this is the first podcast job I had. I was like, oh, that’s what we do when we screw up.
+Craig: I learned it from you, dad. I learned it from you.
+John: Meredith, you have a lot of hosts who come through. What do they do? Is it a three, two, one, or how do they do when they acknowledge it’s a flag so it gets cut out?
+Meredith: There’s been some good ones. I worked with someone who was like, “Boop, and cut that.” They would literally do it for the editor.
+Craig: They would boop themselves.
+Meredith: They would boop themselves.
+Craig: Incredibly helpful.
+Craig: It’s very helpful. She’ll at least get on that.
+John: I’ve also heard people clapping so it forms a big spike. Some people can see like, “Oh, there’s a problem around here.”
+Meredith: Same deal.
+Craig: Fascinating.
+John: Drew, what is the most surprising thing you’ve while here or a couple of them?
+Drew: Chris Nolan’s car is not what you expect it to be.
+John: It flies for sure.
+Drew: It flies. When people come to the office, I give them the parking pass because they park on the street. It’s always interesting to see what car people drive at different parts of their career.
+John: Does Christopher Nolan have a more modest car than you’d expect?
+Drew: More modest car than you expect. I expected a Rolls-Royce.
+Craig: Do you know that my strong feeling ever since– Do you know who Jeffrey Katzenberg is?
+Drew: Yes.
+Craig: Jeffrey Katzenberg was at the height of his powers in the ’90s, I would say, when he was running Disney. His whole thing was, I drive this 1982 Camry. That’s what keeps me real while I get paid hundreds of millions of dollars. I actually think that’s douchier. I’m not saying Chris Nolan is douchey. I’m just saying that the whole look how shitty my– Am I allowed to say shitty?
+John: You could have said it. It’s your podcast.
+Craig: I’m just saying the whole look how crappy my car is thing, it’s a little performative.
+Drew: It wasn’t a crappy car. It wasn’t a performatively crappy car. It was like he got a good deal at CarMax. It was just–
+Craig: That is, I got a good deal at CarMax, seems like a crappy car to me. I’m not saying it’s crappy.
+Drew: Maybe it’s incognito. You see these cars driving around LA that are big and they’ve got a personalized license plate and you’re like, you are making a scene. I like the incognito of it all.
+John: Is my Chevy Bolt or my Nissan Leaf, which are my two most recent cars. Are those–
+Craig: Those are high-efficiency cars. I think that that’s fine. Now, I also drive a high-efficiency car, but it’s an absolute a-hole car. Not because it’s modest.
+John: You’re also never in town to drive it.
+Craig: Correct. It’s beautiful.
+John: Let’s get back to Drew here. Anything else that you’ve taken from your experience working here?
+Drew: Oh my God, so much. Because I had an acting career before this that fell apart. To have a place, I think I’d always felt like, it’ll be lucky if I get to work in the industry and have that– I think there was a huge confidence hit in that. To come in here and to have you guys be patient with me while I had a lot of nerves early on, and then, yes, to find that again and to– Beyond having a job and being able to learn so much from so many people, just what it was able to do for me in terms of being comfortable and relaxed.
+Craig: That’s awesome. I’ve always appreciated that you’re a slightly vulnerable person and that you–
+Drew: Thanks.
+Craig: You weren’t somebody that hid your– I wouldn’t call it nerves as much as your desire to do a good job. I love that.
+Drew: Oh, thank you. I worry that eagerness can be a little off-putting, so I appreciate it.
+Craig: Not to me. I’m sure a lot of people hate it. I thought it was quite lovely.
+Drew: Thank you.
+John: I think, Craig, you haven’t had a chance to read Drew, but Drew’s also a really good writer. You had a bit of a writing career before this and you have a writing career now that’s percolating, which is nice to see as well, as a writer and a director.
+Drew: Thank you.
+Craig: The impulse is to be like, not at all. No, I’ve never been paid for it.
+John: Here’s what’s a little awkward about this is it’s not like you’re going away forever. You’re sticking around. You’re just not going to be producing the show every week.
+Craig: You’re sliding one chair down.
+John: You will just have one email address rather than two email addresses, so you won’t be answering the Ask Account, which is easily 50% of your job.
+Drew: Oh, my God. Yes. This week when it shifted over to Meredith, I was like, oh, look at all this time and mental space I have.
+Craig: How many emails do we get a week?
+Drew: Oh, not 1,000, but–
+Craig: 1,000?
+Drew: No, not 1,000, but–
+Craig: If you say not 1,000, that means nearly 1,000.
+Drew: I bet we’re getting 100 emails a day.
+Craig: Oh, my God. 100 emails a day. We’re so behind.
+Drew: Well, but it’s not all listeners. There is just random PR stuff. There’s a lot of– Publicists will send through stuff like photo calls and all that stuff.
+John: We get a lot of incoming about guests on the show.
+Craig: We are just a thing that is on a mass, like blanket it to get my guy on the show.
+Drew: That would be 60% of it.
+John: Well, Drew, we thank you for your producing of the show week after week, for dealing with the email and–
+Craig: Dealing with us, and really, I mean me.
+John: Thank you.
+Drew: No, it’s long overdue.
+Craig: Not knowing where I am, what I’m doing, where I’m going. Great producer. Great job.
+Drew: Thank you. I really appreciate it.
+Craig: Really good work.
+Drew: Thank you, guys.
+Craig: I won’t miss you. You’ll still be here. How can we miss you if you don’t go away?
+Drew: That’s the problem.
+Craig: That’s always been the problem.
+John: All right. Some follow-up. One thing that won’t be going away is Widow’s Bay.
+Craig: Oh, wait. Widow’s Bay.
+John: A second season.
+Craig: I was reading a little bit about Apple today, and there was an article that was talking about how they’re becoming the most concentrated version of what HBO has been, or perhaps was, where instead of the Netflix model of fire hose, they’re just drip, drip, drip, but each drip is meant to be high-quality. The viewership does not have to be high, but the impact on culture has to be high. No one has any idea how many people are watching these shows. I don’t know how many people are watching these shows, but Apple does do a good job of making– they’ve got a high signal-to-noise ratio, no question. Widow’s Bay has been amazing. I was just texting with our buddy this morning, and I told her, you’re never getting off that island.
+John: It’s very good. We do have some information about viewership on Widow’s Bay because they have released some stuff, and so it has tripled week over week.
+Craig: Do they say from what?
+John: From like a 100 baseline. I’ll look and figure out where that viewership never comes from. I think what it speaks to, though, is that the weekly release schedule has been a huge driver of the success of that show.
+Craig: It generally is a fantastic way to do things. The more we go through these technological convulsions, the more it seems like people who have come to disrupt our business eventually arrive at the most disruptive plan of them all, go back to the way we did stuff. You know what we really should do is stream television, but include advertisements within the programming. Oh, you mean like 1945 Geritol Presents? It is remarkable. Of course, week to week. Widow’s Bay is actually doing something interesting that has brought to mind something.
+We’re recording this on a Friday. Have you seen the last episode, the penultimate episode this season on Wednesday?
+John: Oh, yes. A little cliffhanger.
+Craig: Do you know the length of that episode?
+John: Short.
+Craig: 30 minutes. Now, I’m sitting there going, why am I breaking my body and mind apart to do these sometimes 80-minute-long episodes, right? Why don’t I just split them in half and they’re only– because I did not mind it at all.
+John: No, it was great.
+Craig: I didn’t mind it at all. Widow’s Bay has piqued my interest in the half hour– Look, I’m sure Widow’s Bay is currently submitted for Best Comedy.
+John: Yes, which is appropriate.
+Craig: Which is fair. Unlike The Bear, which was not correct. It’s not category fraud, as they say. It’s also a drama. It’s a dramedy. I can see a world for a 30-minute drama. The reason that we have hour-long dramas is because network television would give a drama an hour. 20, what? Eight minutes of that or maybe 20 minutes of that were advertisements.
+John: They were really 40 minutes.
+Craig: They were really 40 minutes long. Then you suddenly got this much denser hour-long thing. Now I’m thinking, is there a new category here of half-hour drama? Which The Bear, by the way, was. It is?
+John: It is. Still. We have one last bit of follow-up here. I would love you to do this for us, Drew, if you could, because it’s also your last chance to talk about D&D on the show.
+Craig: Your last chance to go [onomatopoeia].
+Drew: We’ll see if I get in there. Adam writes, I think you two would be interested in a trick I’ve been using in my D&D campaigns. One of the hardest things about starting a campaign is finding out why this group of misfits starts working together to begin with. Start with the Stewart special. Session one starts right in the middle of the inciting incident as the event that changes the characters [onomatopoeia].
+Craig: There it is.
+Drew: Session one starts right in the middle of the inciting incident, the event that changes the characters from a group to a party as things lead to a climax, a record scratch. Yes, that’s you guys. Bet you’re wondering how you got here. It all started at the tavern. This can really change the tone for that first session or two. Instead of milling about, it’s now the player’s job to figure out why they were at the inciting incident. If they say, “I don’t think my character would do that,” you can say, well, we know it happens, so what would make your character do that?
+If it doesn’t line up in the end or they get themselves killed in the opening scene, well, the flash forward was a prophecy and you just defied destiny.
+Craig: The hangover model of D&D.
+Drew: Yes.
+Craig: I’m a little worried about a DM who says, if you die, if you get yourselves killed in the first session, I don’t know, maybe ease up on the combat a little bit. Session one. Fudge a roll, let them live.
+Drew: Yes, but level one characters are so squishy anyway. It’s just one swipe by a bear.
+Craig: That’s why you got to really tune those encounters. Right, Meredith?
+Meredith: Right.
+Craig: She’s like, I regret everything.
+John: She’s like, how do I get out of this job?
+Craig: Googling fast exit.
+John: Yes, but also, it’s nice if a level one character dies, you’ve established stakes in the world of death. Is it real?
+Craig: That’s true. I believe in death in D&D, as you know. I think it’s important.
+John: My characters have died.
+Craig: I think the coolest thing a character can do role play-wise is die. It’s awesome. We have players who disagree strongly, which is fine. I don’t try to ever do it. It’s best if it happens rarely. I do believe that. Starting a campaign. This was not the point of why this guy wrote in, or woman. The point is that it is a fun way to force everybody to figure out, how did we get here? How are we friends? It is the clunkiest part of things. There’s no question. It’s one of the reasons I applaud Baldur’s Gate for their way to get everybody together was you were just randomly plucked up by mind flayers, all of you infected.
+John: And now–
+Craig: Now you’re in it together.
+John: I think I did on the campaign that you played in recently, Craig, is I required all the players in session zero, it’s like you have to be related to two other characters in the group. It can be they’re your brother, they’re your friend, you have a crush on them, something else, just that there would be interpersonal connections before it started, and you all were in the same small town.
+Craig: What we inevitably discover along the way is we find our own connections anyway because we start to get to know each other’s characters and things happen.
+John: Bits develop, yes.
+Craig: Bits develop.
+John: All right, let’s get to our marquee topic. This was put in my head by this blog post I read by Iris Meredith. She offers this really useful framework for describing what it means to be competent. We’ll put a link in the show notes to it. The three main bullet points is that competence is knowing enough about a field to know what good things and bad things are, two, generally wanting the good things rather than the bad things, and three, being able to execute at least one method for getting the good things rather than the bad things.
+What I like about her post is that she’s distinguishing two kinds of incompetence. The first is when someone has no idea what they’re doing, and the second is when someone knows what they’re doing, but they simply just don’t do it, either because of external causes, like there’s bad systems around them, or internal forces, like burnout or just disinterest. They just don’t want to do a thing. Recently, Craig, we were talking about competence porn. I think you brought up competence porn. It’s exciting to watch characters who know what they’re doing.
+Craig: Yes, we enjoy it. It’s incredibly satisfying to see somebody that can’t miss. It’s a weird thing. You would think that the rules of drama are such that we like watching people struggle and suffer, which generally we do, but every now and again, we want to, as they say, park our brains under our seat.
+John: You want the person to be someone challenged, but to be able to overcome a challenge without–
+Craig: Without question. They’re so good at it. There are entire genres of action movies, the point of which is, yes, you messed with the wrong guy. The Equalizer is the ultimate in competence porn. Denzel Washington plays a guy who does not lose any encounter. He, in fact, is so competent, the only challenge he has is giving himself a challenge of how quickly he can kill everyone in the room, but they are definitely going to die. It is so satisfying to see someone that confident in what they do.
+John: Yes. Heist films, in general, are all about competence. They have a plan. They’re executing the plan. You don’t even know how the plan works, but it’s great to see them working on their plan. In terms of systems, a lot of Sorkin’s movies, especially Sorkin Walkin Talks, are people who are incredibly competent, and they’re just doing their thing. Even though a huge thing is happening, they are on top of it.
+Craig: It’s comforting. The West Wing was comforting. Oh, look, everybody up there is really smart and cares and is working so hard.
+John: We had Tony Gilroy on the show talking about Andor. The rebels in Andor are incredibly competent in what they’re doing, which makes you feel good because, even if they’re facing astronomical odds, they can do it.
+Craig: Tony Gilroy’s Michael Clayton. Competence porn. Michael Clayton can clean up any mess as a corporate fixer. The question only is, should he clean up this mess or not? Not, can he clean up this mess or not? That’s exciting to watch.
+John: In science fiction, you have The Martian. Matt Damon’s character is so incredibly competent. No one else can do what he’s doing. He’s doing great. The Pitt is a great example, or ER, of doctors who are really good at doing what they’re doing. Yes, they’re facing challenging cases, but they know what they’re doing.
+Craig: MacGyver, from our childhood, every week would take a paper clip and a piece of bubble gum and some windshield wiper fluid and make a bomb. He could do that every single week. He needed to do that every single week and you never-
+John: That was the franchise of the show.
+Craig: -sat down and expected that one day, MacGyver would go, actually, none of this stuff adds up. Now, is it as good as MacGruber?
+John: No.
+Craig: No.
+John: Let’s flip it around and talk about incompetence porn because I do think that’s actually one of the real hallmarks of comedy. The Office is incompetence porn. It’s people who are above their station. They don’t know what they’re doing. Veep is just incompetence. It’s just people failing constantly. Succession, I would argue, is sort of both because you have people who work– We have Jerry, who’s incredibly competent, but then you have some of the heirs who are competent only in small domains and are flailing around.
+Craig: I would put that right into incompetence porn because you have the most competent man in the world, Logan Roy, looking down at his failed sons and failed daughter. The people below him that work directly for him, the non-family people, like Jerry, for instance, are conniving and backbiting and would sell them out in a heartbeat if they thought they knew who was going to be taking over. The guy who wins is not particularly competent. He’s more of a coward.
+John: Yes, he learns along the way, though. That’s actually one of the nice things about a multi-season show is that you see Tom Wambsgans’ fans actually develop some skills along the way. Even Greg develops some skills along the way. He has no moral compass whatsoever.
+Craig: No. Greg is pretty incompetent. Tom describes his one skill beautifully to the character that Alexander Skarsgard played. I’m a pain sponge. I absorb misery so you, the guy who owns the company, won’t ever have to be touched by it. I am your scapegoat. I’m your sacrificial lamb. That’s a horrible, depressing way to view yourself, but he understood that indeed was the thing that made him strong. Watching the failures there, every time Jeremy Strong’s character was this close and then he would just mess it up, if he’d just shut his mouth. Did you ever see Father Ted?
+John: I remember Father Ted, yes.
+Craig: Father Ted, great incompetence porn. Faulty Towers, great incompetence porn. The Brits do incompetence porn.
+John: Widow’s Bay is incompetence porn.
+Craig: Yes. The staff is ridiculous. Rosemary.
+John: Rosemary.
+Craig: So good. [laughs]
+John: What I want to point out about competence is it is not a general trait. A character is not competent across all areas. They’re competent within a very specific domain. That’s what’s so interesting. I personally am a very competent wrapper of gifts. I’m really good at wrapping gifts.
+Craig: I’m so glad you added of gifts.
+John: I was like, no, you’re not. Oh, of gifts.
+John: Of gifts.
+Craig: Yes.
+John: Don’t ask me to do any sport other than running. I’m just incompetent at all other sports.
+Craig: John, I cannot wrap a gift. I’ve tried. It is so triggering for me. In school, I was competent across every class, including PE, except for arts and crafts. Arts and crafts, I was the kid who would end up with a popsicle stick in his hair, glue on the back of his neck, and some horrible mess in front of me, glitter everywhere. Zero abilities. I don’t know what it is. When I’ve tried, I’ve sat there with a YouTube instruction video to try and wrap a gift. It looks like an animal did it. Whereas Melissa could work at Bloomingdale’s wrapping gifts.
+John: Yes. I love wrapping gifts. I don’t care about gifts. I love wrapping them.
+Craig: You just wrap–
+John: Love it.
+Craig: Does Mike know how to wrap a gift?
+John: He knows. He can wrap a gift.
+Craig: But he comes to you, doesn’t he? He’s like, “Can you wrap this?”
+John: Yes, absolutely. You mentioned the word confidence earlier. I think that it’s important because they’re related things because we often see them correlated. When they’re not correlated, is when you get some really good comedy.
+Craig: That’s the juicy stuff or tragedy.
+John: Yes. We see confidence before we see competence. We see the character is approaching a thing as if they know what they’re doing, but the situation itself is the only way that we see whether they’re actually competent there. It’s the action the characters are taking that reveals whether they’re actually competent. With confidence, you have both internal confidence, does the character believe they know what they’re doing, and external confidence, do the people around them believe they know what they’re doing? Those are the dynamics of scenes. That’s what creates drama and suspense.
+Craig: It tends to work best when we, in the audience, can’t obviously see that this person is competent if only she would take her glasses off and whoosh the hair. That was a very common trope in the ’80s and ’90s. You’re like, no, they’re pretty hot with the glasses on. The glasses do nothing. There’s an off-replayed clip on YouTube of the 1978 Superman, Christopher Reeves, taking his glasses off as Clark Kent and then straightening his body up and getting taller.
+He’s pretty awesome-looking with the glasses on. No one still to this day quite understands how he got away with that. It’s better when we ourselves start to realize with somebody, wait, I can do something. Now the question is, do I have the confidence to actually try and risk failure?
+John: Let’s look at situations where a character is competent and confident versus competent and incompetent. I want to compare two Andy Weir heroes. Mark Watney is the Matt Damon character in The Martian, is confident and competent. He knows what to do, and he’s ready to do it. Then you look at Ryan Gosling’s character in Hail Mary, he is the least confident person around, and yet he’s incredibly competent. He’s able to do all the stuff to save himself. Our approach to the two characters is so different because we want Ryan Gosling to believe in himself, and he doesn’t.
+Craig: You’ve given two good starting points, not necessary starting points, but good ones for drama versus comedy. In a drama, a character is confident and competent and must push through some emotional stressors, some very human things because they’re in an extreme situation. Only they would survive at all. The question is now really, do they have the heart to withstand it all? Whereas, somebody who does not believe in themselves, but has the tools, it’s going to be funny. They’re going to bumble around, and they’re going to feel like an idiot, and we’re going to laugh.
+John: I would say that the confident-competent duo isn’t just for protagonists. Miranda Priestley in Devil Wears Prada is confident and competent, and we see that in her, and that’s a huge part of who she is, that she’s both of these things. She knows what she’s doing, and she believes she knows what she’s doing.
+Craig: A good villain is typically confident and competent.
+John: I can only think of one counter-example. Salieri in Amadeus, he’s not very good, and he knows he’s not very good.
+Craig: Yes. He knows he’s mediocre. He is, however, a court musician. He’s one of the best– Salieri was legitimately one of the best composers of all time, just not in the top– He’s not in an A rank. He’s not S tier, and he’s not A tier.
+John: I’m saying the character in the movie–
+Craig: The character in the movie, what was so fascinating about it, and it’s why we keep coming back to the notion of Salieri, or at least the dramatized notion of Salieri in Mozart is to say, what happens when you are confident and competent, and then you meet somebody who is resplendent? What happens when the mortal man meets the angel? What does that do to us? Which is a very specific sort of thing because he definitely wasn’t incompetent.
+The most beautiful moment in Amadeus, to me, is when Mozart is dictating his Requiem to Salieri, and Salieri is scribbling this down, hating him for it and weeping in real time because he can hear the music in his head and being so in love with the product of it.
+John: Just to complete the little grid here, we also have characters who are confident but incompetent. Michael Scott in The Office.
+Craig: Yes. Always fun.
+John: Mostly of the heirs in Succession.
+Craig: Yes. The emperor in Mozart. Too many notes.
+John: Absolutely. That’s often a comedy character.
+Craig: Almost always. It’s because it is so funny to watch somebody blithely announce to other people, usually people who are competent. Blackadder is a good example of this. You have your Hugh Laurie, and then you’ve got your own Atkinson. It’s always funny. Now, in real life, it’s the worst. You served in the WGA. One of the things that happens when you serve any system is that you come to learn why things are the way they are. It doesn’t mean they can’t change or be improved, but there are things where you always thought, why do they do it this way?
+Then you find out, oh, because of law and stuff. Inevitably, somebody would then come along and announce with total confidence and complete incompetence that you’re all stupid because you haven’t done X, Y, and Z, the most obvious things in the world to do. Everybody patiently waits and then says, we’re not allowed to do that by law. You are very confident and you are very incompetent. It’s not fun in real life. On TV and in movies, it’s hysterical.
+John: Just delightful. You bring up the systems that may be an obstacle there. I was thinking about, you also have to want to do the thing. Ron Swanson’s character on Parks and Recreation, the great Nick Offerman, he could do all the things. He just doesn’t want to do all the things. He just chooses not to.
+Craig: Yes. He’s a reluctant hero. You do know that when the chips are down, that Ron Swanson could probably do anything. Have you ever seen– you’re not a big South Park fan, are you?
+John: I’ve watched a lot of South Park, yes.
+Craig: Have you ever seen the episode Scott Tenorman Must Die?
+John: Incredible. You look at how Cartman is like, wow, Cartman could do all these things. Cartman can murder a child.
+Craig: Cartman, as it turns out, when he puts his mind to it, is the most competent person in the world. That episode still has one of the best endings of any work of art I have ever experienced. It’s incredible.
+John: It’s incredible. I don’t want to spoil it for everyone to see it.
+Craig: If you have not seen Scott Tenorman Must Die, watch it.
+John: We also need to talk about knowledge. The character has to have the ability to know what is right and what is wrong, what the actual goal is and whether they’ve achieved the goal. You think about there’s people who are knowledgeable, but incompetent. You think about the critic who can’t actually do the thing that they’re criticizing, the chef who knows every technique, but can’t get dinner on the table. They know the field, but they can’t actually execute the thing. That’s an aspect of competence.
+Craig: Yes. There’s a good growth story to be had there. The experience of book smarts released into the world and learning how things actually go. That’s a fun story to watch.
+John: Yes, that’s both in comedy and dramas, yes. Let’s just talk about just overall areas, though. We’ve been talking a lot about careers, but it also applies to parenting. The trope of the dad who doesn’t know how to do anything or who has weaponized his incompetence so that he doesn’t have to do anything.
+Craig: Oh, diaper.
+John: I can’t do that. With any technology. The grandparents who can’t–
+Craig: Can I just ask, the very first time you changed diaper, I was drenched in sweat. Drenched. I wanted to do a really good job. This baby would not stop moving. It was my baby, by the way, it wasn’t some random baby. Stop moving.
+John: I would say that I’m good at wrapping gifts. It actually really applies to–
+Craig: It actually makes sense. It was getting the onesie on and off that really put my adrenaline to work. All new parents begin as incompetent, whether they know it or not. They could be confident, they could be not confident, but they are incompetent. Then you learn pretty fast. You learn fast.
+John: You learn fast. Every workplace is a study in competence and incompetence. We mentioned Ron Swanson, but you also have, Leslie Knope, who is so competent that she wants to do everybody else’s jobs, and that’s the source of the friction.
+Craig: Yes. She’s an A-plus student, and that is fun.
+John: Cooking shows we love to watch because they’re just so good at doing these things. How are you able to pull that off? Same with the fashion design reality shows. How do they make that thing happen?
+Craig: We also love watching those things for when people suddenly have an exposed incompetence. Like Project Runway, you have someone that’s doing great every week, and then suddenly the challenge is going to Home Depot and make dresses out of stuff you can find at Home Depot. Somebody who’s amazing with regular stuff is like, I don’t know. I made something out of saw blades and sandpaper, and it’s bad.
+John: It’s bad. Finally, we have the characters who are clearly really good in one specific domain, and they try to apply those skills to things that they have no business touching. Elon Musk is a classic example of this. Craig, there’s a crossword puzzle word which I had to look up. Ultracrapadarian?
+Craig: I don’t know. Ultracrepidarian. Is that a new coinage?
+John: No, it’s an existing word that’s in the dictionary, but it’s a person who frequently professes opinions and judgments outside their area of expertise. Wow, we know some of those folks.
+Craig: We sure do. We call them know-it-alls normally. Ultracrepidarian is not a great crossword word because of its length.
+John: It’s too long.
+Craig: You need quite a large grid for that.
+John: Yes, but it feels like a puzzle word. It feels like some thing that you build together out of little pieces.
+Craig: Ultracrepidarian. A crepidarian is somebody that–
+John: Crep, not crap.
+Craig: Crep. Oh, not crap. Ultracrepidarian.
+John: Crap feels like knowledge.
+Craig: I see. Ultracrepidarian. A crepidarian is somebody that occasionally will profess knowledge outside their area of expertise, whereas an Ultracrepidarian–
+John: We’re being Ultracrepidarian right now. We’re assuming that we can get to the definition of this word.
+Craig: I feel pretty good about what I just said.
+John: I feel pretty good about this. As we wrap up this topic, I want to talk about how the rise of the internet overall, but especially AI, changes how we perceive someone being competent because you can fake your way through things much more easily now than we could when we were in school.
+Craig: Yes. Even prior to the emergence of AI, the technology that underscored this for me the most was music production. Drumming, for instance, used to require an amount of competence, and now it requires you to have a finger and a button to press. Things like adding reverb, editing music, blending tracks, down mixing, all of that stuff has been automated to a remarkable extent, which has democratized music production to the extent that so much of it is ignorable because it all sounds like the same.
+The floor rises, everyone feels competent for a while, and then they realize, oh, no, if everyone around me is at the same level of competence, this is no longer competence. This is just the floor. AI may be doing that for some things. I know, for instance, vibe coding has turned the floor of coding. The floor of coding is raised, so now people that couldn’t code anything can now code some things, but that doesn’t mean it’s good. It just means it’s the floor.
+John: Well, I think the challenge is we’re so used to looking at the output and assuming, well, if this output is good, then the person knows what they’re doing, but you have broken those things apart, so the output could look good. We can assume, oh, this person must be competent, but they really have no idea what they’re doing. They just punched buttons and got the right result.
+Craig: Yes. You can now generate a college essay this way. What begins to happen is that people who are exceptional become all the more notable and interesting and valuable. We are all pretty good now at dressing ourselves because there’s so much you can read about what colors vaguely to throw together. Everybody can vaguely dress okay, so no one gets credit for it. These guys do, but we three don’t. I feel that’s the way it’s going to be with a well-written essay. No one’s going to get credit for that anymore.
+John: Let’s talk about then how do we assess competence in a world where there is AI and where we can’t judge the outputs.
+Craig: We become more particular, and we become more refined in our taste because restaurants. People didn’t go to restaurants that often, and now they go to restaurants all the time. Foodies, we didn’t have that many different kinds of opportunities when we were growing up in the ’70s, and now we can eat foods from everywhere, so now we can go, “This Thai is fine. It’s fine, it’s not great.” Thai food did blow my mind the first time I had what today I would call a C-tier Pad See Ew blew my mind when I was 17, because I’d never eaten it before. This is what occurs now with everything. The democratization of what we would call vaguely competent just becomes normal, and then we start to look for the exceptional.
+John: I think some of what you’re saying in higher ed may be what we need to start doing in the workplace as well, which is basically it’s interviews, it’s talking, it’s looking at the output and then actually speaking with the person about the output and making it clear that they actually understand the output and how they got there that wasn’t just generated by some outside system. It’s the interviewing references and just talking with people. You want to make sure you have a person who can’t just do the thing once but actually understands it and can do the thing in a crunch. As we’re hiring people, I feel like I’m going to be especially vigilant. I don’t want to hire somebody off just one writing sample; I want to make sure to talk to them about how they got there and what their process is.
+Craig: You also are looking for something that feels better than the average.
+John: Yes.
+Craig: The average is going up and we will then have to redefine what competence is as the average improves, and it is. I do remember reading in college, sometimes we’d all do, “Here, we’ve all written papers, read each other’s papers.” I would read a paper and think, “Well, this is a perfectly well-written thing. It is boring. I am unmoved and uneducated. It is formatted correctly. It’s competent.” That used to be an insult. “Well, it’s a competent paper,” meaning you checked all the boxes, it’s just not special. Now, if I read that, I wouldn’t even get two paragraphs in and chuck it because it doesn’t matter whether a human did it or a computer did it; it’s nearly competent, but it’s not special.
+John: All right, let’s go to listener questions. For this one, I’d love to have Meredith read it because, Drew, I think you’ll have a good answer for this.
+Drew: Okay.
+Meredith: This is from Claudia in London. Claudia writes: “My agent, whom I’ve been represented by for two years at quite an established agency, has completely ghosted me. Before you think it, I don’t believe I’ve done anything to warrant it. I know the very clear answer to the conundrum is that I must part ways with immediate effect, but my question is why would an agent do this? I signed with them when I had a contract come in to write a feature film, and since then, I’ve delivered two spec scripts that are ready for industry circulation, but since checking in mid to end of last year, I now cannot muster any response whatsoever. Could you tell me why agents do this and how we, as writers, can cope with the mental rejection?”
+Craig: Very British question. Excellent use of “whom” and “full effect.”
+John: Full effect. I love it. Drew, you had a British agent.
+Drew: I had a British agent for two years.
+John: Talk to me about your instincts here.
+Drew: I was dropped because they just took me off their website is how I found out.
+Craig: I’m so sorry.
+Drew: It’s okay. “We simply don’t represent you.”
+Craig: It was that?
+Drew: Yes. It was like, “Well, you’re in America now, and it just didn’t feel right for you to be there.” I said, “Well, I feel like I’m an artist worth having on your books and worth putting out there,” and they said–
+Craig: They said, “Ah, there’s the crux of our difference.”
+Drew: They said, “Well, if that’s the way you’re going to be, then maybe we should part ways.”
+Craig: Sweet. They weren’t trying to get rid of you as a client; they were just taking your picture off?
+Drew: No, they were, but in that very slow British sort of way.
+Craig: British sort of way.
+Drew: I do feel like the British industry is much different than the US industry in that way–
+Craig: It is, yes.
+Drew: -particularly with agents and casting and all that stuff. I guess that’s really my experience. I feel like, especially in the States, I’ve had agents be more directly mean to me, but they’ve been also– It’s a nice–
+John: It goes faster.
+Drew: It goes faster. I had one agent be like, “Your career doesn’t have a pulse.” I was like, “Wow,” but that guy’s been really nice to me for the rest of my time in LA. When I need an actor for a thing, I’ll reach out to him. He’s at a big established agency, and he’s super helpful.
+John: He was honest.
+Drew: He was honest, which is different.
+John: He was honest. Yes, there is a certain passive-aggressive nature to– I don’t want to tarnish the entire British culture here, but they are infamously, dangerously polite. I have quite a few British people that work on our show, and I, from time to time, have to stop them and go, “I feel like what you’re trying to say is, we should not do this. It would be bad.” They tend to put it all in the form of a question.
+Craig: Pose a hypothetical.
+Drew: Pose a hypothetical.
+Craig: Speak in the subjunctive.
+Drew: Yes, and it is cultural. However, culture does not justify out-and-out rudeness. To not return phone calls, messages, texts, emails at all is insufferable and cowardly. Why do they do it? Because it’s uncomfortable for them. It’s the simplest answer. They don’t want to deal with the minimum discomfort of delivering bad news to someone. As the weeks go on, it becomes harder and harder for them because it will become more and more uncomfortable for them. Because now they have to both express why they don’t want to be your agent anymore and apologize for not having told you this for two months now, and it just gets worse and worse. Eventually, they’re just closing their eyes and hoping that the ghost that keeps knocking at their door leaves; they think of you as the ghost. They want you out of their house. It’s not acceptable.
+John: It’s not acceptable. I think what Claudia is feeling is, like, “Do I have an agent? I just don’t know if I’m represented or not.” That’s the weird limbo. The answer is that you’re not represented, but I think you’re also worried that if one of these spec scripts sells or someone has interest, suddenly this person is going to reappear. They probably won’t.
+Drew: The quickest way to ensure that they won’t is get a new agent.
+Craig: Yes.
+John: Well, and get a new agent before you’re officially dropped, I think, too. Don’t wait for them to–
+Drew: Yes, that makes sense as well.
+John: Because you can honestly say, “I’m represented at this agency, they’ve not-
+Drew: Serviced well.
+John: -serviced me well. I’m looking for this. I have two spec scripts ready to go out,” which is a great thing.
+Drew: “I had a job.” Yes. Certainly, inaction here is not an option. She has to do something to get a new agent. To the direct question, why? Cowardice.
+John: Cowardice.
+Drew: Simple as that.
+Craig: Incompetence, too, maybe.
+Drew: It’s dishonorable.
+John: Yes, it is.
+Drew: That’s what I would say. It’s not incompetent. It’s dishonorable.
+John: I agree. All right. It is time for our One Cool Thing. Drew, this is your last show. I would love for you to start with your one cool thing.
+Drew: My one cool thing is rhubarb. [laughs]
+John: All right. I’m completely opposed to this, so celery and rhubarb.
+Drew: Really?
+Craig: So am I.
+John: Yes, you’re going to have–
+Craig: Are you kidding? So am I.
+John: Oh, please tell me why we should put celery in our pie.
+Craig: [chuckles]
+Drew: Because it’s delicious-
+Craig: Argh.
+Drew: -and it’s super easy to make. Okay. There was a New York Times cooking article that had a little, “Hey, it’s rhubarb season.” I was like, “I haven’t had rhubarb in a while.” It’s super easy to make. It’s a little bit of sugar, and you cut it up and you–
+Craig: It’s a whole lot of sugar.
+Drew: It’s a quarter cup.
+Craig: Okay.
+Drew: Quarter cup of sugar, a little zest of lemon, massage that together. I put a little bit of ginger and a little bit of– Trader Joe’s has a vanilla bourbon paste.
+John: This is supposed to make a rhubarb pie?
+Drew: It’s making a compote. You just have a little rhubarb compote that I put on. I have oatmeal every morning. I put it on my oatmeal. You can put it on dessert at night. It’s like a little summer treat. It’s just been this lovely little thing that’s brightened the start of my summer. I highly recommend it.
+John: It’s entirely possible I’ve been wrong my entire life. In believing you, I will make this rhubarb compote, and I will try it to see whether I can do that.
+Drew: Do you not like the flavor of rhubarb to begin with or do you not?
+John: The texture of it freaks me out. The fact that it is essentially celery.
+Drew: Yes, horrible.
+John: It’s a stalk. Friends of mine got married, and instead of a wedding cake, they wanted to have rhubarb pie so all their friends each made a rhubarb pie and brought a rhubarb pie. I didn’t care for it.
+Drew: If you’re not a fan of the taste, then I don’t think it’s going to change your mind.
+John: Maybe I just didn’t give it enough of a shot.
+Drew: You don’t want a crunch on it, though, too.
+John: Oh, so you have to cook it down enough so there’s a crunch.
+Drew: It cooks it down. The recipe that I found, we’ll put in the show notes, it’s 20 minutes in the oven, just super easy, but it becomes mush, basically.
+John: I should say this is no celery slander. I love celery for savory purposes, but to take a celery product and put it into a sweet context, I just find it abhorrent.
+Craig: Melissa loves this. She’s like, “Oh, it’s tart.” I’m like, “It’s a gross vegetable sitting in the middle of what would otherwise be a delicious– You took a strawberry pie, and you ruined it by shoving this piece of crap in there that nobody eats. There’s no other dish with rhubarb, ever.”
+Drew: Isn’t it amazing?
+Craig: No, there’s an indication there’s a problem.
+[laughter]
+Craig: It’s like, “Oh my God, what do we do with this awful weed?”
+Drew: It is technically edible,-
+Craig: “Shove it in a pie.”
+John: -and the leaves are poisonous.
+Craig: Yes, they’re poisonous.
+Drew: You have to grow it in the dark to get the red color, too. It’s labor-intensive.
+John: There’s no value here.
+Drew: It’s delicious and–
+John: There’s no value.
+Drew: It’s fall in the early summer. It’s that feeling for me that I really like.
+John: While we’re in the conversation about slightly wrong tastes, can I say about Meyer lemons? No. Meyer lemons are–
+Drew: I agree. Correct. No.
+John: They’re not really a lemon. They’re halfway between a lemon and an orange in a way I don’t want at all.
+Craig: Yes. Incorrect, they’re just not lemons.
+John: Yes. You try to use them as lemons in recipes for lemons, though, it’s wrong.
+Drew: Screws everything up.
+Craig: It’s stone fruit season right now. At the farmers’ market, there are 4 million permutations of different plums and stuff like that. Some of them are amazing, and some of them, it’s like, “Oh, God, no.”
+John: “Bad. God, no.”
+Craig: “We should not have made that.”
+John: No.
+Drew: Rhubarb. Rhubarb. It’s got the “barb” in it.
+John: I promise you, I will make this recipe and I will try it because as a–
+Drew: You’re making this rhubarb recipe?
+John: I’ll make this rhubarb– I’ll bring it to D&D so we can–
+Craig: No.
+Drew: You just need two stalks. It’s a little bit–
+Craig: “Oh, just here, pointlessly, throw this in.” It’s like, “Oh, here’s pizza, and then let’s just put this weird thing on top that nobody asked for or wanted.” There’s no place for rhubarb in this world.
+John: Yes. I like mayonnaise too, so I’m going to-
+Craig: Oh, God. Doh.
+Drew: [laughs]
+John: -put a little rhubarb compote on top of that mayonnaise sandwich.
+Drew: Yes. Try it out. Why not?
+Craig: Oh my God.
+John: It’s so good.
+Craig: [gags]
+John: My One Cool Thing is a website by Bartosz Ciechanowski. It’s an explainer on how curves and surfaces work for– you know, Bezier curves, which is those things in drawing programs where you put the little points and you drag the handles in order to make the curves?
+Drew: Yes. Spirograph.
+John: I’ve never understood the math behind it. I’ve never been able to make those things work properly. This is an explainer that goes through with constant little interactive explainers where you can move the sliders around to see this is what’s actually happening.
+Drew: I see.
+John: I feel like I understand it for the first time. It’s just so smartly done. It does a good job of compressing the math down so you don’t have to really think about the math, but like, “Oh, if I’m dragging these points out and I’m creating a tangent, I get what’s sort of happening here.” I love to start an experience not really understanding it, and understand, it’s like, “Oh, I get it.” Will it change my life?
+Drew: You’re starting to see.
+John: Yes, but it’s just good to see this. I really applaud someone putting the time and effort into explaining something for the betterment of the world.
+Drew: Do you think that site, that explainer would have been improved by adding a bitter, crunchy, disgusting vegetable-
+John: 100%.
+Drew: -just in the middle of it for nothing,-
+John: Yes.
+Drew: -for no reason-
+John: Yes.
+Drew: -whatsoever.
+John: For a treat.
+Drew: For a treat. A treat.
+John: Just a treat.
+Craig: “Here you go, kids. Kids. You know what you would like? Do you like celery? Well, this is grosser. It’s grosser celery. Let’s throw it in dessert.” God, I’m so glad we could [unintelligible].
+John: I’m just happy that you got some of this of Craig umbrage, like on your last episode–
+Craig: I say finally did.
+Drew: Finally. I’ve got rhubarb.
+John: Craig, what you got?
+Craig: I have a recipe.
+John: I’ll be fine for you.
+Craig: Yes, and this is a good one.
+Drew: Oh, yes?
+Craig: Yes, there’s no vegetables in it.
+Drew: Impress me.
+Craig: Yes, it’s called Cheesecake, my friends. Delicious.
+John: All right.
+Drew: Aha.
+Craig: There are a lot of cheesecake recipes out there. I’ve actually used a few. I’m not even sure if this is the exact one I’ve used, but it’s very, very close. It achieves the things that you’re going to look for. I do like to make a cheesecake. It’s a little tricky, but it’s not too tricky. If you get it right, nothing’s better. This particular one is from Sally’s Baking Addiction. What I like about it is that it follows what I think are just the simple, basic things you need to do to make a good cheesecake. You need a graham cracker crust.
+John: Oh, yes.
+Craig: Graham crackers are one of those things. I like to make everything from scratch. I do not make graham crackers from scratch. It is pointless. Don’t do it. I’ve made shortbread from scratch. I’ll do that. I will not make graham crackers from scratch. Why? I don’t think they even exist in any other form other than here, Honey Maid, boom, done. You want to add some sour cream to a cheesecake. It’ll help it from being dry, but it doesn’t add any flavor. Just a little bit of vanilla, a little bit of lemon, always. Eggs, butter, cream cheese. The key to all this is the water bath.
+Drew: Yes, the bain-marie.
+Craig: The bain-marie. When you put a cheesecake in an oven, it starts to cook. If there is nothing to moderate the temperature around the pan—you need a springform pan, obviously—it will crack because the outside will cook and get hotter than the inside. The water bath helps the inside keep up with the outside. One little trick that I like to use—the danger when you’re making a cheesecake is you’ve got a springform pan, which you need to pop the sides off to [unintelligible]—you put that in a water bath, water leaks in, you’re done.
+John: Disaster, yes.
+Craig: It’s over. You might as well have a rhubarb pie at that point. That’s how bad it is.
+John: You wrap the bottom in foil, correct?
+Craig: Here’s the problem. I use heavy-duty foil. I do two layers. Somehow, water finds some sneaky leak. There’s always some little leak in, but a roasting bag works great. The kind of thing you might put a turkey in. You place it in a roasting bag, lift that up. I like to tighten that around with some tin foil and some elastic. Put that in the water. Nothing’s getting in.
+Drew: That’s correct. What a complicated way when you could just cut up a little bit of rhubarb in one pan, 20 minutes, you’re done.
+Craig: Why even cut it up? Why put it in a pan? Why not just stick it up your butt at that point and just say, “Look, it’s done”?
+John: I just think the barrier for entry on mine is much lower.
+Craig: It is for good reason. It’s garbage food. It is a gross piece of garbage food. It’s fibrous.
+John: Yours, leaking in the water?
+Craig: Yes. Mine requires care so that something good happens in the end. You’re just taking a gross thing, making it hotter, and then handing it to us. Horrible.
+John: I want to point out the episode of South Park, Scott Tenorman Must Die, actually refers to a pie-making competition, I believe.
+Drew: It’s chili.
+John: Chili, but it is food.
+Drew: It’s very recipe-based.
+John: Yes. It’s recipe-based, so it’s appropriate that this is the final fight.
+Craig: It is the final fight. Our first and final fight. I can’t believe he brought up rhubarb at the end. You know what? He knows he’s leaving. That’s why he did it.
+John: Absolutely.
+Craig: He knew this whole time, this would have made me crazy. Now people are going to write in about their grandma’s rhubarb. “You know, it’s refreshing.” Oh, beat it.
+John: I can see Meredith’s taking notes all like, “What will be my final thing to piss off Craig be?”
+Craig: Mayonnaise.
+John: Yes.
+Craig: 10 years from now, and she finally just–
+Drew: I had dinner with a British friend the other night, and she didn’t even understand my mayonnaise thing. She was like, “What do you mean? You can’t “not” like mayonnaise. You can’t even like subsets of mayonnaise.” I was like, “I hate all of it.” The worst of it all is salad cream. Have you seen this disgusting thing the British have?
+Craig: Yes.
+Drew: [gags] It’s like, “What if we took mayonnaise and made it sickly green?”
+Craig: And thin.
+Drew: Argh.
+John: You’re okay with cream cheese. Cream cheese on a bagel, fine.
+Drew: Oh, yes. Of course. I’m Jewish.
+John: I want to make sure that it wasn’t just all white spreadable foods.
+Drew: It’s a lot. For instance, sour cream is not something that I would ever use in any way other than a constituent ingredient.
+John: I was going to ask about that. Sour cream on a potato, never.
+Drew: Do not. Do not do. I do not do it. I don’t begrudge people who do it, but I don’t.
+John: It’s not a rhubarb level of–
+Craig: Rhubarb is just stupid. I can eat rhubarb. I just don’t know why I’m doing it. It’s not like I’m disgusted by it, I just think it’s dumb.
+Drew: You could put rhubarb on yogurt.
+Craig: You could. You could also put gravel on yogurt. You don’t. Or lawn clippings. It’s edible. I guess grass is edible. We don’t sprinkle it on–
+Drew: Is it?
+John: It’s not actually edible.
+Craig: It’s edible. It’s as edible as rhubarb. Rhubarb is not a processable food. It’s just fiber. It’s cellulose that just goes through you. There’s no calories in rhubarb. It has no nutritional value.
+Drew: It’s a delivery system for all the sugar and good stuff around it.
+Craig: So is a spoon.
+[laughter]
+Drew: You can’t beat me on this one.
+John: That is our show for this week.
+[laugher]
+John: Scriptnotes is produced by Drew Marquardt with help this week from Meredith Stedman.
+[cheering]
+John: It is edited by Matthew Chilelli.
+Craig: Ahh.
+John: Thank you, Matthew. Our intern is Lauren Loesberg.
+Craig: Also, woo.
+[cheering]
+John: She’s here in person. She’s watching the cameras, helping us out.
+Craig: She’s watching this madness.
+John: Yes.
+Craig: Quietly thinking about how to break it to us that her parents own a rhubarb farm.
+[laughter]
+Craig: All of her money comes from big rhubarbs.
+John: Absolutely. She grew up a rhubarb farmer, just so good. Our outro this week is by Matthew Chilelli. It’s a special one produced just for Drew.
+Drew: Is it a blah, blah, blah?
+John: No. I gave him two song options.
+Drew: Oh.
+John: We’ll see which one he picks.
+Drew: All right.
+John: If you have an outro, you can send us a link to ask@johnaugust.com. That’s also the place where you can send questions like the ones we answered today. Drew will not be on the other side of that mailbox anymore.
+Drew: Never again.
+Craig: [groans]
+Drew: I’ll miss you all.
+John: All right. You’ll find transcripts at johnaugust.com, along with a sign-up for our weekly newsletter called Inneresting, which has lots of links to things about writing in this past week, which is especially great. Please keep reading Inneresting. The Scriptnotes book is available wherever you buy books. Drew, thank you for all your help making the Scriptnotes book.
+Drew: Thank you.
+John: You can find clips and other helpful videos on our YouTube. Just search for Scriptnotes. You can give us a follow. You’ll find us on Instagram @scriptnotespodcast. Lauren has been doing a great job cutting video for our Instagram and our TikTok, also.
+Craig: We have a TikTok?
+John: We have a TikTok.
+Craig: That’s so cool.
+John: We have T-shirts, hoodies, and drinkware. You’ll find those at Cotton Bureau.
+John: You’ll find the show notes with links to all the things we talked about today in the email you get each week as a Premium subscriber. Thank you again to our Premium subscribers. You make it possible for us to do this each and every week. You’ll miss the Premium subscribers very much, though; they’re the best.
+Drew: They’re the good people.
+John: You can sign up to become a premium subscriber like Drew at Scriptnotes.net, where you get all the back episodes and bonus segments like the one we are about to record on whether you should quit your job loudly.
+Craig: Oh, loud quitting.
+John: Loud quitting.
+Craig: Drew just kind of did that.
+John: He did. He went out with a big rhubarb bang. Thanks, guys.
+Drew: Thank you.
+[outro]
+John: In our bonus segment, we got a random advice question from a person named Not Yet Broken, who is a government worker. Meredith, could you read the question?
+Meredith: Yes. “A common theme in film, television/storytelling is people who do the right thing in the face of great difficulty. What would you say now to the federal government employee who has spent the last 16 months trying to fight the good fight? Is it worth it? How did you stay motivated when others don’t believe in the work you’re doing? I know it’s hard for people out there to see us and know that we’re still trying.”
+John: All right. We have some context behind the scenes that’s not for air, but this is a person who’s been working with the federal government, and their politics do not align with what’s happening in our government at this moment. Craig, what’s your instinct in terms of you’re in a system that you believe is corrupt, that is broken, and yet you still feel like there’s important work to be done, the original mission of the thing? Do you stick around to try to get through this awful place? What’s the calculus for you?
+Craig: If you’re in a situation where there is no chance for rescue, that’s one thing. A sinking boat is a sinking boat. Our government is something that has been remade and reformed a number of times. My hope is that good people will hang on. In times like this, I like to share the wisdom of the great Rudyard Kipling. A little section from his poem, If—:
+“If you can bear to hear the truth you’ve spoken
+Twisted by knaves to make a trap for fools,
+Or watch the things you gave your life to, broken,
+And stoop and build ’em up with worn-out tools.”
+And so on and so on he goes like this. The idea is to resist, to be as resilient as you can, to take the blows and the punishment, to suffer the indignities, and outlast the bastards. Because that’s how you win, consistency and prevailing. If there is a chance you can prevail, hang on. What you can’t do is perform things that you know are wrong. You have to somehow figure out how to make it better if you can.
+A soldier cannot obey an illegal order—should not obey an illegal order—but if you’re working for an incompetent boss, if you are working in a situation where the mission has been distorted, if you’re working in a way where you realize you could be helping people so much more than you are, money’s being wasted and misspent, and you see that it could get better, try to hang on. It sucks, but if you leave, if all of the good people leave, then it’s over. They’ve won.
+John: This goes back to our conversation about competence, is that if all the competent people in a government or in a system leave, then it’s only the incompetent people doing that work. Either they are incompetent because they don’t have the right mission or the right information, or they just simply don’t know what they’re doing at all, and everyone suffers in those cases.
+I sympathize with Not Yet Broken here is that you are trying to figure out whether you can do more good by staying in or by leaving or exiting loudly from this situation or from this place. You don’t have to do it every morning, but maybe once a week, just take 10 minutes and actually sit down, write down what you’re thinking about where you’re at, and is it the right choice to stay or to go? I think I’ve done a lot more over the last couple of years is journaling. I’ll just actually acknowledge. I’ll just write down what happened over the course of the day so I can just see patterns because sometimes when you don’t write it down, it just becomes invisible to you, and you don’t recognize what’s actually happening. You can’t refer back to, “What was the day that thing happened?”
+If you see misdeeds happening, you can speak up at the moment, and you can also document that they happened so that when this moment passes, there can be some accountability. Where I find myself genuinely flummoxed is trying to think about what happens after this administration is out. To what degree is there going to be truth and reconciliation about the things that have happened? Because so many of the crises have just moved off the newspaper, but they’re still happening, and “What are we going to do about it?”
+Craig: We don’t know-
+John: Yes.
+Craig: -because we’re not in there. We don’t know right now who is being an unseen, unheralded hero. We may never know. We may never know their names. We may never know what they do. That is the nature of service. What did he say in Hamilton? “Legacy is planting seeds in a garden that you never see”?
+John: Yes.
+Craig: There are people that are working for us right now in government, who are taking care of things or who are preventing the worst of things. We have no choice but to rely on them and to rely on the notion that there is some hope. It’s all we can do for this person who is not yet broken. Emphasize the Not Yet, and think to yourself, “Okay, time moves by pretty quickly.” Seems slow when you’re in the middle of a mess, but retrospectively, it will have gone fast. What do you think you should be doing on day one after this?
+Start talking about better systems just for yourself, making plans to reassure yourself that there is a way out still, that it is reparable, that this is not a corpse, this is an injured body. “How can we treat it?” Generally, villains get found out.
+Also, the federal government is the largest employer in the United States. What some people like to refer to as the deep state, others of us like to call Government. Hundreds of thousands of people work for the federal government. I suspect the vast majority of them are doing exactly what they were doing before or are laboring under some new difficulties but prevailing as best they can. I would urge you, if you are feeling this way, Not Yet Broken, it means you know, so hang on, we need you.
+John: Yes. There may be situations where you can sandbag or slow down the worst of things, or prevent the worst of things, disrupt the system from within to the degree that it’s useful and helpful.
+Craig: Oh, that’s what “they,” some people call the big conspiracy, that the deep state won’t let bad people do bad things. That’s right?
+John: That’s right.
+Craig: That’s how it works. That’s how it’s supposed to work. You should not be able to just show up and throw everything into chaos just because you say so. The one thing that I think our nation is going to have to struggle with moving forward on a structural level, on a constitutional level– in my life, I’ve never really thought about anything that demanded constitutional amendment. I think there are things that I’ve come to loathe. There’s a lot of problems with the electoral college system, for instance. There are some reasons for it, but a lot of probably more objections at this point, I think, have been emerged.
+The over-empowerment of the executive branch or the complete neglect of the checks upon the executive branch must be addressed. The Constitution grants Congress sole authority to declare war. Congress has not declared war on anyone since 1941. We have been in war almost every year since then, possibly every year, somewhere around the world, and Congress has not declared war once. The president has now assumed sole authority to declare and pursue war. That’s a huge problem.
+John: It’s one thing to pass laws or to establish rules, but if no one actually enforces those rules or follows those rules, they’re not really rules. You look at the Constitution of the Soviet Union, probably read really well.
+Craig: It did not. That was really boring.
+John: I’m sure there are things. You can find good systems of law on paper, but if they’re not actually followed, they’re not–
+Craig: That’s right. Then they don’t matter. There are also some aspects of the Constitution that we have to consider. For instance, the Supreme Court. The way the Supreme Court functions over time has become interesting. This is not necessarily something that’s a right or a left thing. The primarily liberal court in the ’60s and ’70s did some things that lit some stuff on fire, and that fire never went out. There were repercussions, and there are solid legal arguments about why some of those things were overreaching. I think we see overreaching now as well because the court is out of whack. There is an answer for that, and it’s one that Franklin Delano Roosevelt almost applied when he was struggling to get the New Deal going, and that is to change the size of the court, which they can do.
+John: They do. They have done in the past.
+Craig: Yes, and everybody talks about it like it would be some earth-shattering defiance of our Constitution. It isn’t.
+John: No.
+Craig: Some kind of checks and reins upon the executive branch need to be established, no matter who the president is. There are traditions we have, firewalls between the Justice Department and the executive, that are just gone. Those firewalls were not really legally based. They were traditional. Some traditions need to be put down on paper and enforced.
+John: Do you think there will actually be a reckoning, though? Because I feel like after Watergate, it was sort of like, “Well, we’re just not going to deal with that for the good of the nation. We’re not going to pursue seeing this out.” After the first Trump presidency and after the insurrection, there wasn’t a reckoning. We just keep doing that.
+Craig: Well, yes and no. Gerald Ford pardoned Richard Nixon but all anyone talked about after Watergate was Watergate for decades, including turning every political scandal into something-gate, it definitely had a huge impact. Jimmy Carter became president because of Watergate, but when you look at Watergate now, it’s a goof compared to what they’re doing now. It’s the equivalent of somebody tried to rob a little bank versus now, it’s just full-scale.
+John: “Get me out at $1.8 billion.”
+Craig: Yes. Just straight-up extortion. There will be a reckoning, but it’s going to be difficult because of the volume of crime. The emoluments clause has been battered. I feel like a lot of politicians are just waiting for this to go away so that they can then speak their minds. You see this over and over. Once a politician is retiring, they don’t have to worry about repercussions, then they say exactly what they think. They all think the same thing. A lot of reasonable people think they’re not getting anywhere saying it from the inside. When this ends, there’s going to be some sort of convulsion, and it will. We’ve talked about this before. America has been in a worse position than this, but I don’t think in my lifetime.
+John: To wrap up to the person asked the question, my instinct is, yes, stay if you can-
+Craig: Yes, please.
+John: -and thank you for staying and doing what you can do in that situation. If you do exit and you have the opportunity to exit loudly, do. Had this been eight years ago, you could exit loudly, and people would actually pay attention. They won’t so much now.
+Craig: Nobody cares. In fact, if your “out loud” exiting won’t have any real impact whatsoever, maybe exit in a way where you can then quickly return when it’s safe.
+John: Yes.
+Craig: My hope is that good people hang on. I thank everybody who’s doing that. I know it’s difficult. We sometimes find ourselves, obviously, far lower stakes here; we’re making entertainment, but you and I have both found ourselves inside of projects where the only thing we could do was to nobly hang on and keep it from getting worse.
+John: Yes.
+Craig: It is unpleasant.
+John: It is very unpleasant. The timeframes are not the same, and we know that the movie will end. We know that, yes.
+Craig: It will end, and this will end, too.
+John: There have also been situations where I’ve left projects because I am not helping anything here, and it’s just misery for me.
+Craig: That’s a normal kind of exit. I’ve been involved in some things where you make something, you feel like it’s got a chance, and then you realize that the system it’s inside of is designed to destroy it and turn it into something horrible. All you can do is try to keep it from getting worse. It is a bad place to be. If you can hang on, hang on.
+John: Yes, I agree. Thanks, Drew. Thanks, Craig.
+Drew: Thank you.
+Links:
+- The attack on competence by Iris Meredith
+- Scott Tenorman Must Die (South Park – Season 5, Episode 4)
+- Bartosz Ciechanowski’s Curves and Surfaces
+- Rhubarb Breakfast Dessert by Melissa Clark
+- Easiest Citrus Roasted Rhubarb by “Kate Cooks”
+- Get your copy of the Scriptnotes book!
+- Get a Scriptnotes T-shirt!
+- Check out the Inneresting Newsletter
+- Become a Scriptnotes Premium member, or gift a subscription
+- Subscribe to Scriptnotes on YouTube
+- Follow Scriptnotes on Instagram and TikTok
+- John August on Bluesky and Instagram
+- Outro by Matthew Chilelli (send us yours!)
+- Scriptnotes is produced by Meredith Stedman and edited by Matthew Chilelli. Our intern is Lauren Loesberg.
+Email us at ask@johnaugust.com
+You can download the episode here.

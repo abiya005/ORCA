@@ -1,0 +1,108 @@
+TITLE:
+Week in review: Accenture data breach, great open-source cybersecurity tools
+
+SOURCE:
+Help Net Security
+
+DATE:
+2026-07-12T08:00:07Z
+
+URL:
+https://www.helpnetsecurity.com/2026/07/12/week-in-review-accenture-data-breach-great-open-source-cybersecurity-tools/
+
+ARTICLE:
+
+Week in review: Accenture data breach, great open-source cybersecurity tools
+Here’s an overview of some of last week’s most interesting news, articles, interviews and videos:
+Securing the inbox: Where identity, brand and security meet
+Getting a verified logo to appear next to your email has traditionally meant having to work with two separate entities. You have to work with a DMARC partner for setting up DMARC and BIMI, then use a trusted Certificate Authority (CA) to purchase a Mark Certificate, and this means having to source a trusted partner for both which delays the project unnecessarily. Red Sift and GlobalSign have now folded both halves into a single package.
+Researchers make the case for a cybersecurity AI scientist
+Autonomous AI agents have started doing real security work. Language-model agents probe software for flaws, run penetration tests, and chain together attack steps that once needed a human operator. Research about security has stayed slower and more manual, built around expert scarcity and hand-designed experiments. A team at the Chinese Academy of Sciences wants to close that gap. In a recent paper, they define what they term the Cybersecurity AI Scientist. They describe a research system that moves from a question to experimental design, tool building, controlled execution, evaluation, and a written result on its own.
+OpenAI and Anthropic are pulling in different directions
+Companies are handing routine operational decisions to AI agents that plan, remember, and act on their behalf. These agents run on statistical models, and their behavior can drift across weeks and months. That drift opens a security gap outside the reach of standard monitoring tools. A study of about 1,080 open job postings at OpenAI and Anthropic maps where the two largest AI labs are taking this technology. 
+Orbia CISO Miranda Ritchie on building security into sustainable infrastructure
+In this interview with Help Net Security, Miranda Ritchie, CISO at Orbia, talks about protecting industrial systems where software runs water, chemical and manufacturing processes. She explains why a cyber incident in these settings can harm people, equipment and the environment, and how spread-out sites and aging control hardware widen the risk.
+Your coding agent says no in chat and yes in the code
+Millions of developers share their keyboard with GitHub Copilot. Inside Visual Studio Code, it opens their files, writes and edits code, runs scripts, and reworks its own output across many turns. The safety testing that vets these agents still runs on chatbot rules: one harmful prompt, one response, graded alone. That rulebook misses where the real danger sits, according to a study from the Alan Turing Institute in London.
+Attackers exploit critical Adobe ColdFusion vulnerability (CVE-2026-48282)
+CVE-2026-48282, one of the maximum severity vulnerabilities patched in Adobe ColdFusion on June 30, 2026, has been targeted by attackers in the wild. Exploitation attempts were detected on July 2, through the honeypot sensors of cybersecurity threat-intelligence service KEVIntel, mere minutes after watchTowr researchers published a technical analysis of this and other ColdFusion flaws recently fixed by Adobe.
+Accenture acknowledges security incident following 35GB data theft claim
+Accenture appears to have suffered a data breach, the extent of which is currently unknown. On Monday, a threat actor going by the handle “888” posted on the cybercrime forum PwnForums, claiming to have breached the technology consulting company and stolen “just over 35gb of source codes” in July 2026.
+Attackers using Langflow flaw for credential harvesting (CVE-2026-55255)
+The US Cybersecurity and Infrastructure Security Agency (CISA) is warning about yet another Langflow vulnerability (CVE-2026-55255) leveraged by attackers in the wild. The flaw was added to the agency’s Known Exploited Vulnerabilities catalog on Tuesday, July 7, nearly two weeks after the Sysdig Threat Research Team observed it being actively targeted.
+Microsoft releases fix for RoguePlanet Defender flaw (CVE-2026-50656)
+Microsoft has finally released a security update for its Microsoft Malware Protection Engine, which fixes CVE-2026-50656, the Windows Defender local privilege escalation vulnerability triggered by the RoguePlanet exploit.
+Extortion crew hijacks Microsoft 365 accounts via fake passkey setup
+The Pink cyber extortion crew is tricking employees into giving them access to their Microsoft 365 accounts by faking Entra passkey enrollment requests. The attack starts with a vishing call to an employee. The caller poses as IT and says it’s time to set up a passkey. Everything after that is theater, built to keep the victim occupied while the attacker finalizes everything.
+How to implement a continuous offensive security testing program
+The hard part was never finding the exposure. It was deciding what to do about it: whether to patch, mitigate, monitor, or accept, and banking that that decision would still hold tomorrow. A penetration test answers this question for the day it runs, then quietly expires. The environment shifts, a control drifts, a new technique lands, and the report now describes a network that no longer exists.
+How to prioritize AI agent security by business impact
+Your CEO calls about an AI agent security incident in finance. He wants to know whether money moved, whether financial data was exposed, who owned the agent and why it had this level of access. The agent’s OAuth access remained active after its owner left. The access was valid, but no one verified it still served a legitimate business purpose. You need to know which AI agents create business risk and how far that risk can spread.
+Your company already adopted AI and nobody is governing access
+In this Help Net Security video, Antoine Berton, CTO at Elba Security, breaks down the AI attack surface. He maps five places where exposure lands, from standing OAuth grants and copilots that inherit human permissions to agent credentials stored in config files, missing off-boarding, and unclear authority when an agent acts.
+Turning software supply chain security into a daily habit
+In this Help Net Security video, Anastasia Tikhonova, Global Threat Research Lead at Group-IB, explains how to operationalize software supply chain risk. Instead of filing an SBOM away as a compliance document, she argues teams should use it every day for vulnerability triage, vendor access reviews, identity monitoring, and incident response.
+July 2026 Patch Tuesday forecast: Is CVE tracking still practical?
+In June, we saw the deluge of over 200 reported CVEs that I expected in May. There were 116 CVEs for Windows 11 and 104 for Windows 10. In addition, we saw large numbers in both common applications like Office and SharePoint Server as well as the host of development tools and libraries like Visual Studio and .NET. Will the trend continue this month?
+New ClamAV security patch closes seven scanner bugs dating back two decades
+Open source antivirus scanning sits inside mail gateways, file upload checks, and endpoint tooling at organizations of every size. Much of that work runs through ClamAV, the scanning engine maintained by Cisco’s Talos group. The project released two patch versions, 1.5.3 and 1.4.5, carrying fixes for seven security flaws along with smaller hardening changes.
+Flipper Zero firmware development gets a fresh set of community rules
+Owners of the Flipper Zero, the pocket-sized wireless testing tool, spent recent weeks worried that its official firmware had gone quiet. Pavel Zhovner, CEO of Flipper Devices, moved to settle that concern with word that the company has set aside staff to keep the firmware maintained and to support outside contributions. The work will run under a fresh set of rules covering feature requests, code submissions, and testing.
+Omnigent: Open-source AI agent framework and meta-harness
+Plenty of developers now keep several coding agents close at hand, reaching for Claude Code on one task and Codex or Cursor on the next. Each tool arrives with its own command line, its own handling of credentials, and its own way of running shell commands against a working directory. That spread leaves teams with a governance gap around where agent actions land and how much they cost.
+Review: Building Machine Learning Systems with a Feature Store
+Many people come to machine learning by training a model on a tidy dataset, and then meet a harder problem: making that model work for real users, on fresh data, every day. Jim Dowling’s O’Reilly book, Building Machine Learning Systems with a Feature Store, is written for that moment. Dowling, CEO of Hopsworks, based the book on a course he taught at KTH in Stockholm, so it reads like a guided walk through building real systems.
+macOS is becoming a proving ground for AI agents
+Somewhere right now, a Mac Mini is sitting on a shelf doing someone’s chores. Nobody’s watching it. It reads a version number out of Terminal, hops over to Safari, digs up a release year, then quietly files a reminder, the kind of dull three-app errand a human would grumble through in ninety seconds. The machine just works, hour after hour, an AI agent with hands on the keyboard and no one in the room.
+A single malware file can outweigh an entire AI dataset
+Antivirus vendors and security startups keep shipping AI features that promise to read malware the way a seasoned analyst would. The results inside security teams tell a quieter story. A new paper argues that static analysis of software, the job of deciding whether a program is malicious by examining its contents on disk, remains one of the hardest places to make generative AI work.
+Messaging fraud trends point to smarter attacks, stronger blocking
+Fraudsters spent 2025 investing in scale. New routes, new tools, and higher message volumes moved through the SMS, voice, and chat channels that businesses rely on to reach customers. Money follows that activity. The Communications Fraud Control Association puts global telecom fraud losses at around 42 billion dollars for the year, several billion higher than its estimate for the prior year.
+Open-source collaboration is growing worldwide and putting pressure on maintainers
+Developers are pushing code and opening pull requests across economy borders at a rate GitHub has rarely seen. Outbound collaboration, the sum of git pushes and pull requests sent from developers in one economy to public repositories in another, grew by 16% from Q4 2025 to Q1 2026, according to the latest GitHub Innovation Graph data.
+Malicious AI agent skills can slip past the scanners built to stop them
+AI coding agents can be extended with downloadable agent skills from public marketplaces. Because these skills run with the agent’s privileges, a malicious one can steal credentials, access source code, or install malware. Researchers at the Hong Kong University of Science and Technology developed SkillCloak to test how well existing skill scanners detect such threats.
+5,811 arrests, $293 million seized over social engineering scams
+Criminals who pose as police officers, romantic partners, and business suppliers have built fraud operations that reach across continents. A four-month enforcement campaign against these schemes wrapped up, and police in 97 countries and territories took part.
+AWS gives its ERP agent deny-by-default rules and a separate identity
+Accounts receivable teams at large companies spend hours each day matching incoming bank payments to invoices by hand. When those payments sit unmatched for days, cash flow suffers and days sales outstanding climbs. The same pattern repeats across blocked invoices, purchase order approval holds, month-end close, and intercompany reconciliations in almost every industry.
+Most data brokers won’t tell you what happened to your deletion request
+Data brokers collect personal details on most adults in the United States and sell them to buyers that include employers, landlords, insurance companies, and government agencies. California gives residents a way to push back. You can ask a broker to delete your records, or to stop selling and sharing them. A team at UC Irvine decided to find out what happens when someone sends those requests to the whole California registry. The answer gives consumers little comfort.
+The open source library holding up your stack might have one maintainer
+Every serious software product runs on code that someone else wrote and released for free. A web service leans on a cryptography library, a data pipeline pulls in a parser, and a mobile app ships a handful of small utilities that one person maintains in spare time. All of it carries the same label. A new paper argues that the single label hides differences large enough to change how each piece behaves once it lands in production.
+The future of payment fraud could be automated
+Payment fraud is becoming more organized as criminal groups use fake websites, large-scale operations, and, in some cases, forced labor to steal money and personal information. Advances in agentic AI could automate many stages of payment fraud, from collecting and assembling stolen credentials to deploying password-cracking tools.
+OAuth, guest accounts, and weak MFA drive SaaS risk
+Organizations often create guest accounts to give contractors, suppliers, and partners temporary access to files and SaaS applications. Many of these accounts remain active long after they are needed, creating overlooked access paths to corporate data.
+Product showcase: Is that text a scam? Malwarebytes Mobile Security can help you find out
+Malwarebytes Mobile Security for iPhone combines scam prevention, privacy protection, and identity monitoring in a single app. It evaluates a device’s security posture, provides recommendations to improve protection, and is available for Windows, macOS, Android, iOS, and ChromeOS.
+OpenSSH 10.4 arrives with security fixes and a post-quantum signature option
+Operators who manage remote access to Unix and Linux systems keep a close watch on OpenSSH, the software that carries most SSH traffic across the internet. The project released version 10.4 with eight security fixes, a set of bug corrections, and a couple of new features.
+Power shortages could slow AI data center expansion
+AI adoption is increasing demand for data center capacity at the same time operators are running into limits around power, equipment, land, and permitting, according to NTT Data. Access to electricity is becoming a deciding factor in where new data centers are built, when new capacity comes online and how quickly AI projects can expand.
+Microsoft wants to keep your AI agents from going rogue
+Microsoft has introduced Microsoft Execution Containers (MXC), a cross-platform, policy-driven execution layer for AI agents on Windows and Windows Subsystem for Linux (WSL), now available in early preview. Developers can define constraints for their applications and agents, and Windows enforces them at runtime through MXC.
+Apple Container: Open-source tool for Linux containers on the Mac
+Developers on Apple silicon Macs have run Linux containers through software built around a single shared virtual machine for years. Apple’s open-source Container project gives each Linux workload its own lightweight virtual machine.
+Claude Cowork turns your phone into a remote control for AI work
+Anthropic started rolling out Claude Cowork, an AI agent that completes multi-step tasks, in beta for Max users on mobile and the web. They describe a goal, and Claude plans the work, uses the required tools, and produces outputs such as documents, spreadsheets, presentations, and reports.
+20 open-source cybersecurity tools to keep your team ready for anything
+AI is changing how security teams find vulnerabilities, analyze code, test applications, and protect infrastructure. Developers are building tools to secure AI systems themselves, from coding agents and memory protection to model exposure discovery. This roundup covers recent open-source releases for vulnerability research, application security testing, container security, endpoint protection, AI security, and penetration testing.
+Thousands of malicious AI skills found capable of stealing data, running malware
+AI agents can browse the web, use external tools, execute commands, and perform tasks on behalf of users. Many rely on skills that define how they interact with services and data. Malicious skills can abuse those capabilities to steal data, execute malware, or manipulate an agent’s behavior, according to the H1 2026 ESET Threat Report.
+Wireshark 4.6.7 patches a dozen security flaws
+Network analysts who open packet captures in Wireshark push untrusted data through a large set of protocol dissectors, and each parser is a spot where a malformed frame can trip up the software. The 4.6.7 maintenance release closes twelve of those weak points. The fixes reach from cellular signaling parsers to the code that reads capture files off disk.
+Product showcase: Protect your iPhone with McAfee Mobile Security
+McAfee Mobile Security for iOS combines scam protection, web protection, VPN, Wi-Fi security, and device security checks in a single app. It is also available for Android.
+The fake report message that ends with a stolen Reddit account
+A direct message arrives on Reddit from a stranger, and it invites a reply. That reply is the point. This scheme runs on social engineering, with no malware and no malicious links, and it has spread across Reddit, Discord, and similar platforms. The goal is a single piece of information: a login or verification code that hands your account to someone else.
+AWS centralizes access, spending, and governance for Claude
+Claude apps gateway for AWS is a self-hosted control plane that gives organizations a single point of control over access, costs, and policies for Claude Code and Claude Desktop. It replaces per-developer cloud credentials, manual distribution of managed settings to developer laptops, and centralizes usage attribution and spending controls. 
+Only 28% of financial workforce MFA is phishing-resistant
+Passwords remain part of many workforce authentication flows in financial organizations, making phishing and credential theft major identity security risks, according to a new Secret Double Octopus report.
+Microsoft is rewriting Windows patch guidance because of AI
+Microsoft is recommending that organizations shorten Windows update deployment timelines, warning that advances in AI are reducing the time attackers need to identify and exploit vulnerabilities after security updates are released.
+Cybersecurity jobs available right now: July 7, 2026
+We’ve scoured the market to bring you a selection of roles that span various skill levels within the cybersecurity field. Check out this weekly selection of cybersecurity jobs available right now.
+New infosec products of the week: July 10, 2026
+Here’s a look at the most interesting products from the past week, featuring releases from Attestiv, Automox, Codenotary, and First Recon AI.

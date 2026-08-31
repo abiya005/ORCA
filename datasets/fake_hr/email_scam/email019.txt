@@ -1,0 +1,78 @@
+TITLE:
+Lessons from the Underground: How to Combat Business Email Compromise
+
+SOURCE:
+BleepingComputer
+
+DATE:
+2026-06-30T14:00:10Z
+
+URL:
+https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/
+
+ARTICLE:
+
+Business Email Compromise (BEC) is often described in the media as merely an email scam, but in reality, it’s part of an organized broad operation. The email itself is only one part of the attack chain. In order to support a successful monetization of email fraud, attackers need to be patient and learn about the procurement process in the organization, and to build or rent an entire infrastructure and operation.
+A single BEC often includes gaining access to their targeted business, gathering raw data, analyzing the mailbox context, building reliable communication channel, accessing t reliable payment infrastructure, orchestrating everything in the right timing, and finding a way to move money after it’s stolen.
+Flare researchers sampled and analyzed underground posts related to BEC from the past year; Highlights of the findings include:
+- AI-powered BEC is getting popular, reducing the learning time and increasing the scam “quality”.
+- 
+ Actors are interested mainly in SaaS accounts (such as O365). Corporate leadership and financial employees are the most desired targets. 
+- 
+ There are special call centers designed to apply pressure on a targeted business to finalize the fraudulent payment. 
+- 
+ Cash-out is the biggest bottleneck of BEC, hackers need to find relevant business bank accounts or cash-out partners which is relatively considered a difficult task. 
+BEC Exceeds the Boundaries of Email
+BEC begins with access to an organizational mailbox or a business SaaS account. Once in, the threat actors often analyze the account, then study and map the organization, mainly by understanding organizational structure and specifically financial privileges, procurement process, internal conversations, communication with vendors, and invoices.
+After everything is collected, the threat actors can attempt to make a fraudulent request.
+This is what makes BEC difficult to detect. A suspicious email from an unknown sender is one thing. But a message sent from a compromised mailbox, inside an existing conversation, using real names, real invoice references, and familiar wording is much harder for employees to question.
+Unsurprisingly, Flare data shows that threat actors highly value email accounts of employees from the finance department, as they are tools to understand the financial operations.
+Inside these accounts, the threat actors are looking for referenced accounts receivable, accounts payable, payrolls, invoices, overdue payments, and customer payment relationships.
+Case Study: Hacker Discussions on BEC
+A thread named “Business Email Compromise (BEC) – Experiences & Discussion” created by a threat actor named Bigjack, in January 2026, clearly illustrates how this operation works.
+Bigjack described how he is using remote access malware to gain initial access, then compromising company mailboxes and using them to send invoices. The actor’s questions focused less on the technical intrusion and more on the practical fraud aspects based on experience:
+- 
+ When to send the invoice 
+- 
+ How to create urgency 
+- 
+ How to ask for a large amount without raising suspicion 
+- 
+ What mailbox information should be reused 
+- 
+ What kind of proof can be provided if questioned 
+- 
+ Which mistakes can ruin the operation 
+The replies showed how other threat actors view BEC and therel experiences. One threat actor highlighted the significance of intercepting an invoice payment process. Another said that identifying who validates the payment requests and defrauding him is the most important aspect. Other threat actors’ emphasize the significance of cash-out, saying that reliable collaboration and support is the most critical aspect.
+This single correspondence clearly depicts the mindset of threat actors regarding BEC. Threat actors learn from experience that they need to fully understand the procurement process (the right timing, the right pressure, the right financial context, and the right receiving account) before they can start sending effective fraudulent invoices.
+BEC Attacks Have an Underground Paper Trail
+From compromised finance accounts to cash-out networks and call center recruitment, threat actors plan BEC operations openly on criminal forums.
+Flare monitors these discussions, so you can see the attack coming before the invoice does.
+Uncover BEC Underground Signals for FreeThe Cash-Out Part Is a Bottleneck
+Monetization of BEC is nearly impossible without a reliable proper receiving account, so. threat actors connect to mule networks and use cash-out services. This is a hard task because the threat actors need to find a reliable, operational, “clean”, relevant bank account to finalize the fraud.
+A threat actor named neoresu emphasizes that it’s not just the destination bank account, but also the person who validates the payment needs special care. He offered his services and also talked about using a call center to increase the success rate.
+Another threat actor named “Capita” claimed to have operated BEC activity for six years in Europe (mainly in Germany, Finland, and Austria) and described using peer-to-peer money movement, and a call center to pressure companies into faster payments.
+There are also posts that are looking to recruit money mules for a BEC scheme. Specifically involving business bank accounts, and fast money transfer.
+Support Call Centers to Apply Pressure
+Several posts also referenced calls as part of the BEC process. In the Bigjack thread, the actor asked when to call after sending the invoice, while another participant claimed to operate a call center used to pressure companies into faster payments.
+This matters because BEC is not always email-only fraud. A follow-up call can make the request feel more legitimate and urgent. For defenders, a second channel should not be treated as proof of authenticity if the requester introduced or controlled that channel.
+AI-Powered BEC Attacks
+Underground discussions indicate that AI is increasingly being adopted to improve the effectiveness and scalability of BEC campaigns.
+In the post below by blackhatpakistan, the threat actors describe using AI to generate realistic business correspondence, mimic executive and employee writing styles, and produce context-aware payment requests or invoice fraud emails that blend into legitimate communication.
+Rather than relying on a single template, AI enables the creation of thousands of unique email variations, making campaigns more difficult for traditional content-based detection systems to identify.
+Dedicated underground tools are also promoted for generating entire email conversation chains, allowing attackers to hijack existing business discussions and inject fraudulent payment requests with a higher degree of authenticity.
+Practical Advices for Defenders
+Underground discussions clearly show that we must increase BEC defenses.. The security posture should begin way long before the first fraudulent invoice arrives. What we’ve learned from attackers:
+- 
+ Attackers target specific personnel in the organization. Defenders must identify the potential targets and apply additional training to leadership, the financial department and whoever takes part in the procurement process. 
+- 
+ Attackers are now using AI-powered artifacts such as emails, invoices, documents, and messages. Defenders need to identify AI-generated content and deep-fake items. 
+- 
+ Attackers leverage dedicated call centers to pressure financial decision-makers and payment approvers into authorizing fraudulent transactions. Defenders should gather intelligence and learn what techniques these centers use to better educate their relevant employees. 
+- 
+ Attackers highlight the significance of specific points in time, waiting for approvers to be on vacation, as well as other tips to improve the success rate of their fraudulent activity. Defenders should learn about these special markers and apply further defense mechanisms during specific periods, such as employee vacations. 
+Flare helps by giving security teams visibility into these underground markets and by monitoring exposed employee credentials, corporate domains, login portals, SaaS applications, and related indicators across deep and dark web sources.
+This allows organizations to detect when their access points appear in credential collections or search-service advertisements, prioritize the most relevant exposures, and respond faster with password resets, session revocation, MFA enforcement, and investigation of possible account misuse.
+Learn more by signing up for our free trial.
+Sponsored and written by Flare.
+Comments have been disabled for this article.

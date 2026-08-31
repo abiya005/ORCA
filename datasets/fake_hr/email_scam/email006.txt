@@ -1,0 +1,86 @@
+TITLE:
+Hi Mom text scam: How to spot fake emergency texts
+
+SOURCE:
+Fox News
+
+DATE:
+2026-07-05T16:13:24Z
+
+URL:
+https://www.foxnews.com/tech/hi-mom-text-scam-how-to-spot-fake-emergency-texts
+
+ARTICLE:
+
+A scam text showed up today that would make many parents stop cold. The message said:
+"Hi mom, text me here on my work phone. Dropped my actual phone in the sink earlier and it's completely unresponsive now."
+The text came from an unknown number. Then it asked me to text a different unknown number. That detail is important. The scammer wants to move you into a new conversation before you stop and verify who is really on the other end.
+The message seems personal right away. There is no weird link. There is no obvious demand for money. Instead, it starts with a little family panic and a believable excuse. That is what makes the Hi Mom text scam so sneaky.
+Sign up for my FREE CyberGuy Report
+- Get my best tech tips, urgent security alerts and exclusive deals delivered straight to your inbox.
+- For simple, real-world ways to spot scams early and stay protected, visit CyberGuy.com - trusted by millions who watch CyberGuy on TV daily.
+- Plus, you'll get instant access to my Ultimate Scam Survival Guide free when you join.
+YOUR FAMILY COULD BE ONE PHONE CALL FROM A BANK SCAM
+Why the Hi Mom text scam feels so believable
+This scam works because it sounds ordinary. A child texting from a work phone seems possible. A phone dropped in a sink sounds believable. A short message from someone who sounds rushed can feel real enough to make you respond. That is exactly the point.
+Scammers know parents may react quickly when a child appears to need help. They do not need a perfect story. They only need a small opening.
+Once you reply, the scammer can keep the conversation going. Then the request may change from "text me here" to "can you help me pay for a new phone?" or "I need money right now."
+Every word in the scam text has a job
+Here's how the scammer uses each part of the message to make a strange number feel believable.
+"Hi mom"
+The scammer does not use a real name. That makes the message easier to send to many people. Still, if the person reading it is a mother, it suddenly feels personal. That one phrase tries to create an instant emotional connection.
+"Text me here"
+This tells you to respond on the scammer's terms. It also keeps the exchange inside text messages. That gives the scammer time to think, type and adjust the story based on how you respond.
+"On my work phone"
+This explains why the number looks unfamiliar. The scammer knows you may wonder why your child is texting from a strange number. So the message gives you an excuse before you even ask.
+"Dropped my actual phone in the sink"
+This is the hook. People drop phones in sinks, toilets, pools and puddles all the time. The detail feels normal enough that you may not question it.
+"Earlier"
+This word creates a fresh problem without giving many details. It suggests the accident just happened. However, it avoids specifics that you could check.
+"Completely unresponsive now"
+This line blocks the most obvious verification step. If you try to call the real phone, the scammer has already given you a reason it may not work. That can make you more likely to text the new number instead.
+GLOBAL SCAM CRACKDOWN LEADS TO 276 ARRESTS
+What could happen if you reply to a fake family text?
+The first message may seem harmless. The second one may start the real scam. The scammer may claim they need money for a replacement phone. They may ask you to pay a bill because their banking app is locked. They may push you to use Zelle, Venmo, Cash App, crypto or gift cards.
+Some scammers may also ask for a one-time security code. They may pretend the code is needed to restore the phone, verify an account or fix a payment problem.
+Do not share that code. A verification code can let a scammer break into your bank, email, Apple ID, Google account or phone carrier account.
+Why this scam targets parents so well
+Parents are wired to respond when a child sounds stuck. Scammers know that. They use concern, timing and confusion to lower your guard.
+The message also avoids overexplaining. That makes it feel more natural. Many real texts from family members are short, rushed and a little messy.
+However, the biggest warning sign is the two-number setup. One unknown number sends the message. Another unknown number gets placed inside the text. That handoff is the scammer trying to pull you deeper into the trap.
+Ways to stay safe from the Hi Mom text scam
+Before you respond to a message like this, run through these steps to make sure you are dealing with your real family member.
+1) Do not reply to the message
+Avoid answering, even to say the sender has the wrong number. A reply can confirm your number is active. That may lead to more scam texts later.
+2) Call the real person directly
+Use the phone number already saved in your contacts. Do not call or text the number inside the suspicious message. If your child or family member does not answer, try another trusted way to reach them.
+3) Ask a personal verification question
+Ask something only the real person would know. Make the question specific. Avoid anything a stranger could guess from social media.
+4) Never send money from a sudden text
+Pause before sending money because of any urgent family message. Be extra careful with Zelle, Venmo, Cash App, gift cards and crypto. These payment methods can be fast, and some are hard to reverse.
+5) Do not share verification codes
+Never send a one-time passcode from your bank, Apple ID, Gmail, phone carrier or payment app. A real family member should not need your private security code.
+6) Use strong antivirus software
+Strong antivirus software can help protect your phone, tablet and computer from malicious links, phishing pages and hidden threats. This becomes even more important if a scammer sends a follow-up link after you reply. Get my picks for the best 2026 antivirus protection winners for your Windows, Mac, Android & iOS devices at Cyberguy.com
+7) Use a data removal service
+A data removal service can help reduce how much of your personal information appears online. That matters because scammers often use exposed details to make their messages feel more convincing. No service can remove every piece of data, but it can help cut down what strangers can find. Check out my top picks for data removal services and get a free scan to find out if your personal information is already out on the web by visiting Cyberguy.com.
+8) Report and block the message
+On iPhone, tap Report Spam or Report Junk if the option appears. Then delete the message.
+You can also forward unwanted texts to 7726 , which spells SPAM.
+On Android, block the sender and report the conversation as spam in Google Messages.
+What to do if you already replied
+If you already responded, focus on ending the conversation, protecting your accounts and saving proof before the scammer pushes harder.
+- Stop texting right away.
+- Do not explain yourself. Do not argue with the sender. Do not try to catch them in a lie.
+- Take a screenshot of the conversation. Then call the real family member using a trusted number.
+- If you shared a verification code, change that account password immediately using a password manager. Also, check recent account activity.
+- If you sent money, contact your bank or payment app right away. Speed can make a difference.
+Kurt's key takeaways
+The Hi Mom text scam works because it feels familiar. The scammer starts with a small family problem instead of a big demand. That makes the message feel less suspicious and more urgent. The safest move is to pause before you reply. Call the real person using a number you already trust. If the story checks out, you can help. If it does not, report and block the message. That tiny pause could protect your money, your accounts and someone else in your family.
+Have you ever received a fake family emergency text that sounded almost believable, and what detail gave it away? Let us know by writing to us at Cyberguy.com
+CLICK HERE TO DOWNLOAD THE FOX NEWS APP
+Sign up for my FREE CyberGuy Report
+- Get my best tech tips, urgent security alerts and exclusive deals delivered straight to your inbox.
+- For simple, real-world ways to spot scams early and stay protected, visit CyberGuy.com - trusted by millions who watch CyberGuy on TV daily.
+- Plus, you'll get instant access to my Ultimate Scam Survival Guide free when you join.
+Copyright 2026 CyberGuy.com. All rights reserved.

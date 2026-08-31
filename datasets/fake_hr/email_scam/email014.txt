@@ -1,0 +1,37 @@
+TITLE:
+Gujarat Police bust Jamtara-linked APK fraud network: Here's what is an APK scam and how does it work?
+
+SOURCE:
+The Times of India
+
+DATE:
+2026-06-26T09:03:37Z
+
+URL:
+https://economictimes.indiatimes.com/news/new-updates/gujarat-police-bust-jamtara-linked-apk-fraud-network-what-is-an-apk-scam-and-how-does-it-work/articleshow/132011733.cms
+
+ARTICLE:
+
+Listen to this article in summarized format
+The arrests were made following a complaint from an Ahmedabad resident who allegedly lost Rs 6.68 lakh after downloading a fake APK file. According to police, the victim received a WhatsApp message posing as a notice from Sabarmati Gas Limited, warning that his gas connection would be disconnected unless a pending bill was updated.
+The message directed him to contact a purported billing officer and download an application named "Sabarmati Gas Bill Update.apk". After installing the app, multiple fraudulent transactions were carried out from his HDFC Bank account.
+What Is an APK Scam?
+An APK (Android Package Kit) file is used to install applications on Android devices. Fraudsters exploit this feature by disguising malicious APK files as legitimate documents, utility apps, bank notifications, traffic challans, reward redemption forms, or bill payment applications.Unlike genuine apps downloaded through the Google Play Store, these APK files are typically shared through WhatsApp, SMS, Instagram, Telegram, or other third-party sources. Victims are persuaded to install them by creating a sense of urgency or offering attractive rewards.
+How Does the Fraud Work?
+Once the APK file is downloaded and installed, the application requests various permissions, including access to SMS, contacts, camera, notifications, accessibility services, and screen-sharing features.If these permissions are granted, scammers can remotely access the device, intercept one-time passwords (OTPs), monitor banking activities, and even take control of financial applications. This allows them to carry out unauthorised transactions without the victim's knowledge.
+Cybercrime officials say the scam has affected victims across multiple states, with fraudsters stealing amounts ranging from a few thousand rupees to several lakhs.
+Common APK Scam Traps
+Fraudsters often send messages claiming:- Traffic violation notices requiring immediate payment
+- Unclaimed reward points ready for redemption
+- Utility bill updates or disconnection warnings
+- KYC verification requests from banks
+- Job application forms or government scheme registrations
+Victims are then asked to click a link or install an APK file that appears to be official.
+How to Stay Safe
+Cybercrime experts recommend the following precautions:- Avoid downloading APK files received through WhatsApp, SMS, email, or social media.
+- Install apps only from trusted platforms such as the Google Play Store.
+- Do not click on links claiming "immediate action required" without verification.
+- Verify messages directly through the official website or customer care number of the concerned organisation.
+- Carefully review app permissions before installation.
+- Never share OTPs, banking credentials, or screen-sharing access with anyone.
+If you suspect cyber fraud, report it immediately by calling the national cybercrime helpline at **1930** or filing a complaint through the Cyber Crime Portal.

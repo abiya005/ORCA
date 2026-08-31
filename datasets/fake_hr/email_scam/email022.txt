@@ -1,0 +1,53 @@
+TITLE:
+Why right now might be the best opportunity to get hired at Silicon Valley's most coveted employers
+
+SOURCE:
+Business Insider
+
+DATE:
+2026-06-19T09:00:01Z
+
+URL:
+https://www.businessinsider.com/why-everybody-wants-to-work-at-anthropic-or-openai-2026-6#article
+
+ARTICLE:
+
+For years, a job at Google was the ultimate status symbol in tech. Now, a new pair of employers is attracting the industry's most ambitious workers.
+OpenAI and Anthropic have become the hottest career destinations in Silicon Valley, drawing a flood of applicants eager to work at the epicenter of the AI boom. The workers are chasing prestige and the chance to help shape a technological revolution — plus to potentially cash in on the most anticipated IPOs in tech history.
+Across Reddit, Blind and X, job seekers are swapping interview tips and hiring rumors for both companies, hoping to break in. Several executives have ditched other employers to join the labs. Sundeep Teki, a career coach who helps place talent at AI companies, told Business Insider that nearly every candidate he speaks with has the same goal. On a form asking which companies they want to target, "nine times out of 10," he said, applicants list OpenAI or Anthropic.
+"Anthropic is the No. 1 priority," Teki said. He added that with either name on a résumé, an employee has options: "No matter what you end up doing after you move on from Anthropic or OpenAI, you're bound to be successful."
+The companies' tech is reshaping the economy — and the workforce from which they hire. Codex and Claude Code have transformed the work of software engineers, helping usher in an era of AI-attributed layoffs at companies like Square and Cloudflare. Meanwhile, the two frontier AI labs have avoided job cuts, and offer lucrative compensation packages, abundant resources, and ambitious plans.
+"There's almost an exclusivity in it for those who are working there," said Randy Ksar, a content marketer who applied to Anthropic for the same reason he once worked at Yahoo — it's a brand he respects. "You want to be part of something big."
+Both companies are growing fast as they compete for customers, reckon with their impact, and fight for technological supremacy. Anthropic, which has more than 3,500 employees, lists around 380 open roles. OpenAI has about 720 open jobs — the company is looking to almost double its 4,500-person workforce this year, The Financial Times reported in March.
+Business Insider spoke with applicants, job coaches, and Big Tech employees about the frontier labs, and why they're drawing such rabid demand.
+Workers see Anthropic as the new Google or Apple, and they want in
+Jesse Ratner, a veteran tech copywriter and brand strategist, has watched firsthand as AI tools strip away some jobs from his profession. Still, he applied to Anthropic, and almost fell for a fake Anthropic recruitment scam this May. When he saw the scam message, he told his wife the "hottest company in the world" was recruiting him.
+"It's like, 10 years ago, landing a job at Google or before that, Apple," Ratner, who is currently freelancing, told Business Insider.
+Some workers are looking back further into corporate history. Marx Ojemudia, a designer, told Business Insider that he views a job at an AI lab as a route to long-term stability, likening it to his father's 30-year career at Ford Motor Company in Michigan. He's recently applied to both OpenAI and Anthropic, and has messaged the employees who posted the jobs, hoping to get his resume and cover letter reviewed.
+Charles Broomfield, a 26-year-old ex-Amazon employee who recently started as an engineering analyst at Google, told Business Insider that his impression is that "Anthropic is winning the AI race," and being at a top startup as the world undergoes a technological revolution offers a unique opportunity to prospective employees. While tech giants like Meta or Microsoft are past their hyper-growth phase, startups like OpenAI and Anthropic offer workers the chance to make millions off an IPO, he said.
+"The exciting thing about startups is always that they have massive room for growth," Broomfield said, adding that "everyone wants to work for a company that pays as well as Big Tech and seems like a sure bet for huge continued growth."
+Anthropic and OpenAI regularly list jobs with six-figure salaries, even before equity pay.
+However, he has some concerns about those startups, given the possibilities of an AI bubble and further job automation.
+"I'm hesitant to think any company is layoff-proof if they are able to do the work with AI," said Broomfield, who was previously laid off from Amazon.
+The best weapon in the tech talent wars might be Claude
+Rune Kvist, who worked at Anthropic when it had fewer than 50 employees, told Business Insider he thinks that what draws the most interest to the top labs is simple — their results. Over the last two years, Anthropic and OpenAI have released one cutting-edge model after another. Anthropic's safety-focused marketing wouldn't really help the company sell itself, Kvist said, if it didn't continuously impress with its tech.
+"I actually think the vibes are downstream of the models, rather than the other way," said Kvist. He called Claude a "powerful cultural force," noting that if people are spending hours a day on the chatbot, they're likely to put the company behind it in a positive light.
+Kathleen Bartin, who estimates that she's applied to 40 roles at Anthropic, is proof positive. She returned to the workforce after parenting full-time in 2025, and told Business Insider that her introduction to AI — first with ChatGPT, then in a Zoom presentation — had her swiftly hooked. After the presentation, she immediately bought subscriptions to Anthropic and Perplexity, a research-oriented AI tool.
+Within the week, she was looking for jobs at Anthropic. She said she'd open doors, fetch coffee — she just wants to be part of it.
+"I was smitten," she said. "It was all that I talked about. My kids thought I was crazy… They were all like, 'Mom, don't talk to me about AI. Just don't. You're nuts.' But yeah, I started applying kind of immediately upon meeting Claude and I just haven't gone back. It's like my dream job."
+While applying for jobs across the company, Bartin has fashioned herself into an AI consultant. She's learned more about the tools, attends hackathons, and got a contract gig helping a fintech startup integrate AI into its work. At her part-time jewelry store job, she once whipped out a laptop and gave her visiting friend a Claude demo, she said.
+Bartin was offered an interview at Anthropic but missed the email while on a trip, she said. She didn't hear back again, and hasn't for dozens of the other applications. Still, she brims with praise for the company, which she said she trusts more than others to shepherd the tech forward. Bartin was one of a few applicants who praised Anthropic's spat with the Department of Defense earlier this year to Business Insider.
+Karli Jaenike, a marketer who has also applied to Anthropic, said the lab's stance against surveillance of Americans "solidified my love for them."
+"AI could go a few different ways," she said. "So seeing a company that's really taking responsibility to build something in a more ethical way really, really resonates with me."
+For a top-end job, workers face an uphill fight
+If getting a Big Tech job is a challenge, landing a role at a frontier lab is a whole different beast.
+"The competition is fiercer than anywhere," Michelle Perchuk, founder of MTV Coaching and a career acceleration strategist, negotiation coach, and former talent acquisition worker, told Business Insider. "It's like getting into the hot new restaurant in town."
+She said while Big Tech companies might highly value an Ivy League degree or a big-name company in the hiring process, frontier AI labs are increasingly focused on identifying exceptional talent outside of conventional standards.
+"AI companies hire based on critical thinking and test thinking," Perchuk said, adding that the latter skillset refers to people who can be patient and iterate until a desired solution is reached.
+Teki, who has placed one client at Anthropic and has others in the interview process, said that both OpenAI and Anthropic have some of the most difficult technical interviews in the industry right now. He's seen new kinds of hiring hurdles, like a take-home assignment that assesses how an applicant uses AI coding tools. For technical roles, the companies usually have one or two rounds of screening followed by multiple interviews, he said. There are usually several focused on coding, machine learning, and designing systems. There's also usually a behavioral round, with more value-oriented questions to test for culture fit.
+Both startups seem selective about candidates who align with their missions, Teki said. Anthropic tends to be very "safety-centric," while OpenAI is more focused on AGI, or artificial general intelligence, he added.
+"The demand is so high that the companies are very, very selective, and they get to pick and choose the very best of talent that's available right now, coming either from the Big Tech or from some of the leading startups in the US and other countries," Teki said.
+Proven executives have flocked to the labs. OpenAI plucked Instacart's and Slack's CEOs for its leadership team, and picked up Sarah Friar, who steered Square and Nextdoor through IPOs, as its CFO. Anthropic employs execs who cut their teeth at Google, Microsoft, Instagram, and Stripe, and the lab recently hired Tesla's former AI director, Andrej Karpathy.
+Teki said some candidates land interviews when the company comes to them. People who build projects in public and showcase their work on GitHub or social media can catch the attention of recruiters, particularly when their projects closely align with the work being done by specific teams at Frontier AI Labs.
+Kvist, the former Anthropic employee, said he thinks the company has kept up a high bar for its workforce since its early days. But the rapid growth is a chance for less well-known workers to get a foot in the door.
+"To grow over the last year from 1,000 to 4,000 people, you have to hire a lot of people who are not top 10 in their fields," Kvist said. "You just run out of the top 10."
