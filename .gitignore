@@ -1,0 +1,72 @@
+# Environment & Secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+secrets.json
+credentials.json
+*.keystore
+id_rsa
+id_ed25519
+
+# Python Caches & Compiled Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs & Runtime Output
+*.log
+backend/server.log
+
+# Databases & Runtime Data
+*.sqlite
+*.sqlite3
+*.db
+
+# Machine Learning Model Binaries & Checkpoints
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.pth
+
+# Temporary & Scratch Artifacts
+scratch/
+tmp/
+temp/
+*.tmp
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Frontend / Node Dependencies & Build Artifacts
+node_modules/
+dist/
+build/
+.npm

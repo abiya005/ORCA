@@ -826,3 +826,64 @@
 2026-08-31 11:54:07,892 [INFO] 127.0.0.1 - - [31/Aug/2026 11:54:07] "[31m[1mPOST /api/analyze-fake-hr HTTP/1.1[0m" 400 -
 2026-08-31 11:54:09,448 [WARNING] OCR failed on image file 'Screenshot 2026-08-31 103603.png': tesseract is not installed or it's not in your PATH. See README file for more information.
 2026-08-31 11:54:09,450 [INFO] 127.0.0.1 - - [31/Aug/2026 11:54:09] "[31m[1mPOST /api/analyze-fake-hr HTTP/1.1[0m" 400 -
+2026-08-31 12:29:31,173 [INFO] setup plugin alembic.autogenerate.schemas
+2026-08-31 12:29:31,174 [INFO] setup plugin alembic.autogenerate.tables
+2026-08-31 12:29:31,174 [INFO] setup plugin alembic.autogenerate.types
+2026-08-31 12:29:31,174 [INFO] setup plugin alembic.autogenerate.constraints
+2026-08-31 12:29:31,174 [INFO] setup plugin alembic.autogenerate.defaults
+2026-08-31 12:29:31,174 [INFO] setup plugin alembic.autogenerate.comments
+2026-08-31 12:29:31,174 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-08-31 12:29:32,324 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 12:29:32,344 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 12:29:32,346 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 12:29:32,349 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-08-31 12:29:32,360 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-31 12:29:32,360 [INFO] [33mPress CTRL+C to quit[0m
+2026-08-31 12:29:36,846 [WARNING] PyTesseract failed: tesseract is not installed or it's not in your PATH. See README file for more information.. Falling back to EasyOCR.
+2026-08-31 12:29:36,846 [INFO] Initializing EasyOCR Neural Reader...
+2026-08-31 12:29:38,468 [INFO] EasyOCR Neural Reader initialized successfully!
+2026-08-31 12:29:40,562 [INFO] EasyOCR extracted 102 characters from 'screenshot.png'
+2026-08-31 12:29:40,590 [INFO] 127.0.0.1 - - [31/Aug/2026 12:29:40] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 12:29:54,935 [WARNING] PyTesseract failed: tesseract is not installed or it's not in your PATH. See README file for more information.. Falling back to EasyOCR.
+2026-08-31 12:29:56,962 [INFO] EasyOCR extracted 146 characters from 'da_screenshot.png'
+2026-08-31 12:29:56,964 [INFO] 127.0.0.1 - - [31/Aug/2026 12:29:56] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-08-31 12:32:04,300 [INFO] APK ML Model loaded successfully! Features: 470
+2026-08-31 12:32:05,096 [INFO] Fake HR NLP Model loaded successfully!
+2026-08-31 12:32:05,112 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-08-31 12:32:05,125 [INFO] 127.0.0.1 - - [31/Aug/2026 12:32:05] "GET /api/status HTTP/1.1" 200 -
+2026-08-31 12:45:03,325 [WARNING] PyTesseract failed: tesseract is not installed or it's not in your PATH. See README file for more information.. Falling back to EasyOCR.
+2026-08-31 12:45:40,994 [WARNING] PyTesseract failed: tesseract is not installed or it's not in your PATH. See README file for more information.. Falling back to EasyOCR.
+2026-08-31 12:46:16,720 [INFO] EasyOCR extracted 1578 characters from 'Screenshot 2026-08-31 103603.png'
+2026-08-31 12:46:16,800 [INFO] 127.0.0.1 - - [31/Aug/2026 12:46:16] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-08-31 12:46:49,178 [INFO] EasyOCR extracted 1578 characters from 'Screenshot 2026-08-31 103603.png'
+2026-08-31 12:46:49,259 [INFO] 127.0.0.1 - - [31/Aug/2026 12:46:49] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-09-01 20:55:25,830 [INFO] setup plugin alembic.autogenerate.schemas
+2026-09-01 20:55:25,830 [INFO] setup plugin alembic.autogenerate.tables
+2026-09-01 20:55:25,830 [INFO] setup plugin alembic.autogenerate.types
+2026-09-01 20:55:25,831 [INFO] setup plugin alembic.autogenerate.constraints
+2026-09-01 20:55:25,831 [INFO] setup plugin alembic.autogenerate.defaults
+2026-09-01 20:55:25,831 [INFO] setup plugin alembic.autogenerate.comments
+2026-09-01 20:55:25,831 [INFO] setup plugin alembic.autogenerate.checkconstraint_byname
+2026-09-01 20:55:32,630 [INFO] APK ML Model loaded successfully! Features: 470
+2026-09-01 20:55:32,737 [INFO] Fake HR NLP Model loaded successfully!
+2026-09-01 20:55:32,751 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-09-01 20:55:32,754 [INFO] Starting ORCA APK Scam Detection Backend on port 5000
+2026-09-01 20:55:32,781 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-01 20:55:32,781 [INFO] [33mPress CTRL+C to quit[0m
+2026-09-01 20:55:44,778 [INFO] APK ML Model loaded successfully! Features: 470
+2026-09-01 20:55:44,798 [INFO] Fake HR NLP Model loaded successfully!
+2026-09-01 20:55:44,800 [INFO] Digital Arrest NLP Model loaded successfully!
+2026-09-01 20:55:44,802 [INFO] 127.0.0.1 - - [01/Sep/2026 20:55:44] "GET /api/status HTTP/1.1" 200 -
+2026-09-01 20:56:55,379 [INFO] 127.0.0.1 - - [01/Sep/2026 20:56:55] "POST /api/analyze-digital-arrest HTTP/1.1" 200 -
+2026-09-01 21:11:38,697 [WARNING] PyTesseract failed: tesseract is not installed or it's not in your PATH. See README file for more information.. Falling back to EasyOCR.
+2026-09-01 21:11:38,698 [INFO] Initializing EasyOCR Neural Reader...
+2026-09-01 21:11:42,314 [WARNING] PyTesseract failed: tesseract is not installed or it's not in your PATH. See README file for more information.. Falling back to EasyOCR.
+2026-09-01 21:11:42,314 [INFO] Initializing EasyOCR Neural Reader...
+2026-09-01 21:11:43,821 [INFO] EasyOCR Neural Reader initialized successfully!
+2026-09-01 21:11:45,493 [INFO] EasyOCR Neural Reader initialized successfully!
+2026-09-01 21:12:26,566 [INFO] EasyOCR extracted 1578 characters from 'Screenshot 2026-08-31 103603.png'
+2026-09-01 21:12:26,607 [INFO] 127.0.0.1 - - [01/Sep/2026 21:12:26] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
+2026-09-01 21:12:29,404 [INFO] EasyOCR extracted 1578 characters from 'Screenshot 2026-08-31 103603.png'
+2026-09-01 21:12:29,445 [INFO] 127.0.0.1 - - [01/Sep/2026 21:12:29] "POST /api/analyze-fake-hr HTTP/1.1" 200 -
