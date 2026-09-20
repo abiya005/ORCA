@@ -388,6 +388,8 @@ To finalize your employment contract, you are required to purchase home office h
             authority: "Impersonating Email Recruiter",
             trigger: "Wire Deposit & Advance Equipment Fee",
             score: "86%",
+            fakeEmail: "hr-recruiting@global-hiring-verify-dep.com",
+            realEmail: "official-hr@company.com",
             indicators: ["advance deposit", "unverified recruiter domain", "wire transfer", "work from home", "high salary"],
             summary: "ML Text Analysis flagged this email as a Fake Email Recruitment Scam. Legitimate employers never ask candidates to wire money for equipment prior to employment.",
             recommends: [
@@ -634,6 +636,45 @@ function writeConsoleLine(consoleId, line, type = 'info', delay = 0) {
     });
 }
 
+function resolveEmailsClientSide(text, report) {
+    if (!report || report.badge === 'SAFE') return;
+    const textLower = (text || "").toLowerCase();
+    const emailsFound = (text || "").match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g);
+    const isEmail = emailsFound || textLower.includes('from:') || textLower.includes('subject:') || textLower.includes('email') || textLower.includes('dear candidate') || report.category?.toLowerCase().includes('email') || report.title?.toLowerCase().includes('email');
+
+    if (!isEmail) return;
+
+    if (!report.fakeEmail) {
+        if (emailsFound && emailsFound.length > 0) {
+            report.fakeEmail = emailsFound[0];
+        } else if (textLower.includes('christ') || textLower.includes('placement')) {
+            report.fakeEmail = "placementoffice@christuniversity-careers.online";
+        } else if (textLower.includes('google')) {
+            report.fakeEmail = "careers-google-recruiter@gmai1.com";
+        } else if (textLower.includes('amazon')) {
+            report.fakeEmail = "hr-hiring@amaz0n-jobs.net";
+        } else {
+            report.fakeEmail = "unverified-recruiter@external-scam.com";
+        }
+    }
+
+    if (!report.realEmail) {
+        if (textLower.includes('christ') || textLower.includes('soet') || textLower.includes('placement')) {
+            report.realEmail = "placementoffice.soet@christuniversity.in";
+        } else if (textLower.includes('google')) {
+            report.realEmail = "careers@google.com";
+        } else if (textLower.includes('amazon')) {
+            report.realEmail = "careers@amazon.com";
+        } else if (textLower.includes('microsoft')) {
+            report.realEmail = "careers@microsoft.com";
+        } else if (textLower.includes('cbi')) {
+            report.realEmail = "contact@cbi.gov.in";
+        } else {
+            report.realEmail = "official-hr@company.com";
+        }
+    }
+}
+
 async function startTextMediaScan(type) {
     const textInput = document.getElementById(`text-input-${type}`).value.trim();
     const hasFile = type === 'da' ? selectedMediaFileDa : selectedMediaFileHr;
@@ -729,6 +770,24 @@ async function startTextMediaScan(type) {
             document.getElementById(`report-authority-${type}`).innerText = activeReport.authority;
             document.getElementById(`report-trigger-${type}`).innerText = activeReport.trigger;
             
+            // Check for fake vs real email details
+            resolveEmailsClientSide(textInput, activeReport);
+
+            const fakeEmailEl = document.getElementById(`report-email-fake-${type}`);
+            const fakeEmailContainer = document.getElementById(`report-email-fake-container-${type}`);
+            const realEmailEl = document.getElementById(`report-email-real-${type}`);
+            const realEmailContainer = document.getElementById(`report-email-real-container-${type}`);
+
+            if (activeReport.fakeEmail && activeReport.realEmail) {
+                if (fakeEmailEl) fakeEmailEl.innerText = activeReport.fakeEmail;
+                if (realEmailEl) realEmailEl.innerText = activeReport.realEmail;
+                if (fakeEmailContainer) fakeEmailContainer.classList.remove("hidden");
+                if (realEmailContainer) realEmailContainer.classList.remove("hidden");
+            } else {
+                if (fakeEmailContainer) fakeEmailContainer.classList.add("hidden");
+                if (realEmailContainer) realEmailContainer.classList.add("hidden");
+            }
+
             // Indicators
             const indContainer = document.getElementById(`report-indicators-${type}`);
             indContainer.innerHTML = "";

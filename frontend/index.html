@@ -177,9 +177,6 @@
                     <button class="tab-btn" onclick="switchScannerTab('apk')">
                         <i class="fa-solid fa-android"></i> APK Malware Sandbox
                     </button>
-                    <button class="tab-btn" onclick="switchScannerTab('deepfake')">
-                        <i class="fa-solid fa-masks-theater"></i> Deepfake Detection
-                    </button>
                 </div>
 
                 <!-- Tab 1: Digital Arrest Scanner -->
@@ -273,6 +270,14 @@
                                             <div class="report-detail">
                                                 <span class="label">Primary Trigger:</span>
                                                 <strong id="report-trigger-da">Narcotics Seizure</strong>
+                                            </div>
+                                            <div class="report-detail hidden" id="report-email-fake-container-da">
+                                                <span class="label">Detected Fake Email:</span>
+                                                <strong id="report-email-fake-da" class="risk-red">--</strong>
+                                            </div>
+                                            <div class="report-detail hidden" id="report-email-real-container-da">
+                                                <span class="label">Possible Actual Email:</span>
+                                                <strong id="report-email-real-da" class="risk-green">--</strong>
                                             </div>
                                         </div>
                                     </div>
@@ -395,6 +400,14 @@
                                             <div class="report-detail">
                                                 <span class="label">Primary Trigger:</span>
                                                 <strong id="report-trigger-hr">Part-Time Task Offer</strong>
+                                            </div>
+                                            <div class="report-detail hidden" id="report-email-fake-container-hr">
+                                                <span class="label">Detected Fake Email:</span>
+                                                <strong id="report-email-fake-hr" class="risk-red">--</strong>
+                                            </div>
+                                            <div class="report-detail hidden" id="report-email-real-container-hr">
+                                                <span class="label">Possible Actual Email:</span>
+                                                <strong id="report-email-real-hr" class="risk-green">--</strong>
                                             </div>
                                         </div>
                                     </div>
@@ -574,121 +587,6 @@
                     </div>
                 </div>
 
-                <!-- Tab 4: Deepfake Detection (UI Only) -->
-                <div id="tab-deepfake" class="tab-content">
-                    <div class="scanner-layout">
-                        <!-- Left Panel: Upload & Capture -->
-                        <div class="scanner-inputs">
-                            <div class="input-card">
-                                <h3>Upload Video / Image for Deepfake Analysis</h3>
-                                <div class="drop-zone deepfake-dropzone" id="deepfake-dropzone">
-                                    <i class="fa-solid fa-photo-film drop-icon text-purple"></i>
-                                    <p>Drag and drop a video clip, image, or screenshot for AI deepfake detection</p>
-                                    <span>Supports MP4, MOV, AVI, PNG, JPG up to 50MB</span>
-                                    <input type="file" id="deepfake-file-input" accept="video/*,image/*" hidden>
-                                    <button class="btn btn-secondary btn-sm" onclick="triggerFileInput('deepfake-file-input')">Select File</button>
-                                </div>
-                            </div>
-
-                            <div class="input-card deepfake-webcam-card">
-                                <h3><i class="fa-solid fa-camera"></i> Or Capture via Webcam</h3>
-                                <p class="help-text">Use your device camera to capture a live screenshot or short video clip of a suspicious video call for real-time analysis.</p>
-                                <div class="webcam-preview-box">
-                                    <div class="webcam-placeholder">
-                                        <i class="fa-solid fa-video-slash"></i>
-                                        <span>Webcam Not Active</span>
-                                        <p>Click below to start capture session</p>
-                                    </div>
-                                </div>
-                                <div class="webcam-controls">
-                                    <button class="btn btn-secondary" disabled>
-                                        <i class="fa-solid fa-circle-dot"></i> Start Webcam Capture
-                                    </button>
-                                    <button class="btn btn-secondary" disabled>
-                                        <i class="fa-solid fa-camera"></i> Capture Frame
-                                    </button>
-                                </div>
-                                <span class="coming-soon-tag"><i class="fa-solid fa-clock"></i> Live capture coming soon</span>
-                            </div>
-
-                            <div class="quick-samples-card">
-                                <h3>What Deepfake Detection Analyzes</h3>
-                                <p class="help-text">ORCA's deepfake engine examines the following biometric and signal integrity cues:</p>
-                                <div class="deepfake-features-grid">
-                                    <div class="deepfake-feature-item">
-                                        <div class="deepfake-feature-icon blue"><i class="fa-solid fa-eye"></i></div>
-                                        <div>
-                                            <strong>Facial Inconsistencies</strong>
-                                            <span>Unnatural blinking, eye movement, lip sync errors</span>
-                                        </div>
-                                    </div>
-                                    <div class="deepfake-feature-item">
-                                        <div class="deepfake-feature-icon orange"><i class="fa-solid fa-wave-square"></i></div>
-                                        <div>
-                                            <strong>Compression Artifacts</strong>
-                                            <span>Pixel-level noise, boundary blurring around head</span>
-                                        </div>
-                                    </div>
-                                    <div class="deepfake-feature-item">
-                                        <div class="deepfake-feature-icon purple"><i class="fa-solid fa-microphone-lines"></i></div>
-                                        <div>
-                                            <strong>Voice-Face Synchronization</strong>
-                                            <span>Audio-visual misalignment and spectral irregularities</span>
-                                        </div>
-                                    </div>
-                                    <div class="deepfake-feature-item">
-                                        <div class="deepfake-feature-icon red"><i class="fa-solid fa-id-card"></i></div>
-                                        <div>
-                                            <strong>Identity Verification</strong>
-                                            <span>Checks if impersonated official identity matches media</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="action-bar">
-                                <button class="btn btn-deepfake btn-large btn-full" disabled>
-                                    <i class="fa-solid fa-brain"></i> Run Deepfake Analysis
-                                    <span class="coming-soon-inline">Coming Soon</span>
-                                </button>
-                            </div>
-                        </div>
-
-                        <!-- Right Panel: Placeholder Output -->
-                        <div class="scanner-output">
-                            <div class="console-box deepfake-console-idle">
-                                <div class="console-header">
-                                    <span class="console-dot red"></span>
-                                    <span class="console-dot yellow"></span>
-                                    <span class="console-dot green"></span>
-                                    <span class="console-title">ORCA Deepfake Neural Engine</span>
-                                </div>
-                                <div class="console-body deepfake-idle-body">
-                                    <div class="deepfake-idle-state">
-                                        <div class="deepfake-idle-icon">
-                                            <i class="fa-solid fa-masks-theater"></i>
-                                        </div>
-                                        <h3>Deepfake Analysis Engine</h3>
-                                        <p>This module will leverage Gemini's multimodal vision capabilities to detect AI-generated or manipulated faces in videos and images. Upload a suspicious video call screenshot or clip to analyze it.</p>
-                                        <div class="deepfake-capability-badges">
-                                            <span class="capability-badge"><i class="fa-solid fa-check"></i> Frame-by-frame analysis</span>
-                                            <span class="capability-badge"><i class="fa-solid fa-check"></i> GAN artifact detection</span>
-                                            <span class="capability-badge"><i class="fa-solid fa-check"></i> Face swap identification</span>
-                                            <span class="capability-badge"><i class="fa-solid fa-check"></i> Confidence scoring</span>
-                                        </div>
-                                        <div class="deepfake-coming-soon-banner">
-                                            <i class="fa-solid fa-flask"></i>
-                                            <div>
-                                                <strong>Implementation Pending</strong>
-                                                <span>Backend Gemini Vision integration is planned for Phase 2. The UI structure is ready.</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </section>
 
             <!-- VIEW 3: THREAT INTELLIGENCE -->

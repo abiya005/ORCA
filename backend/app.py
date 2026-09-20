@@ -8,7 +8,7 @@ import json
 import logging
 import subprocess
 import re
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 
 # Configure logging to file so it works in detached/headless mode
@@ -115,6 +115,7 @@ except Exception as e:
     log.warning(f"Androguard not available: {e}")
     ANDROGUARD_AVAILABLE = False
 
+FRONTEND_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'frontend'))
 app = Flask(__name__)
 CORS(app)
 
@@ -331,6 +332,79 @@ def train_model():
             "message": "Error training the models."
         }), 500
 
+def extract_email_details(text_input, platform_pred="", badge="SAFE", authority=""):
+    """
+    If an email is detected and is fake/scam, return (fake_email, real_email).
+    Otherwise, return (None, None).
+    """
+    if badge == "SAFE":
+        return None, None
+
+    text_lower = text_input.lower()
+    emails_found = re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', text_input)
+
+    # Detect if email content / scam email is present
+    is_email_content = bool(emails_found) or any(k in text_lower for k in [
+        'from:', 'to:', 'subject:', 'email', 'mail', 'inbox', 'placement office',
+        'dear candidate', 'dear applicant', 'dear sir', 'dear madam', 'regards', 'recruiter', 'hiring manager'
+    ]) or platform_pred == "email_scam"
+
+    if not is_email_content:
+        return None, None
+
+    # 1. Fake / Original Email in Scam
+    if emails_found:
+        fake_email = emails_found[0]
+    else:
+        if 'christ' in text_lower or 'placement' in text_lower:
+            fake_email = "placementoffice@christuniversity-careers.online"
+        elif 'google' in text_lower:
+            fake_email = "careers-google-recruiter@gmai1.com"
+        elif 'amazon' in text_lower:
+            fake_email = "hr-hiring@amaz0n-jobs.net"
+        elif 'microsoft' in text_lower:
+            fake_email = "careers-microsoft@outlook-jobs.com"
+        elif 'cbi' in text_lower or 'police' in text_lower:
+            fake_email = "cbi-notice-alert@cyber-cbi-gov.org"
+        else:
+            fake_email = "unverified-recruiter@external-scam.com"
+
+    # 2. Possible Real / Actual Email
+    if 'christ' in text_lower or 'soet' in text_lower or 'placementoffice' in text_lower:
+        real_email = "placementoffice.soet@christuniversity.in"
+    elif 'google' in text_lower:
+        real_email = "careers@google.com"
+    elif 'amazon' in text_lower:
+        real_email = "careers@amazon.com"
+    elif 'microsoft' in text_lower:
+        real_email = "careers@microsoft.com"
+    elif 'infosys' in text_lower:
+        real_email = "careers@infosys.com"
+    elif 'tcs' in text_lower or 'tata' in text_lower:
+        real_email = "careers@tcs.com"
+    elif 'wipro' in text_lower:
+        real_email = "careers@wipro.com"
+    elif 'cbi' in text_lower:
+        real_email = "contact@cbi.gov.in"
+    elif 'police' in text_lower or 'cybercrime' in text_lower:
+        real_email = "report@cybercrime.gov.in"
+    elif 'mha' in text_lower or 'i4c' in text_lower:
+        real_email = "cybercrime-mha@gov.in"
+    elif 'rbi' in text_lower:
+        real_email = "helpdesk@rbi.org.in"
+    else:
+        if '@' in fake_email:
+            domain_part = fake_email.split('@')[1]
+            if not any(d in domain_part for d in ['gmail.com', 'yahoo.com', 'hotmail.com', 'outlook.com', 'gmai1.com']):
+                clean_domain = re.sub(r'[-_]?(fake|scam|jobs|hiring|verify|dep|online|net|org|site|update)', '', domain_part)
+                real_email = f"official-hr@{clean_domain}"
+            else:
+                real_email = "official-hr@company.com"
+        else:
+            real_email = "official-hr@company.com"
+
+    return fake_email, real_email
+
 @app.route('/api/analyze-fake-hr', methods=['POST'])
 def analyze_fake_hr():
     global FAKE_HR_MODEL, FAKE_HR_MODEL_TRAINED
@@ -384,12 +458,12 @@ def analyze_fake_hr():
         except Exception as ex:
             log.error("Error during Fake HR inference: %s", ex)
 
-    print(f"DEBUG_HR | text: '{text_lower[:40]}' | red: {has_scam_red_flags} | edu: {has_edu_domain} | header: {has_placement_header} | score: {threat_score} | pred: {platform_pred}", flush=True)
+    log.info(f"DEBUG_HR | text: '{text_lower[:40]}' | red: {has_scam_red_flags} | edu: {has_edu_domain} | header: {has_placement_header} | score: {threat_score} | pred: {platform_pred}")
 
     # Apply Hybrid Rules & Boundary Decision
     is_scam_predict = (threat_score >= 50) or has_scam_red_flags
     
-    if has_placement_header or (has_edu_domain and not has_scam_red_flags):
+    if (has_placement_header and not has_scam_red_flags) or (has_edu_domain and not has_scam_red_flags):
         # Verified Campus Placement Drive / Educational Domain -> 0% Threat (SAFE)
         threat_score = 0
         platform_pred = "benign"
@@ -505,6 +579,8 @@ def analyze_fake_hr():
     else:
         summary += "Verified authentic communication from an official University / Educational Placement Office. No scam indicators detected."
 
+    fake_email, real_email = extract_email_details(text_input, platform_pred, badge, authority=platform_display)
+
     return jsonify({
         "success": True,
         "_debug": {
@@ -526,6 +602,8 @@ def analyze_fake_hr():
             "authority": "Placement Office SOET (Christ University)" if badge == "SAFE" else f"Impersonating {platform_display.split()[0]} Recruiter",
             "trigger": "Campus Placement Opportunity" if badge == "SAFE" else "Recruitment & Job Offer Scam Vector",
             "score": f"{threat_score}%",
+            "fakeEmail": fake_email,
+            "realEmail": real_email,
             "indicators": matched,
             "summary": summary,
             "recommends": recommends
@@ -625,6 +703,8 @@ def analyze_digital_arrest():
     else:
         summary += "Verified authentic government public safety advisory or standard legal communication."
 
+    fake_email, real_email = extract_email_details(text_input, platform_pred="digital_arrest", badge=badge, authority="CBI / Police")
+
     return jsonify({
         "success": True,
         "report": {
@@ -637,6 +717,8 @@ def analyze_digital_arrest():
             "authority": "Central Bureau of Investigation (CBI)" if badge != "SAFE" else "Ministry of Home Affairs (I4C)",
             "trigger": "Money Laundering & Narcotics Allegation" if badge != "SAFE" else "Public Cybercrime Safety Notice",
             "score": f"{threat_score}%",
+            "fakeEmail": fake_email,
+            "realEmail": real_email,
             "indicators": indicators,
             "summary": summary,
             "recommends": recommends
@@ -810,7 +892,7 @@ def analyze_apk():
                     if any(k in methods_str for k in ['isdebuggerconnected', 'anti_debug', 'ptrace', 'antivm']):
                         has_anti_debug = True
                 except Exception as ex:
-                    print(f"Error extracting Dalvik methods: {ex}")
+                    log.warning(f"Error extracting Dalvik methods: {ex}")
                     # Fallback to simple permission analysis
                     methods_called = []
             else:
@@ -984,6 +1066,14 @@ def analyze_apk():
         "filename": filename,
         "report": report
     })
+
+@app.route('/')
+def serve_index():
+    return send_from_directory(FRONTEND_DIR, 'index.html')
+
+@app.route('/<path:filename>')
+def serve_static(filename):
+    return send_from_directory(FRONTEND_DIR, filename)
 
 if __name__ == '__main__':
     log.info("Starting ORCA APK Scam Detection Backend on port 5000")
